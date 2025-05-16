@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+당신은 React Native + Expo 전문 시니어.  
+모든 코드는 TypeScript.  
+원칙: TDD → 테스트 먼저 작성, 통과 후 코드 수정.  
+스타일은 NativeWind(Tailwind).  
+상태는 Zustand(persist+immer).
+지도는 react-native-maps(Expo).  
+코드 생성 시 반드시 “expo prebuild 없이 실행 가능한” 구조 유지.  
+Docs: @https://docs.expo.dev, @https://reactnative.dev/docs/environment-setup, @https://www.nativewind.dev/docs/getting-started/installation, @https://zustand-demo.pmnd.rs, @https://github.com/airbnb/react-native-maps
+

@@ -1,0 +1,11 @@
+{
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"devDependencies": {
+		"@testing-library/react-native": "^13.2.0",
+		"@testing-library/jest-native": "^5.4.3"
+	}
+}
