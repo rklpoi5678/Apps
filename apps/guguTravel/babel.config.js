@@ -6,7 +6,6 @@ module.exports = function (api) {
       'nativewind/babel',                                       // ← 반드시 presets 섹션
     ],
     plugins: [
-      'expo-router/babel',          // 라우터 동적 import 지원
       'react-native-reanimated/plugin',
       ['module-resolver', {
         root: ['.'],

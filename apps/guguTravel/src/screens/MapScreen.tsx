@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 import { useTourStore } from '../store/useTourStore';
 
-export const MapScreen: React.FC = () => {
+export default function MapScreen() {
   const tours = useTourStore((state) => state.tours);
 
   return (

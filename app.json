@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "entryPoint": "./apps/guguTravel/AppEntry.js",
+    "android": {
+      "package": "com.anonymous.mymonorepo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6bbc914b-413f-4344-bf3a-45e6add89d11"
+      }
+    }
+  }
+}

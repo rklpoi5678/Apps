@@ -5,6 +5,7 @@ import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
+import { useRouter } from 'expo-router';
 
 import { useColorScheme } from '@/components/useColorScheme';
 
@@ -27,6 +28,8 @@ export default function RootLayout() {
     ...FontAwesome.font,
   });
 
+  const router = useRouter();
+
   // Expo Router uses Error Boundaries to catch errors in the navigation tree.
   useEffect(() => {
     if (error) throw error;
@@ -37,6 +40,11 @@ export default function RootLayout() {
       SplashScreen.hideAsync();
     }
   }, [loaded]);
+
+  useEffect(() => {
+    // 앱 시작 시 스플래시 화면으로 이동
+    router.replace('/splash');
+  }, []);
 
   if (!loaded) {
     return null;
@@ -51,8 +59,20 @@ function RootLayoutNav() {
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+        <Stack.Screen 
+          name="splash" 
+          options={{ 
+            headerShown: false,
+            animation: 'none'
+          }} 
+        />
+        <Stack.Screen 
+          name="(tabs)" 
+          options={{ 
+            headerShown: false,
+            animation: 'none'
+          }} 
+        />
       </Stack>
     </ThemeProvider>
   );

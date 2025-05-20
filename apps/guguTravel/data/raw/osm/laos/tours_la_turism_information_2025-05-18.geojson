@@ -1,0 +1,2187 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-17T08:44:49Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/45015051",
+        "building": "yes",
+        "description": "This place is closed.",
+        "information": "office",
+        "name": "Thakhek Tourism Information Center",
+        "name:en": "Thakhek Tourism Information Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.8115559,
+              17.4023562
+            ],
+            [
+              104.81165,
+              17.4023322
+            ],
+            [
+              104.8116942,
+              17.4024898
+            ],
+            [
+              104.8116001,
+              17.4025139
+            ],
+            [
+              104.8115559,
+              17.4023562
+            ]
+          ]
+        ]
+      },
+      "id": "way/45015051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/197958334",
+        "amenity": "fast_food",
+        "building": "yes",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.8274566,
+              14.8473178
+            ],
+            [
+              105.8275117,
+              14.8473109
+            ],
+            [
+              105.8275267,
+              14.8474343
+            ],
+            [
+              105.8274726,
+              14.847441
+            ],
+            [
+              105.827482,
+              14.8475131
+            ],
+            [
+              105.8274321,
+              14.8475192
+            ],
+            [
+              105.8273684,
+              14.8475271
+            ],
+            [
+              105.827359,
+              14.8474543
+            ],
+            [
+              105.8273096,
+              14.8474604
+            ],
+            [
+              105.8272946,
+              14.847337
+            ],
+            [
+              105.8273429,
+              14.8473311
+            ],
+            [
+              105.8273325,
+              14.847264
+            ],
+            [
+              105.8273912,
+              14.8472567
+            ],
+            [
+              105.8274461,
+              14.8472499
+            ],
+            [
+              105.8274566,
+              14.8473178
+            ]
+          ]
+        ]
+      },
+      "id": "way/197958334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/380698041",
+        "building": "yes",
+        "name": "Visitor Information & Entrance Fee",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.1514726,
+              19.3244226
+            ],
+            [
+              103.1515096,
+              19.3243167
+            ],
+            [
+              103.1516878,
+              19.3243721
+            ],
+            [
+              103.1516509,
+              19.3244779
+            ],
+            [
+              103.1514726,
+              19.3244226
+            ]
+          ]
+        ]
+      },
+      "id": "way/380698041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/512268602",
+        "building": "yes",
+        "information": "office",
+        "name:en": "Tourist Information Champasak",
+        "roof:colour": "gray",
+        "roof:shape": "gabled",
+        "tourism": "information",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.8819262,
+              14.9002942
+            ],
+            [
+              105.8819615,
+              14.9003776
+            ],
+            [
+              105.8818963,
+              14.9004034
+            ],
+            [
+              105.881861,
+              14.90032
+            ],
+            [
+              105.8819262,
+              14.9002942
+            ]
+          ]
+        ]
+      },
+      "id": "way/512268602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/538115455",
+        "building": "yes",
+        "information": "office",
+        "name": "Tourist Information Center Vang Vieng",
+        "source": "DigitalGlobe-Standard",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.4488769,
+              18.9237211
+            ],
+            [
+              102.4487669,
+              18.9237348
+            ],
+            [
+              102.4487563,
+              18.9236583
+            ],
+            [
+              102.4488663,
+              18.9236446
+            ],
+            [
+              102.4488769,
+              18.9237211
+            ]
+          ]
+        ]
+      },
+      "id": "way/538115455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/778161531",
+        "building": "yes",
+        "information": "office",
+        "name": "Visitor center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.0720148,
+              18.3948234
+            ],
+            [
+              103.0720344,
+              18.3946399
+            ],
+            [
+              103.0721742,
+              18.3946334
+            ],
+            [
+              103.072163,
+              18.3948194
+            ],
+            [
+              103.0720148,
+              18.3948234
+            ]
+          ]
+        ]
+      },
+      "id": "way/778161531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/568361825",
+        "information": "office",
+        "name:en": "Provincial Information, Culture and Tourism Department Xieng Khouang",
+        "name:fr": "Service Provinciale du Tourisme de Xiengkhouang",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1816402,
+          19.4470545
+        ]
+      },
+      "id": "node/568361825"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/652714903",
+        "information": "office",
+        "internet_access": "terminal",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1503471,
+          21.1889103
+        ]
+      },
+      "id": "node/652714903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/653318700",
+        "name": "Tourist Information Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8554645,
+          14.1173144
+        ]
+      },
+      "id": "node/653318700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1470852131",
+        "fax": "+856 71 252904",
+        "information": "office",
+        "name": "Tourist Information Center",
+        "opening_hours": "Mo-Sa 08:15-11:30,13:30-16:00",
+        "phone": "+856 71 212 487",
+        "tourism": "information",
+        "website": "https://www.tourismluangprabang.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.133594,
+          19.8894145
+        ]
+      },
+      "id": "node/1470852131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2294679533",
+        "name": "Information Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4118392,
+          20.2764407
+        ]
+      },
+      "id": "node/2294679533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2467919542",
+        "name": "Tourist Information Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7459195,
+          16.5570105
+        ]
+      },
+      "id": "node/2467919542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2591478633",
+        "name": "Muang Long Tourism Information Center",
+        "phone": "+8562055880410",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.819438,
+          20.9617055
+        ]
+      },
+      "id": "node/2591478633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2627310137",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4270528,
+          15.7177856
+        ]
+      },
+      "id": "node/2627310137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2697721922",
+        "name": "Tourism Division",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0481917,
+          20.4155805
+        ]
+      },
+      "id": "node/2697721922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3347232997",
+        "information": "office",
+        "name": "Nam Ha Visitor Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3307126,
+          20.875548
+        ]
+      },
+      "id": "node/3347232997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3692989939",
+        "information": "guidepost",
+        "source": "http://www.mapillary.com/map/e/hWPqZrt9U8QsXifD57wesA",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8145965,
+          14.8500506
+        ]
+      },
+      "id": "node/3692989939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3693028392",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814229,
+          14.8485548
+        ]
+      },
+      "id": "node/3693028392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3809477992",
+        "name": "Sengchalernco",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9207375,
+          14.0016135
+        ]
+      },
+      "id": "node/3809477992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3884141957",
+        "description": "Trekking Tours",
+        "name": "Khua Tourist Information",
+        "phone": "+8562022848020",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.504667,
+          21.0814435
+        ]
+      },
+      "id": "node/3884141957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3964189895",
+        "contact:website": "https://www.tourismsayaboury.org",
+        "name": "Tourist Information",
+        "source": "GPS",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7114875,
+          19.2583495
+        ]
+      },
+      "id": "node/3964189895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4059892465",
+        "information": "office",
+        "name": "Information, Culture and Tourism Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1294126,
+          19.892602
+        ]
+      },
+      "id": "node/4059892465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4119207389",
+        "name": "แยกไปวังเวียง",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1788728,
+          19.7658078
+        ]
+      },
+      "id": "node/4119207389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4285869089",
+        "name": "Komaen village(tea plantation village)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1386936,
+          21.6454291
+        ]
+      },
+      "id": "node/4285869089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4334866989",
+        "name": "Oudomxai tourist office",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:30",
+        "tourism": "information",
+        "website": "https://oudomxaytourism.blogspot.com/p/blog-page_7.html?m=1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9833748,
+          20.6905302
+        ]
+      },
+      "id": "node/4334866989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4383619888",
+        "information": "office",
+        "name": "Provincial Tourism Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1018317,
+          21.6822565
+        ]
+      },
+      "id": "node/4383619888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4510839298",
+        "information": "office",
+        "name": "Tourist Infomation",
+        "source": "GPS;photograph",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4617289,
+          20.2169714
+        ]
+      },
+      "id": "node/4510839298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4548400093",
+        "name": "ສວນສັດບ້ານເກີນ",
+        "name:lo": "ສວນສັດບ້ານເກີນ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.594247,
+          18.3709201
+        ]
+      },
+      "id": "node/4548400093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4633813591",
+        "name:en": "Amazing Lao Travel",
+        "phone": "0302824872",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1013433,
+          21.6832213
+        ]
+      },
+      "id": "node/4633813591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4681029689",
+        "description": "Silver Cliff Ticket (10 000 Kip)",
+        "shop": "ticket",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4156393,
+          18.9179366
+        ]
+      },
+      "id": "node/4681029689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4691528892",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3373898,
+          18.9421917
+        ]
+      },
+      "id": "node/4691528892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4691528893",
+        "name:en": "Bus Tickets & Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6581386,
+          18.0306964
+        ]
+      },
+      "id": "node/4691528893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4708340994",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9215087,
+          13.9630479
+        ]
+      },
+      "id": "node/4708340994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4723348892",
+        "name:en": "Ban Na Elephant Trekking Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1627935,
+          18.2866476
+        ]
+      },
+      "id": "node/4723348892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4733225921",
+        "name:zh": "大热闹",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4501126,
+          18.3181143
+        ]
+      },
+      "id": "node/4733225921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4785476821",
+        "information": "office",
+        "name:en": "Tourist information",
+        "name:fr": "Office du tourisme",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4099662,
+          21.0032664
+        ]
+      },
+      "id": "node/4785476821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5028416621",
+        "name:en": "Ban Phathao",
+        "name:fr": "Ban Phathao",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4332874,
+          19.0195653
+        ]
+      },
+      "id": "node/5028416621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5114715821",
+        "name:en": "30000k Entrance Fee , 2025",
+        "shop": "ticket",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1515889,
+          19.3245088
+        ]
+      },
+      "id": "node/5114715821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5114715921",
+        "name:en": "No Entrance Fee, 2017",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1780238,
+          19.3039564
+        ]
+      },
+      "id": "node/5114715921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5114882024",
+        "name:en": "10000k Entrance Fee , 2017",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1503561,
+          19.29287
+        ]
+      },
+      "id": "node/5114882024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5121789929",
+        "name:en": "Flip Flops are a very bad choice for this Path. Bring Insectspray",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.599858,
+          20.5789504
+        ]
+      },
+      "id": "node/5121789929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5126522821",
+        "name:en": "Ticket Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6739472,
+          20.7106591
+        ]
+      },
+      "id": "node/5126522821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5177578821",
+        "name:de": "Patuxai Infotafel",
+        "name:en": "Patuxay Info Board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6185348,
+          17.9705701
+        ]
+      },
+      "id": "node/5177578821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5221218422",
+        "information": "office",
+        "name": "Southern Laos Tourist Information",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7971979,
+          15.1195744
+        ]
+      },
+      "id": "node/5221218422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5246970790",
+        "information": "office",
+        "name": "Nam Kat Yola Pa Visitor Centre",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.105732,
+          20.713254
+        ]
+      },
+      "id": "node/5246970790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5248416928",
+        "description": "You should only pay the visa and 1$ for picture. Say no to corruption and send an email to your embassy with your name, date and point of entry and the different fees you had to pay.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6786455,
+          21.1873577
+        ]
+      },
+      "id": "node/5248416928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5248438146",
+        "description": "You should only pay the visa and 1$ for picture. Say no to corruption and send an email to your embassy with your name, date and point of entry and the different fees you had to pay.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4622616,
+          20.2162843
+        ]
+      },
+      "id": "node/5248438146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5248438147",
+        "description": "You should only pay the visa and 1$ for picture. Say no to corruption and send an email to your embassy with your name, date and point of entry and the different fees you had to pay.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4690812,
+          15.1319096
+        ]
+      },
+      "id": "node/5248438147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5248441321",
+        "description": "You should only pay the visa and 1$ for picture. Say no to corruption and send an email to your embassy with your name, date and point of entry and the different fees you had to pay.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.8904562,
+          21.2148206
+        ]
+      },
+      "id": "node/5248441321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5248441421",
+        "description": "You should only pay the visa and 1$ for picture. Say no to corruption and send an email to your embassy with your name, date and point of entry and the different fees you had to pay.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.641736,
+          18.3902448
+        ]
+      },
+      "id": "node/5248441421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268133121",
+        "name:en": "Dongmeung",
+        "name:th": "ບ້ານ ດົງເມືອງ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2515923,
+          16.5443005
+        ]
+      },
+      "id": "node/5268133121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268133123",
+        "name:th": "บ้าน นาคู",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1305926,
+          16.4860184
+        ]
+      },
+      "id": "node/5268133123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268133221",
+        "name:en": "Ban Khamnoy",
+        "name:th": "ບ້ານ ຄຳນ້ອຍ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0815404,
+          16.4999259
+        ]
+      },
+      "id": "node/5268133221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268133222",
+        "name:en": "Ban lak35",
+        "name:th": "ບ້ານ ຫລັກ35",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.035,
+          16.4894272
+        ]
+      },
+      "id": "node/5268133222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268133223",
+        "name:en": "Ban Xe-Vangket",
+        "name:th": "ບ້ານ ເຊວັງເກັດ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2626524,
+          16.54454
+        ]
+      },
+      "id": "node/5268133223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5268133321",
+        "name:en": "Nakathang",
+        "name:th": "ບ້ານ ນາກະທ້າງ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2491314,
+          16.4380158
+        ]
+      },
+      "id": "node/5268133321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5283377923",
+        "information": "office",
+        "name:en": "Tourism Information Center",
+        "opening_hours": "Mo-Su 08:30-12:00, 13:30-16:00",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6153067,
+          17.9670018
+        ]
+      },
+      "id": "node/5283377923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302712823",
+        "name:en": "Nam Ha Hill Tribe Eco-Trek",
+        "name:ru": "Центр горного трекинга",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0612793,
+          20.6767833
+        ]
+      },
+      "id": "node/5302712823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5372501821",
+        "name:en": "1990m",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.136267,
+          18.8368724
+        ]
+      },
+      "id": "node/5372501821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5426101321",
+        "addr:housenumber": "1",
+        "addr:street": "11/139 Khemkhong Road, Huay Xai Neua Village, Huay Xai District, Bokeo Province, 05000",
+        "email": "laostourssmile@gmail.com",
+        "name": "Laos Tours Smile/Mekong Smile",
+        "tourism": "information",
+        "website": "http://www.laostourssmile.com/booking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4115905,
+          20.2769768
+        ]
+      },
+      "id": "node/5426101321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5430384521",
+        "name:en": "Rare Tourist Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1167976,
+          20.8631187
+        ]
+      },
+      "id": "node/5430384521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5476285723",
+        "board_type": "notice",
+        "description": "Green Climbers Home",
+        "information": "board",
+        "name:en": "Rock climbing",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9163195,
+          17.4589132
+        ]
+      },
+      "id": "node/5476285723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5487927426",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4017584,
+          15.7163868
+        ]
+      },
+      "id": "node/5487927426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5487928123",
+        "addr:street": "15",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4261077,
+          15.7183915
+        ]
+      },
+      "id": "node/5487928123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5503059922",
+        "name:en": "30K entrance. Flip Flops are a very bad choice for this Path. Bring Insectspray",
+        "name:ko": "시작지점: 낭논산 뷰 하이킹",
+        "shop": "ticket",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.607231,
+          20.5743829
+        ]
+      },
+      "id": "node/5503059922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5522428225",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4077803,
+          15.7126075
+        ]
+      },
+      "id": "node/5522428225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5522475922",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2656865,
+          15.5414732
+        ]
+      },
+      "id": "node/5522475922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5557181723",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3835093,
+          15.7171312
+        ]
+      },
+      "id": "node/5557181723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5586471922",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4065053,
+          15.7026514
+        ]
+      },
+      "id": "node/5586471922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6060274054",
+        "amenity": "bicycle_rental",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8030325,
+          17.9428453
+        ]
+      },
+      "id": "node/6060274054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6081774087",
+        "name:en": "Muang Hiam Map & Tourist information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.3698351,
+          20.0840571
+        ]
+      },
+      "id": "node/6081774087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6081774088",
+        "name:en": "Muang Hiam Map & Tourist Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.372293,
+          20.083662
+        ]
+      },
+      "id": "node/6081774088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6081774089",
+        "name:en": "Muang Hiam Map & Tourist Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.3685326,
+          20.088524
+        ]
+      },
+      "id": "node/6081774089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6081774090",
+        "name:en": "Nam Nern Night Safari Tourist Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.664334,
+          20.059115
+        ]
+      },
+      "id": "node/6081774090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6081808585",
+        "name:en": "Muang Hiam Map & Tourist Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.3687632,
+          20.0899323
+        ]
+      },
+      "id": "node/6081808585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6124517085",
+        "name:en": "Tourist Information",
+        "opening_hours": "Mo-Fr 08:00-11:30, 13:30-16:00",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0483198,
+          20.4135726
+        ]
+      },
+      "id": "node/6124517085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6150135142",
+        "board_type": "public_transport",
+        "check_date": "2025-01-03",
+        "description": "Vientiane buses",
+        "information": "board",
+        "name": "Vientiane City Bus",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6158398,
+          17.9627693
+        ]
+      },
+      "id": "node/6150135142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6150289922",
+        "board_type": "geology",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7573316,
+          17.9577326
+        ]
+      },
+      "id": "node/6150289922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6181940256",
+        "description": "area map",
+        "information": "map",
+        "map_size": "site",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4303436,
+          19.0396323
+        ]
+      },
+      "id": "node/6181940256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6183768643",
+        "hiking": "yes",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6759723,
+          20.7015573
+        ]
+      },
+      "id": "node/6183768643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6183768704",
+        "hiking": "yes",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6783582,
+          20.7153574
+        ]
+      },
+      "id": "node/6183768704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6187237945",
+        "information": "guidepost",
+        "name": "Mekong elephant park",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1299285,
+          19.8898474
+        ]
+      },
+      "id": "node/6187237945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6277962786",
+        "name:en": "Wrong way to the cool springs",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7169064,
+          18.2343756
+        ]
+      },
+      "id": "node/6277962786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6498956086",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8269244,
+          17.5189407
+        ]
+      },
+      "id": "node/6498956086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6498961788",
+        "name:th": "บ้านอ้อม",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.2634958,
+          18.953199
+        ]
+      },
+      "id": "node/6498961788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6554793743",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.7229738,
+          21.1695831
+        ]
+      },
+      "id": "node/6554793743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6654564886",
+        "name:en": "Ban Nakasang Information center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9218405,
+          14.0037328
+        ]
+      },
+      "id": "node/6654564886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6924736633",
+        "description": "Natane Valley",
+        "information": "map",
+        "map_size": "region",
+        "map_type": "scheme",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0993627,
+          17.7542258
+        ]
+      },
+      "id": "node/6924736633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6938615554",
+        "changing_table": "no",
+        "information": "office",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Xe Bang Fai Cave Ticket Office",
+        "shop": "ticket",
+        "toilets": "yes",
+        "toilets:access": "yes",
+        "tourism": "information",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8272501,
+          17.3714234
+        ]
+      },
+      "id": "node/6938615554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6939330808",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0266757,
+          18.1858268
+        ]
+      },
+      "id": "node/6939330808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6976471385",
+        "addr:street": "Luangnamtha Road",
+        "description": "Transport to Luang Namtha costs no more than 50000kip per person",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6776011,
+          21.1876678
+        ]
+      },
+      "id": "node/6976471385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6982050610",
+        "name:en": "Free bridge",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4366141,
+          19.0220602
+        ]
+      },
+      "id": "node/6982050610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7066575085",
+        "name:de": "Ticketschalter 10.000 kip",
+        "name:en": "Ticket Seller 15.000 kip",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1396002,
+          19.8926162
+        ]
+      },
+      "id": "node/7066575085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7168613985",
+        "name:en": "Tourism Information Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1493886,
+          17.7100569
+        ]
+      },
+      "id": "node/7168613985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7225900285",
+        "name:ca": "Entrada: 30.000 Kips",
+        "name:en": "Entrance : 30 000 Kips",
+        "name:fr": "Entrance : 30 000 Kips",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.916914,
+          13.9537219
+        ]
+      },
+      "id": "node/7225900285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7234729888",
+        "name:en": "Tourist Information Center",
+        "opening_hours": "Mo-Fr 08:00-16:30",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8256088,
+          14.815846
+        ]
+      },
+      "id": "node/7234729888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7342402111",
+        "name:en": "path is blocked (dry season)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1414363,
+          19.9077048
+        ]
+      },
+      "id": "node/7342402111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7973123693",
+        "name": "ຄຈ.ນາຈານໃຫຍ່",
+        "phone": "+8562056697095",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6813999,
+          16.3049994
+        ]
+      },
+      "id": "node/7973123693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8948690817",
+        "name:en": "Thang vai Nam Church.ຄ.ຈ ຕັ່ງຫວາຍນ້ຳ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6118944,
+          16.2761809
+        ]
+      },
+      "id": "node/8948690817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9022890218",
+        "name:en": "hhhh",
+        "name:sv": "thanks",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6250247,
+          17.9526899
+        ]
+      },
+      "id": "node/9022890218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10245849850",
+        "colour": "Dark Red",
+        "information": "route_marker",
+        "material": "metal",
+        "operator": "Southern Laos APPs",
+        "ref": "Pakse walks departure point",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.800381,
+          15.1218248
+        ]
+      },
+      "id": "node/10245849850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10250307036",
+        "name": "Tourist Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.372963,
+          20.0838379
+        ]
+      },
+      "id": "node/10250307036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10612314806",
+        "name:en": "Starting point to Waterfall",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7622667,
+          20.4705201
+        ]
+      },
+      "id": "node/10612314806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10936426789",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6750628,
+          18.4129055
+        ]
+      },
+      "id": "node/10936426789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11765451670",
+        "name:en": "bus station no longer in use",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9863322,
+          20.6830682
+        ]
+      },
+      "id": "node/11765451670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11786794669",
+        "description": "Up until this point of fixing the information, we had confirmed that the slowboat from Huay Xai to Luang Prabang via Pak Beng departs from here.\nUnless the facts have changed, I will consider it vandalism to fix this at will.",
+        "fixme": "Up until this point of fixing the information, we had confirmed that the slowboat from Huay Xai to Luang Prabang via Pak Beng departs from here.\nUnless the facts have changed, I will consider it vandalism to fix this at will.",
+        "name:en": "2024 slow boat still leaving from here, NOT from new slow boat pier",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4067553,
+          20.2851113
+        ]
+      },
+      "id": "node/11786794669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11795346669",
+        "name:en": "By ticket for tuk tuk in the slowboat office 40.000 kip per person. 6 people and it goes. Fixed drop at night market.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1805333,
+          19.9245259
+        ]
+      },
+      "id": "node/11795346669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11804411869",
+        "name:en": "wat Monorom is not here",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1346486,
+          19.8794692
+        ]
+      },
+      "id": "node/11804411869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11804419569",
+        "name:en": "no visa extension here, little further south",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1532341,
+          19.8808928
+        ]
+      },
+      "id": "node/11804419569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11862021969",
+        "name:en": "Start of 700 steps up to the temple",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8083998,
+          15.0962961
+        ]
+      },
+      "id": "node/11862021969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12408905001",
+        "email": "leephunyarsithlovemyparents@gmail.com",
+        "name:hi": "ສວນສິ່ງແວດລ້ອມທຳມະຊາດ Natural Environment Garden",
+        "phone": "8562059889955",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6679747,
+          20.5352555
+        ]
+      },
+      "id": "node/12408905001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12505746001",
+        "name:en": "Turn west for main road to Vang Vieng.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1787866,
+          19.7608789
+        ]
+      },
+      "id": "node/12505746001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12606437402",
+        "name": "Dong hua sao national protected area",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1263727,
+          15.1871443
+        ]
+      },
+      "id": "node/12606437402"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12606619708",
+        "name": "Southern Laos tourism map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4263674,
+          15.7170825
+        ]
+      },
+      "id": "node/12606619708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12608621126",
+        "description": "Ticket (20 000 Kip)",
+        "shop": "ticket",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3854388,
+          18.9311098
+        ]
+      },
+      "id": "node/12608621126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12608621127",
+        "description": "Ticket (20 000 Kip)",
+        "shop": "ticket",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.380128,
+          18.9282124
+        ]
+      },
+      "id": "node/12608621127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12608985917",
+        "information": "board",
+        "name": "Salavan Park",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4096561,
+          15.7113209
+        ]
+      },
+      "id": "node/12608985917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12608985946",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4253782,
+          15.7162285
+        ]
+      },
+      "id": "node/12608985946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12609264168",
+        "description": "No buggy to route 13",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4093415,
+          18.8854525
+        ]
+      },
+      "id": "node/12609264168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12609353301",
+        "name": "Poutalava production forest area",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3652268,
+          15.9490012
+        ]
+      },
+      "id": "node/12609353301"
+    }
+  ]
+}

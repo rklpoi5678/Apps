@@ -1,36 +1,27 @@
-import { Platform } from 'react-native'
-import MapView, { Marker, Callout, PROVIDER_GOOGLE } from 'react-native-maps'
-import { useTourStore, Tour } from '@src/store/useTourStore'
-import { View, Text } from 'react-native'
+import { Platform, View, Text, StyleSheet } from 'react-native'
+import { useEffect, useState, useRef } from 'react'
 import * as Location from 'expo-location'
-import { useEffect, useState } from 'react'
+import { getNearbyOsmData } from '@src/lib/supabase'
+import { useLocationStore } from '@/src/store/locationStore'
+import CustomMapView from '@/components/map/MapContainer'
+import LocationButton from '@/components/ui/LocationButton'
+import { LocationCoordinates, OsmPlace } from '@/types/map'
+import MapView from 'react-native-maps'
 
-interface Location {
-  latitude: number
-  longitude: number
+
+if (!__DEV__) {
+  console.log = () => {};
+  console.warn = () => {};
+  console.error = () => {};
 }
 
-// const calculateDistance = (lat1: number, lon1: number, lat2: number, lon2: number) => {
-//   const R = 6371; // 지구 반지름 (단위: km)
-//   const dLat = (lat2 - lat1) * (Math.PI / 180);
-//   const dLon = (lon2 - lon1) * (Math.PI / 180);
-
-//   const a = 
-//   Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-//   Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-//   Math.sin(dLon / 2) * Math.sin(dLon / 2);
-
-//   const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-//   const distance = R * c; // 거리 (단위: km)
-//   return distance;
-// }
-
 export default function MapScreen() {
-  const tours = useTourStore((s) => s.tours)
-  const [currentLocation, setCurrentLocation] = useState<Location | null>(null)
-  const [nearbyTours, setNearbyTours] = useState<Tour[]>([])
-  console.log('Tours data:', tours)  // 디버깅용 로그
+  const mapRef = useRef<MapView>(null);
+  const [currentLocation, setCurrentLocation] = useState<LocationCoordinates | null>(null)
+  const [nearbyPlaces, setNearbyPlaces] = useState<OsmPlace[]>([])
+  const selectedLocation = useLocationStore((state) => state.selectedLocation)
 
+  
   // 현재 위치 가져오기
   useEffect(() => {
     (async () => {
@@ -45,32 +36,49 @@ export default function MapScreen() {
   // 현재 위치 기준 3km 이내 + 거리 계산 + 투어사 필터링
   useEffect(() => {
     if (!currentLocation) return;
-    const R = 6371; // km
-    const calc = (lat1: number, lon1: number, lat2: number, lon2: number) => {
-      const dLat = ((lat2 - lat1) * Math.PI) / 180;
-      const dLon = ((lon2 - lon1) * Math.PI) / 180;
-      const a =
-        Math.sin(dLat / 2) ** 2 +
-        Math.cos((lat1 * Math.PI) / 180) *
-          Math.cos((lat2 * Math.PI) / 180) *
-          Math.sin(dLon / 2) ** 2;
-      return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-    };
+    
+    (async () => {
+      const places = await getNearbyOsmData(
+        currentLocation.latitude,
+        currentLocation.longitude,
+        5
+      );
+      if (places) {
+        setNearbyPlaces(places);
+      }
+    })();
+  }, [currentLocation]);
 
-    setNearbyTours(
-      tours
-        .map((t) => ({
-          ...t,
-          distance: calc(currentLocation.latitude, currentLocation.longitude, t.location.latitude, t.location.longitude),
-        }))
-        .filter((t) => t.distance <= 3)
-    );
-  }, [currentLocation, tours]);
+  useEffect(() => {
+    if (selectedLocation) {
+      // 지도 이동 로직
+      mapRef.current?.animateToRegion({
+        latitude: selectedLocation.latitude,
+        longitude: selectedLocation.longitude,
+        latitudeDelta: 0.01,
+        longitudeDelta: 0.01,
+      });
+    }
+  }, [selectedLocation]);
 
-   /* 3️⃣ 플랫폼 가드(Web 차단) */
-   if (Platform.OS !== 'android') {
+  const handleCurrentLocation = () => {
+    if (currentLocation) {
+      mapRef.current?.animateToRegion({
+        latitude: currentLocation.latitude,
+        longitude: currentLocation.longitude,
+        latitudeDelta: 0.05,
+        longitudeDelta: 0.05,
+      });
+    }
+  };
+
+  const handleMarkerPress = (place: OsmPlace) => {
+    console.log('Marker pressed:', place.name);
+  };
+
+  if (Platform.OS !== 'android') {
     return (
-      <View className="flex-1 items-center justify-center">
+      <View style={styles.container}>
         <Text>Android 기기에서만 지도가 지원됩니다.</Text>
       </View>
     );
@@ -78,61 +86,46 @@ export default function MapScreen() {
 
   if (!currentLocation) {
     return (
-      <View className="flex-1 items-center justify-center">
+      <View style={styles.container}>
         <Text>위치 정보를 불러오는 중...</Text>
       </View>
-    )
+    );
   }
 
   return (
-    <MapView 
-    className="flex-1" 
-    style={{ flex: 1 }}
-    provider={PROVIDER_GOOGLE}
-    showsUserLocation
-    initialRegion={{
-      latitude: currentLocation.latitude,
-      longitude: currentLocation.longitude,
-      latitudeDelta: 0.05,
-      longitudeDelta: 0.05,
-    }}
-  >
-      {nearbyTours.map((tour) => (
-          <Marker
-            key={tour.id}
-            coordinate={ tour.location }
-            pinColor="#ff3b30"
-            anchor={{ x: 0.5 , y: 1.0 }}
-            calloutAnchor={{ x: 0.5 , y: 0.0 }}
-            onPress={() => {
-              console.log('Marker pressed')
-            }}
-          >
-          {/* ▶️ “기본” 이름+거리 라벨을 직접 만든다 */}
-          {/* <View pointerEvents="none" className="items-center" style={{ marginBottom: 30 }}>
-            <View className="bg-white rounded px-2 py-0.5 shadow">
-              <Text className="text-xs font-bold">{tour.name}</Text>
-              <Text className="text-[10px] text-gray-600">
-                거리: {tour.distance?.toFixed(1) ?? '0.0'} km
-              </Text>
-            </View>
-          </View> */}
-
-          {/* ▶️ 마커를 눌렀을 때 뜨는 상세 카드 */}
-          {/* <Callout tooltip>
-            <View className="bg-white p-3 rounded-lg w-48 shadow">
-              <Text className="font-bold text-base mb-1">{tour.name}</Text>
-              <Text className="text-gray-600 mb-1">
-                거리 {tour.distance?.toFixed(1) ?? '0.0'} km
-              </Text>
-              <Text className="mb-1">{tour.phone}</Text>
-              <Text className="text-blue-600 font-semibold">
-                현지 가격 {tour.localPrice ?? '문의'}
-              </Text>
-            </View>
-          </Callout> */}
-        </Marker>
-      ))}
-    </MapView>
+    <View style={styles.container}>
+      <CustomMapView
+        mapRef={mapRef}
+        currentLocation={currentLocation}
+        nearbyPlaces={nearbyPlaces}
+        selectedLocation={selectedLocation}
+        onMarkerPress={handleMarkerPress}
+      />
+      <LocationButton onPress={handleCurrentLocation} />
+      <View style={styles.attributionContainer}>
+        <Text style={styles.attributionText}>
+          © OpenStreetMap contributors
+        </Text>
+      </View>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  attributionContainer: {
+    position: 'absolute',
+    bottom: 10,
+    right: 10,
+    backgroundColor: 'rgba(255, 255, 255, 0.7)',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 4,
+  },
+  attributionText: {
+    fontSize: 12,
+    color: '#666666',
+  },
+});

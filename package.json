@@ -1,11 +1,26 @@
 {
-	"private": true,
-	"workspaces": [
-		"apps/*",
-		"packages/*"
-	],
-	"devDependencies": {
-		"@testing-library/react-native": "^13.2.0",
-		"@testing-library/jest-native": "^5.4.3"
-	}
+  "name": "my-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "android:gugutravel": "cross-env EXPO_TARGET_PROJECT_ROOT=apps/guguTravel expo run:android",
+    "run:gugutravel": "pnpm --filter gugutravel run android",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "@testing-library/jest-native": "^5.4.3",
+    "@testing-library/react-native": "^13.2.0",
+    "cross-env": "^7.0.3",
+    "lerna": "^8.2.2"
+  },
+  "dependencies": {
+    "expo": "~53.0.9",
+    "react": "19.0.0",
+    "react-native": "0.79.2"
+  }
 }

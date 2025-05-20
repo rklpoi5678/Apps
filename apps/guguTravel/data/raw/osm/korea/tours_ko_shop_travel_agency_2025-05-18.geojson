@@ -1,0 +1,1195 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-17T08:19:01Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223418693",
+        "addr:city": "서울특별시",
+        "addr:district": "종로구",
+        "addr:housenumber": "41",
+        "addr:street": "인사동5길",
+        "addr:subdistrict": "공평동",
+        "building": "yes",
+        "building:levels": "9",
+        "name": "하나투어",
+        "name:en": "HanaTour",
+        "name:ja": "ハナツアー",
+        "name:zh-Hans": "哈拿多乐",
+        "name:zh-Hant": "哈拿旅遊",
+        "shop": "travel_agency",
+        "website": "http://www.hanatourcompany.com/kor/main/main.asp"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9841073,
+              37.5716223
+            ],
+            [
+              126.9841208,
+              37.571614
+            ],
+            [
+              126.9844131,
+              37.5716759
+            ],
+            [
+              126.9844268,
+              37.5716959
+            ],
+            [
+              126.9842935,
+              37.5720851
+            ],
+            [
+              126.9842793,
+              37.5720929
+            ],
+            [
+              126.9839744,
+              37.5720299
+            ],
+            [
+              126.9839673,
+              37.5720199
+            ],
+            [
+              126.9841073,
+              37.5716223
+            ]
+          ]
+        ]
+      },
+      "id": "way/223418693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/404947434",
+        "building": "yes",
+        "building:levels": "8",
+        "name": "노랑풍선빌딩",
+        "name:ja": "黄色い風船ビルディング",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.9894925,
+              37.5640111
+            ],
+            [
+              126.9896795,
+              37.5640081
+            ],
+            [
+              126.9896776,
+              37.5639341
+            ],
+            [
+              126.9900939,
+              37.5639419
+            ],
+            [
+              126.9901061,
+              37.5639743
+            ],
+            [
+              126.9900839,
+              37.5640823
+            ],
+            [
+              126.9900501,
+              37.5640969
+            ],
+            [
+              126.9894951,
+              37.5641113
+            ],
+            [
+              126.9894925,
+              37.5640111
+            ]
+          ]
+        ]
+      },
+      "id": "way/404947434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/819348698",
+        "addr:housenumber": "40",
+        "addr:street": "번영로",
+        "building": "yes",
+        "name": "뉴대한관광",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.7248072,
+              35.7262759
+            ],
+            [
+              126.7248058,
+              35.7262634
+            ],
+            [
+              126.7248723,
+              35.7261991
+            ],
+            [
+              126.7249631,
+              35.7262352
+            ],
+            [
+              126.7249916,
+              35.7262128
+            ],
+            [
+              126.7250423,
+              35.7262468
+            ],
+            [
+              126.7249441,
+              35.7263456
+            ],
+            [
+              126.7248072,
+              35.7262759
+            ]
+          ]
+        ]
+      },
+      "id": "way/819348698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/830733100",
+        "addr:housenumber": "108",
+        "addr:street": "번영로",
+        "building": "yes",
+        "name": "즐거운여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.7322787,
+              35.7263268
+            ],
+            [
+              126.7324069,
+              35.7263089
+            ],
+            [
+              126.7324153,
+              35.7263431
+            ],
+            [
+              126.7323114,
+              35.7263527
+            ],
+            [
+              126.7322787,
+              35.7263268
+            ]
+          ]
+        ]
+      },
+      "id": "way/830733100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/849996772",
+        "addr:housenumber": "42",
+        "addr:street": "부풍로",
+        "building": "yes",
+        "name": "신흥해외여행",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.7322505,
+              35.727411
+            ],
+            [
+              126.7322386,
+              35.7273673
+            ],
+            [
+              126.7323136,
+              35.7273538
+            ],
+            [
+              126.7323228,
+              35.7273979
+            ],
+            [
+              126.7322505,
+              35.727411
+            ]
+          ]
+        ]
+      },
+      "id": "way/849996772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1028288691",
+        "building": "yes",
+        "name": "한희관광",
+        "phone": "+82 33-462-0333",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              128.1738244,
+              38.0664178
+            ],
+            [
+              128.1738884,
+              38.0663426
+            ],
+            [
+              128.17397,
+              38.0663918
+            ],
+            [
+              128.1739223,
+              38.0664658
+            ],
+            [
+              128.1738244,
+              38.0664178
+            ]
+          ]
+        ]
+      },
+      "id": "way/1028288691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/414941893",
+        "name": "(서귀포국제여행사) (( Seogwipo International Yeohaengsa ))",
+        "name:en": "( Seogwipo International Yeohaengsa )",
+        "name:ko": "(서귀포국제여행사) (( Seogwipo International Yeohaengsa ))",
+        "name:ko-Latn": "( Seogwipogukjeyeohaengsa )",
+        "ncat": "교차로및지명",
+        "shop": "travel_agency",
+        "source": "mp2osm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.561556,
+          33.2476149
+        ]
+      },
+      "id": "node/414941893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/569010383",
+        "name": "우도버스매표소",
+        "name:en": "Udo Bus Ticket Office",
+        "name:ko": "우도버스매표소",
+        "name:ko-Latn": "Udobeoseumaepyoso",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.943503,
+          33.509649
+        ]
+      },
+      "id": "node/569010383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2484584667",
+        "name": "경남상회",
+        "name:ko": "경남상회",
+        "phone": "+82 55 962 0145",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.813159,
+          35.6287069
+        ]
+      },
+      "id": "node/2484584667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4294313913",
+        "name": "Yeongwol Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4809309,
+          37.1830136
+        ]
+      },
+      "id": "node/4294313913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4312053195",
+        "name": "DBS ferry",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0616023,
+          37.5146158
+        ]
+      },
+      "id": "node/4312053195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4634503177",
+        "name": "하나투어",
+        "name:en": "Hana Tour",
+        "name:ko": "하나투어",
+        "phone": "+82 52 267 5575",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3380027,
+          35.5621432
+        ]
+      },
+      "id": "node/4634503177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4639362413",
+        "addr:city": "양주시",
+        "addr:province": "경기도",
+        "addr:street": "평화로",
+        "addr:subdistrict": "덕계동",
+        "name": "하나투어",
+        "name:ko": "하나투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0458696,
+          37.8188127
+        ]
+      },
+      "id": "node/4639362413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4661368793",
+        "name": "마이힐링투어",
+        "name:en": "My Healing Tour",
+        "name:ko": "마이힐링투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3374812,
+          35.5647667
+        ]
+      },
+      "id": "node/4661368793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679812096",
+        "name": "연평도",
+        "name:ko": "연평도",
+        "name:zh": "延坪岛",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6826506,
+          37.9324569
+        ]
+      },
+      "id": "node/4679812096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4928751121",
+        "name": "Geeeer",
+        "name:ko": "Geeeer",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4127445,
+          36.3526983
+        ]
+      },
+      "id": "node/4928751121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4967827122",
+        "name:en": "Ferry tickets to Island STP",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.2624134,
+          33.4190446
+        ]
+      },
+      "id": "node/4967827122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5248668972",
+        "level": "2",
+        "name": "모두투어세한항공여행사",
+        "name:en": "Modutour Sehan Air Travel Agency",
+        "name:ko": "모두투어세한항공여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0758163,
+          34.9327848
+        ]
+      },
+      "id": "node/5248668972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5248668974",
+        "level": "1",
+        "name": "수양우등관광여행사",
+        "name:en": "Suyang Excellent Express Bus Travel Agency",
+        "name:ko": "수양우등관광여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0757656,
+          34.9328897
+        ]
+      },
+      "id": "node/5248668974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5250727886",
+        "level": "2",
+        "name": "뉴금성관광여행사",
+        "name:en": "New Geumseong Travel Agency",
+        "name:ko": "뉴금성관광여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.0759442,
+          34.9339332
+        ]
+      },
+      "id": "node/5250727886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5697998721",
+        "name": "한재현",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.8281362,
+          35.2324203
+        ]
+      },
+      "id": "node/5697998721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6702476530",
+        "addr:city": "울산광역시",
+        "addr:district": "중구",
+        "addr:housenumber": "40",
+        "addr:postcode": "44481",
+        "addr:street": "동천1길",
+        "addr:subdistrict": "서동",
+        "name": "하나관광해외여행사",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.3460734,
+          35.5843981
+        ]
+      },
+      "id": "node/6702476530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6730191588",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0251635,
+          37.5041794
+        ]
+      },
+      "id": "node/6730191588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6934680785",
+        "name:en": "Eland cruise",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9381006,
+          37.5254634
+        ]
+      },
+      "id": "node/6934680785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7840068527",
+        "name": "투어라이프",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7384028,
+          35.7265037
+        ]
+      },
+      "id": "node/7840068527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7965868829",
+        "name": "스카이항공여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7358819,
+          35.7262132
+        ]
+      },
+      "id": "node/7965868829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7994745477",
+        "name": "월드투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7358516,
+          35.7344094
+        ]
+      },
+      "id": "node/7994745477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8359398507",
+        "name": "행복한나드리여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.6180484,
+          36.8144095
+        ]
+      },
+      "id": "node/8359398507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8373720067",
+        "addr:city": "서울특별시",
+        "addr:district": "마포구",
+        "addr:floor": "3",
+        "addr:housenumber": "26",
+        "addr:street": "잔다리로7안길",
+        "name:fr": "Corée Voyage",
+        "phone": "+82 2-326-0511",
+        "shop": "travel_agency",
+        "website": "https://coreevoyage.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9164777,
+          37.5524104
+        ]
+      },
+      "id": "node/8373720067"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9062733747",
+        "name": "青太山旅行社",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.2546437,
+          37.5211827
+        ]
+      },
+      "id": "node/9062733747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9385590481",
+        "addr:city": "고성군",
+        "addr:housenumber": "3",
+        "addr:postcode": "52943",
+        "addr:province": "경상남도",
+        "addr:street": "성내로135번길",
+        "addr:subdistrict": "성내리",
+        "addr:town": "고성읍",
+        "name": "삼천리관광",
+        "phone": "055-672-3399",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.3229201,
+          34.9735161
+        ]
+      },
+      "id": "node/9385590481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9405205567",
+        "name": "하나투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.1309107,
+          36.4708464
+        ]
+      },
+      "id": "node/9405205567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10050212589",
+        "level": "3",
+        "name": "하나투어",
+        "name:ko": "하나투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0463,
+          37.8180704
+        ]
+      },
+      "id": "node/10050212589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10077543900",
+        "level": "0",
+        "level:ref": "1층",
+        "name": "교내 여행사",
+        "name:en": "Travel Agency",
+        "name:ko": "교내 여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.1047701,
+          35.1340891
+        ]
+      },
+      "id": "node/10077543900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10261858664",
+        "addr:city": "양평군",
+        "addr:housenumber": "5-1",
+        "addr:province": "경기도",
+        "addr:street": "군청앞길",
+        "addr:subdistrict": "양근리",
+        "addr:town": "양평읍",
+        "name": "모두투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4881491,
+          37.4908464
+        ]
+      },
+      "id": "node/10261858664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10291816308",
+        "name": "유로항공여행사",
+        "name:en": "Euro Air Travel Agency",
+        "name:ko": "유로항공여행사",
+        "phone": "+82 62 352 6565",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9055784,
+          35.1811731
+        ]
+      },
+      "id": "node/10291816308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10301311640",
+        "name": "해피쿱투어 협동조합",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0765191,
+          37.6196396
+        ]
+      },
+      "id": "node/10301311640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10677510143",
+        "name": "경림여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5872738,
+          37.6502153
+        ]
+      },
+      "id": "node/10677510143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11033801605",
+        "name:en": "Tourist boat, 21000 won, departs from and arrives back here",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6192991,
+          37.9751895
+        ]
+      },
+      "id": "node/11033801605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11037050405",
+        "name:en": "Yong dive (scuba)",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.5597841,
+          33.243191
+        ]
+      },
+      "id": "node/11037050405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11062875405",
+        "fixme": "여행사가 확인이 되지 않습니다. 관련 정보를 밝혀 주시던지 현장 정보를 확인해서 처리 바랍니다.",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.0752296,
+          35.1816519
+        ]
+      },
+      "id": "node/11062875405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11505551237",
+        "addr:housenumber": "1",
+        "addr:postcode": "61484",
+        "addr:street": "서석로",
+        "name": "어썸트래블",
+        "name:en": "Awesome Travel",
+        "name:ko": "어썸트래블",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9140998,
+          35.1449549
+        ]
+      },
+      "id": "node/11505551237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11519898125",
+        "addr:city": "가평군",
+        "addr:housenumber": "26-6",
+        "addr:province": "경기도",
+        "addr:street": "가화로",
+        "addr:subdistrict": "대곡리",
+        "addr:town": "가평읍",
+        "name": "레저K",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.5162614,
+          37.821804
+        ]
+      },
+      "id": "node/11519898125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11811540955",
+        "addr:city": "이천시",
+        "addr:housenumber": "1183",
+        "addr:postcode": "17377",
+        "addr:province": "경기도",
+        "addr:street": "이섭대천로",
+        "addr:subdistrict": "중리동",
+        "name": "하나투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4468901,
+          37.275747
+        ]
+      },
+      "id": "node/11811540955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11815842737",
+        "addr:housenumber": "96-23",
+        "addr:postcode": "17373",
+        "addr:street": "중리천로",
+        "name": "중국여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4475799,
+          37.2767308
+        ]
+      },
+      "id": "node/11815842737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11841880627",
+        "addr:city": "이천시",
+        "addr:housenumber": "120",
+        "addr:postcode": "17362",
+        "addr:province": "경기도",
+        "addr:street": "애련정로",
+        "addr:subdistrict": "창전동",
+        "name": "이천탑항공",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4503032,
+          37.2811715
+        ]
+      },
+      "id": "node/11841880627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11954151169",
+        "name": "클로버관광여행사",
+        "name:ko": "클로버관광여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.9490639,
+          37.3595295
+        ]
+      },
+      "id": "node/11954151169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078655194",
+        "addr:city": "이천시",
+        "addr:housenumber": "1310",
+        "addr:postcode": "17352",
+        "addr:province": "경기도",
+        "addr:street": "이섭대천로",
+        "addr:subdistrict": "창전동",
+        "name": "발해여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4499818,
+          37.2859196
+        ]
+      },
+      "id": "node/12078655194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12090448508",
+        "addr:city": "서산시",
+        "addr:housenumber": "4",
+        "addr:postcode": "31982",
+        "addr:province": "충청남도",
+        "addr:street": "서령로",
+        "addr:subdistrict": "동문동",
+        "name": "모두투어 대한관광여행사",
+        "name:en": "ModeTour Daehan Tourism Agency",
+        "name:ko": "모두투어",
+        "phone": "+82 41-664-2521",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.4522714,
+          36.7837404
+        ]
+      },
+      "id": "node/12090448508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12135029356",
+        "name": "선진여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0440005,
+          37.738066
+        ]
+      },
+      "id": "node/12135029356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12177949655",
+        "addr:city": "의정부시",
+        "addr:housenumber": "37",
+        "addr:postcode": "11757",
+        "addr:province": "경기도",
+        "addr:street": "청사로",
+        "addr:subdistrict": "금오동",
+        "addr:unit": "505",
+        "name": "5층여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.0698208,
+          37.7516957
+        ]
+      },
+      "id": "node/12177949655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12513903688",
+        "name": "하나투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6559366,
+          34.7546624
+        ]
+      },
+      "id": "node/12513903688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12517701017",
+        "name": "아이러브여수",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6623793,
+          34.7676595
+        ]
+      },
+      "id": "node/12517701017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12520174345",
+        "name": "하나투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.6514459,
+          34.7769606
+        ]
+      },
+      "id": "node/12520174345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12584618988",
+        "name": "세계로여행사",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.718479,
+          34.7328271
+        ]
+      },
+      "id": "node/12584618988"
+    }
+  ]
+}

@@ -1,0 +1,8421 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-17T07:41:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/89626486",
+        "addr:city": "Cần Thơ",
+        "building": "yes",
+        "information": "office",
+        "source": "survey",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.7882529,
+              10.0323669
+            ],
+            [
+              105.7882325,
+              10.0322333
+            ],
+            [
+              105.7883703,
+              10.0322129
+            ],
+            [
+              105.7883907,
+              10.0323464
+            ],
+            [
+              105.7882529,
+              10.0323669
+            ]
+          ]
+        ]
+      },
+      "id": "way/89626486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306029256",
+        "building": "yes",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.3162931,
+              23.360208
+            ],
+            [
+              105.3163183,
+              23.3601314
+            ],
+            [
+              105.3164222,
+              23.3601602
+            ],
+            [
+              105.316397,
+              23.3602368
+            ],
+            [
+              105.3162931,
+              23.360208
+            ]
+          ]
+        ]
+      },
+      "id": "way/306029256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/514538921",
+        "information": "office",
+        "name": "Cảng Du Lịch Cửa Đại - Hội An",
+        "name:en": "Cham Islands Visitors Center",
+        "name:ru": "Cham Islands Visitors Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108.3876532,
+              15.878678
+            ],
+            [
+              108.3878073,
+              15.8785123
+            ],
+            [
+              108.3880903,
+              15.8779108
+            ],
+            [
+              108.3886017,
+              15.8779121
+            ],
+            [
+              108.3881416,
+              15.8788857
+            ],
+            [
+              108.3880318,
+              15.8789708
+            ],
+            [
+              108.3876213,
+              15.8788687
+            ],
+            [
+              108.3875894,
+              15.8787802
+            ],
+            [
+              108.3876532,
+              15.878678
+            ]
+          ]
+        ]
+      },
+      "id": "way/514538921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/612283148",
+        "addr:housename": "A3",
+        "building": "yes",
+        "name": "Trung tâm Hỗ trợ Khách du lịch",
+        "name:en": "Tourist Information Centre",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.0917041,
+              10.3374141
+            ],
+            [
+              107.0916048,
+              10.3373917
+            ],
+            [
+              107.0916142,
+              10.33736
+            ],
+            [
+              107.0916035,
+              10.3373481
+            ],
+            [
+              107.0915981,
+              10.3373099
+            ],
+            [
+              107.0916223,
+              10.3372808
+            ],
+            [
+              107.0916424,
+              10.3372861
+            ],
+            [
+              107.0916424,
+              10.3372215
+            ],
+            [
+              107.0917604,
+              10.3372254
+            ],
+            [
+              107.0917872,
+              10.3373099
+            ],
+            [
+              107.0917041,
+              10.3374141
+            ]
+          ]
+        ]
+      },
+      "id": "way/612283148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/680669305",
+        "building": "yes",
+        "information": "office",
+        "name": "Trung Tâm Thông Tin Du Lịch Cái Bè",
+        "name:en": "Cái Bè Tourist Information Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.0335781,
+              10.3288548
+            ],
+            [
+              106.0336562,
+              10.3288347
+            ],
+            [
+              106.0336893,
+              10.3289587
+            ],
+            [
+              106.0336111,
+              10.3289788
+            ],
+            [
+              106.0335781,
+              10.3288548
+            ]
+          ]
+        ]
+      },
+      "id": "way/680669305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909061438",
+        "building": "yes",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              109.457752,
+              12.8954124
+            ],
+            [
+              109.4577222,
+              12.8953865
+            ],
+            [
+              109.4577403,
+              12.8953667
+            ],
+            [
+              109.4577701,
+              12.8953925
+            ],
+            [
+              109.457752,
+              12.8954124
+            ]
+          ]
+        ]
+      },
+      "id": "way/909061438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/914747308",
+        "building": "roof",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.7657705,
+              10.016375
+            ],
+            [
+              105.7657791,
+              10.0163446
+            ],
+            [
+              105.7658577,
+              10.016366
+            ],
+            [
+              105.7658492,
+              10.0163964
+            ],
+            [
+              105.7657705,
+              10.016375
+            ]
+          ]
+        ]
+      },
+      "id": "way/914747308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/914959277",
+        "building": "roof",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.7653172,
+              10.0164165
+            ],
+            [
+              105.7653272,
+              10.0163851
+            ],
+            [
+              105.765334,
+              10.0163872
+            ],
+            [
+              105.765324,
+              10.0164186
+            ],
+            [
+              105.7653172,
+              10.0164165
+            ]
+          ]
+        ]
+      },
+      "id": "way/914959277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1185752880",
+        "building": "yes",
+        "information": "office",
+        "name": "KDL Sinh thái Gáo Giồng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.6112994,
+              10.5886762
+            ],
+            [
+              105.611336,
+              10.5878649
+            ],
+            [
+              105.6122141,
+              10.587797
+            ],
+            [
+              105.6121328,
+              10.5884803
+            ],
+            [
+              105.612115,
+              10.5886243
+            ],
+            [
+              105.6116043,
+              10.5885842
+            ],
+            [
+              105.6115945,
+              10.5887179
+            ],
+            [
+              105.611516,
+              10.5887281
+            ],
+            [
+              105.6114399,
+              10.58872
+            ],
+            [
+              105.611365,
+              10.5887049
+            ],
+            [
+              105.6112994,
+              10.5886762
+            ]
+          ]
+        ]
+      },
+      "id": "way/1185752880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1185869305",
+        "building": "yes",
+        "information": "office",
+        "name": "Nhà hàng hòn Mây Rút Ngoài",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              103.9933415,
+              9.9125611
+            ],
+            [
+              103.9932638,
+              9.9122287
+            ],
+            [
+              103.9933391,
+              9.9121211
+            ],
+            [
+              103.993543,
+              9.9120757
+            ],
+            [
+              103.9936037,
+              9.9119489
+            ],
+            [
+              103.9939193,
+              9.9120589
+            ],
+            [
+              103.9940261,
+              9.9122885
+            ],
+            [
+              103.9939606,
+              9.9125779
+            ],
+            [
+              103.9936862,
+              9.9124894
+            ],
+            [
+              103.9933415,
+              9.9125611
+            ]
+          ]
+        ]
+      },
+      "id": "way/1185869305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1261795799",
+        "building": "yes",
+        "name": "No Sqooters",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108.2485514,
+              16.1198716
+            ],
+            [
+              108.2485521,
+              16.1198387
+            ],
+            [
+              108.2485909,
+              16.1198395
+            ],
+            [
+              108.2485903,
+              16.1198723
+            ],
+            [
+              108.2485514,
+              16.1198716
+            ]
+          ]
+        ]
+      },
+      "id": "way/1261795799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1363060612",
+        "building": "yes",
+        "information": "office",
+        "name": "Trung Tâm Truyền Thông",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.0960148,
+              9.6110388
+            ],
+            [
+              105.095982,
+              9.610977
+            ],
+            [
+              105.0961437,
+              9.6108937
+            ],
+            [
+              105.0961764,
+              9.6109555
+            ],
+            [
+              105.0960148,
+              9.6110388
+            ]
+          ]
+        ]
+      },
+      "id": "way/1363060612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/854829838",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.3109825,
+            23.2940733
+          ],
+          [
+            105.3109825,
+            23.2940721
+          ]
+        ]
+      },
+      "id": "way/854829838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/481836578",
+        "highway": "bus_stop",
+        "name": "Trạm bus",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.38996,
+          21.069276
+        ]
+      },
+      "id": "node/481836578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/481837513",
+        "name": "đường vào đền Cao",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.388924,
+          21.066458
+        ]
+      },
+      "id": "node/481837513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/481837532",
+        "name": "đường vào Đình Đầu",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.356117,
+          21.044448
+        ]
+      },
+      "id": "node/481837532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/481837550",
+        "name": "hết thị trấn Bần",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.029898,
+          20.941841
+        ]
+      },
+      "id": "node/481837550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/946794460",
+        "name": "Thai Express",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7056762,
+          10.7817958
+        ]
+      },
+      "id": "node/946794460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/946794497",
+        "name": "Du Lịch Hùng Vỹ",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7099613,
+          10.7890383
+        ]
+      },
+      "id": "node/946794497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/951963225",
+        "addr:housenumber": "18-20",
+        "addr:street": "Hai Bà Trưng",
+        "name": "Canthotourist",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7881786,
+          10.0338202
+        ]
+      },
+      "id": "node/951963225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/963612073",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "information": "terminal",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8512096,
+          21.0303163
+        ]
+      },
+      "id": "node/963612073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/963612132",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "information": "office",
+        "name": "Tourist Information Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8519179,
+          21.0320511
+        ]
+      },
+      "id": "node/963612132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/963612153",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "information": "terminal",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510922,
+          21.0308045
+        ]
+      },
+      "id": "node/963612153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1011649059",
+        "name:en": "No Entrance to the Cave. Only possible by Boat from the City.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2805472,
+          17.589233
+        ]
+      },
+      "id": "node/1011649059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1037737105",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1093369,
+          15.7721167
+        ]
+      },
+      "id": "node/1037737105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1150926585",
+        "operator": "Vietnam Airlines",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4332127,
+          11.9364411
+        ]
+      },
+      "id": "node/1150926585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1152316068",
+        "name": "Phòng Vé Máy Bay",
+        "name:en": "Air ticket",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4460265,
+          11.936627
+        ]
+      },
+      "id": "node/1152316068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1152344978",
+        "name": "Phòng Vé Máy Bay",
+        "name:en": "Air ticket",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4444983,
+          11.9374222
+        ]
+      },
+      "id": "node/1152344978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1274417129",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.557764,
+          10.6024146
+        ]
+      },
+      "id": "node/1274417129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1675595828",
+        "name:en": "Ticket Checking Station No. 1",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8339613,
+          22.3309651
+        ]
+      },
+      "id": "node/1675595828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1724611521",
+        "information": "office",
+        "name:en": "National Park Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9902894,
+          20.79353
+        ]
+      },
+      "id": "node/1724611521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1725481680",
+        "check_date": "2024-11-22",
+        "information": "office",
+        "name": "Cuc Phuong National Park Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7151529,
+          20.2500051
+        ]
+      },
+      "id": "node/1725481680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1725481702",
+        "board_type": "history",
+        "information": "board",
+        "name": "Information Cave of the Prehistoric Man",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6684241,
+          20.2934242
+        ]
+      },
+      "id": "node/1725481702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1777837437",
+        "name": "Internet Giọt Nắng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7724083,
+          10.0271693
+        ]
+      },
+      "id": "node/1777837437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1793136408",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0062792,
+          13.9767348
+        ]
+      },
+      "id": "node/1793136408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1797032509",
+        "name": "Under construction 2025",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.313353,
+          11.6125277
+        ]
+      },
+      "id": "node/1797032509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088919766",
+        "description": "Group A",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1249156,
+          15.7625815
+        ]
+      },
+      "id": "node/2088919766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088919797",
+        "description": "Group BCD",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1244566,
+          15.763009
+        ]
+      },
+      "id": "node/2088919797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088919804",
+        "description": "Group B",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1237807,
+          15.7631942
+        ]
+      },
+      "id": "node/2088919804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088919823",
+        "description": "Group C",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1239399,
+          15.7633458
+        ]
+      },
+      "id": "node/2088919823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088919835",
+        "description": "Group G",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1247952,
+          15.7634312
+        ]
+      },
+      "id": "node/2088919835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088919861",
+        "description": "Group E",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1250376,
+          15.7644657
+        ]
+      },
+      "id": "node/2088919861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2088919887",
+        "description": "Group K",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1210525,
+          15.7677296
+        ]
+      },
+      "id": "node/2088919887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2195299581",
+        "name": "Karaoke Cau Vong Khuyet",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0067762,
+          10.206199
+        ]
+      },
+      "id": "node/2195299581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2495831863",
+        "information": "office",
+        "name": "Cửa hàng giấy dán tường hoa Việt Hàn",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.70392,
+          20.842289
+        ]
+      },
+      "id": "node/2495831863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2577864055",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "information": "map",
+        "map_size": "site",
+        "map_type": "scheme",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8445238,
+          21.0168159
+        ]
+      },
+      "id": "node/2577864055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2660458348",
+        "check_date": "2023-02-03",
+        "information": "map",
+        "map_size": "site",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5799555,
+          16.4676983
+        ]
+      },
+      "id": "node/2660458348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2731032304",
+        "information": "office",
+        "name": "Ticket office for Phong Nha Cave, Tien Son Cave",
+        "shop": "ticket",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.305812,
+          17.612245
+        ]
+      },
+      "id": "node/2731032304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2921333545",
+        "name": "Sở Thông tin và Truyền thông",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3394036,
+          9.9395597
+        ]
+      },
+      "id": "node/2921333545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3108026985",
+        "amenity": "cafe",
+        "shop": "kiosk",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0926253,
+          23.1216932
+        ]
+      },
+      "id": "node/3108026985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3856260582",
+        "information": "office",
+        "name": "Tourist Information Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8408029,
+          22.335364
+        ]
+      },
+      "id": "node/3856260582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4120115997",
+        "addr:housenumber": "1",
+        "addr:street": "Đại lộ Tự Do",
+        "name": "cổng kcn vsip",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7422186,
+          10.9379658
+        ]
+      },
+      "id": "node/4120115997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4120119892",
+        "addr:street": "Tỉnh lộ 743",
+        "name": "Trạm thu phí miếu ông cù",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7460295,
+          10.9777724
+        ]
+      },
+      "id": "node/4120119892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4131787589",
+        "name": "KCN Nam Tan Uyen",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7560434,
+          11.0566842
+        ]
+      },
+      "id": "node/4131787589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4185467575",
+        "name": "Khu Du Lịch Bình Qưới 2",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7355282,
+          10.8282549
+        ]
+      },
+      "id": "node/4185467575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4185468365",
+        "name": "Khu Du Lịch Bình Qưới 1",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.736713,
+          10.8273645
+        ]
+      },
+      "id": "node/4185468365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4269807893",
+        "name": "Shortcut",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2836574,
+          17.6355018
+        ]
+      },
+      "id": "node/4269807893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4294135791",
+        "addr:housenumber": "26",
+        "addr:street": "An Thượng 9",
+        "name": "Bờ Biển Vàng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2440355,
+          16.0481678
+        ]
+      },
+      "id": "node/4294135791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4316774903",
+        "name": "Oxalis Phong Nha Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2951619,
+          17.6005919
+        ]
+      },
+      "id": "node/4316774903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4319325289",
+        "addr:housenumber": "454",
+        "addr:street": "Ngo Gia Tu",
+        "amenity": "motorcycle_rental",
+        "cuisine": "vietnamese",
+        "description": "Kind family that also rent bikes for 100.000 VND for 24hs",
+        "email": "buiththutrang13091993@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dong Minh Restaurant and Travel Agency",
+        "phone": "+84 976 499 223",
+        "rental": "yes",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9738488,
+          20.2426014
+        ]
+      },
+      "id": "node/4319325289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346786790",
+        "name": "Cầu bến thuỷ 1",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7082037,
+          18.6466265
+        ]
+      },
+      "id": "node/4346786790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4346788490",
+        "name": "Cầu bến thuỷ 2",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7058963,
+          18.6389719
+        ]
+      },
+      "id": "node/4346788490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4349799503",
+        "name": "Pk Long An",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3652009,
+          10.5495507
+        ]
+      },
+      "id": "node/4349799503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4349870295",
+        "name": "Pk2",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7471764,
+          10.8834139
+        ]
+      },
+      "id": "node/4349870295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4349870598",
+        "name": "VN Pk2",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7470087,
+          10.8834595
+        ]
+      },
+      "id": "node/4349870598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4423223794",
+        "name": "Ngã ba Phố Ràng",
+        "name:vi": "Ngã ba Phố Ràng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.4780203,
+          22.2364127
+        ]
+      },
+      "id": "node/4423223794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4442176289",
+        "addr:housenumber": "27",
+        "addr:postcode": "670000",
+        "addr:street": "Trương Công Định",
+        "email": "res@dalattrip.com",
+        "name": "Trung tâm hướng dẫn du lịch Đà Lạt",
+        "name:en": "Dalat Tourist Information Center",
+        "name:vi": "Trung tâm hướng dẫn du lịch Đà Lạt",
+        "opening_hours": "Mo-Fr 09:00-21:00; Sa-Su 10:00-19:00",
+        "phone": "0993888777",
+        "tourism": "information",
+        "website": "http://dalattrip.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4351136,
+          11.9433978
+        ]
+      },
+      "id": "node/4442176289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4470129418",
+        "addr:housenumber": "111",
+        "addr:street": "QL 45",
+        "email": "chunglevl@gmail.com",
+        "name": "Hợp đồng xe du lịch",
+        "opening_hours": "24/7",
+        "phone": "0376565656",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6186647,
+          20.0505499
+        ]
+      },
+      "id": "node/4470129418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4498449889",
+        "addr:street": "Đường 8B",
+        "name": "Làng Đô Yên",
+        "name:en": "Do Yen ( Hưng Mỹ)",
+        "phone": "+84976746682",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6450509,
+          18.6269669
+        ]
+      },
+      "id": "node/4498449889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4514964163",
+        "information": "board",
+        "name": "Bang Thong bao SV",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7702968,
+          10.0341034
+        ]
+      },
+      "id": "node/4514964163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4533442289",
+        "name": "Trạm xá BĐBP",
+        "name:vi": "Trạm xá BĐBP",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4462736,
+          15.6111188
+        ]
+      },
+      "id": "node/4533442289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4543005022",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4304772,
+          12.0450613
+        ]
+      },
+      "id": "node/4543005022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4543005023",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.438551,
+          12.0476497
+        ]
+      },
+      "id": "node/4543005023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4543005024",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.439361,
+          12.0477048
+        ]
+      },
+      "id": "node/4543005024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4547849412",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0050697,
+          20.7982841
+        ]
+      },
+      "id": "node/4547849412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4548775189",
+        "name": "Nha Mo Luc",
+        "name:vi": "Nha Mo Luc",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2088177,
+          15.9883793
+        ]
+      },
+      "id": "node/4548775189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4548775589",
+        "addr:housenumber": "153",
+        "addr:street": "Hoàng Châu Ký",
+        "name": "Nha Mo Luc",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2094699,
+          15.9881107
+        ]
+      },
+      "id": "node/4548775589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4550468990",
+        "name": "nga 3 trung luong",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.340549,
+          10.3834495
+        ]
+      },
+      "id": "node/4550468990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4550544989",
+        "name": "bến tàu du lịch cái bè",
+        "name:en": "cai be tourist boat station",
+        "name:vi": "bến tàu du lịch cái bè",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0309293,
+          10.3284617
+        ]
+      },
+      "id": "node/4550544989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554214490",
+        "addr:street": "Trần Phú",
+        "name": "Hẻm 211 trần phú",
+        "name:vi": "Hẻm 211 trần phú",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0668044,
+          10.3807464
+        ]
+      },
+      "id": "node/4554214490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4564443895",
+        "name": "ngã ba cái bè",
+        "name:en": "nga ba cai be",
+        "name:vi": "ngã ba cái bè",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0409143,
+          10.3702232
+        ]
+      },
+      "id": "node/4564443895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4571730689",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "information": "office",
+        "name:en": "Tourist information and support center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8536727,
+          21.0313593
+        ]
+      },
+      "id": "node/4571730689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4601222489",
+        "name:en": "No Entrance to the Cave. Only possible by Boat from the City.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2820792,
+          17.583372
+        ]
+      },
+      "id": "node/4601222489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4638797340",
+        "information": "terminal",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4492487,
+          11.9498657
+        ]
+      },
+      "id": "node/4638797340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4698764392",
+        "addr:housenumber": "62",
+        "addr:street": "Bạch Đằng",
+        "description": "Hoi An Ancient Town Entrance Tickets",
+        "information": "office",
+        "name": "Điêm Dùng Chân",
+        "name:en": "Information Center",
+        "name:vi": "Điêm Dùng Chân",
+        "phone": "00845103916262",
+        "tourism": "information",
+        "website": "http://www.hoianworldheritage.org.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3300049,
+          15.876274
+        ]
+      },
+      "id": "node/4698764392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4708519290",
+        "addr:housenumber": "459",
+        "addr:street": "Lý Anh Tông",
+        "email": "minhtuanvtvd@gmail.com",
+        "name": "Phạm Minh Tuấn",
+        "name:en": "MinhTuan",
+        "name:vi": "Phạm Minh Tuấn",
+        "office": "government",
+        "phone": "0948290550",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4224462,
+          21.0681288
+        ]
+      },
+      "id": "node/4708519290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4714969592",
+        "name": "Tết giọt nước serai",
+        "name:vi": "Tết giọt nước serai",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9993153,
+          14.4928541
+        ]
+      },
+      "id": "node/4714969592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4714973690",
+        "name": "Hồ đẹp",
+        "name:vi": "Hồ đẹp",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0008781,
+          14.5102362
+        ]
+      },
+      "id": "node/4714973690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4719478491",
+        "name": "nhà thờ jarai",
+        "name:vi": "nhà thờ jarai",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.924947,
+          14.2808026
+        ]
+      },
+      "id": "node/4719478491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4722003391",
+        "name": "Tourism information center",
+        "name:vi": "Tourism information center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.329258,
+          15.879926
+        ]
+      },
+      "id": "node/4722003391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4722539883",
+        "name": "Biển Hồ Chè",
+        "name:vi": "Biển Hồ Chè",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9976737,
+          14.0808857
+        ]
+      },
+      "id": "node/4722539883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4722539884",
+        "name": "Con đường HQ",
+        "name:vi": "Con đường HQ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0105083,
+          14.0620062
+        ]
+      },
+      "id": "node/4722539884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4722586155",
+        "name": "Biển hồ nhỏ",
+        "name:vi": "Biển hồ nhỏ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0033177,
+          14.0583833
+        ]
+      },
+      "id": "node/4722586155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4723423090",
+        "addr:housenumber": "90",
+        "addr:street": "Cù Chính Lan",
+        "name": "yogurt",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9957247,
+          13.973315
+        ]
+      },
+      "id": "node/4723423090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739179924",
+        "name": "Blue coral diving",
+        "name:vi": "Blue coral diving",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3288611,
+          15.8764531
+        ]
+      },
+      "id": "node/4739179924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4742783226",
+        "name:de": "Con Dao Nationalpark Besucherzentrum",
+        "name:en": "Con Dao National Park Visitor Center",
+        "opening_hours": "Mo-Su 07:00-11:30, 14:00-17:00",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6048153,
+          8.6922215
+        ]
+      },
+      "id": "node/4742783226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4745172922",
+        "email": "bidouptour@gmail.com",
+        "name": "Trung tâm du khách Visitor Center",
+        "name:en": "Visitor Center Bidoup National Park",
+        "opening_hours": "Mo-Su 08:00-16:00",
+        "tourism": "information",
+        "website": "http://bidouptour.com/vi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.5332243,
+          12.1338344
+        ]
+      },
+      "id": "node/4745172922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4748731491",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8428079,
+          22.3958596
+        ]
+      },
+      "id": "node/4748731491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4749013627",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8332283,
+          21.0353784
+        ]
+      },
+      "id": "node/4749013627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753254422",
+        "name": "cầu Bình Phú",
+        "name:vi": "cầu Bình Phú",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2464605,
+          13.5700916
+        ]
+      },
+      "id": "node/4753254422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755937022",
+        "name": "Bún bò ngon",
+        "name:vi": "Bún bò ngon",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4383315,
+          11.9349391
+        ]
+      },
+      "id": "node/4755937022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755943026",
+        "name": "Bánh Mì Xíu Mại",
+        "name:vi": "Bánh Mì Xíu Mại",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4364578,
+          11.9414849
+        ]
+      },
+      "id": "node/4755943026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755947821",
+        "name": "Hồ Tĩnh Tâm",
+        "name:ko": "띤떰호",
+        "name:vi": "Hồ Tĩnh Tâm",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4350246,
+          11.9025759
+        ]
+      },
+      "id": "node/4755947821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4756559724",
+        "name": "Bánh Bèo",
+        "name:vi": "Bánh Bèo",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8056385,
+          11.5432053
+        ]
+      },
+      "id": "node/4756559724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4756559725",
+        "name": "coffee shop",
+        "name:vi": "coffee shop",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.801767,
+          11.5409522
+        ]
+      },
+      "id": "node/4756559725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4756559726",
+        "name": "Quán nhậu",
+        "name:vi": "Quán nhậu",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8076948,
+          11.5457648
+        ]
+      },
+      "id": "node/4756559726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4756570321",
+        "name": "Bún Bò",
+        "name:vi": "Bún Bò",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8057941,
+          11.5418453
+        ]
+      },
+      "id": "node/4756570321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4756570322",
+        "name": "Street Food",
+        "name:vi": "Street Food",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8056584,
+          11.5529555
+        ]
+      },
+      "id": "node/4756570322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4756570421",
+        "name": "Cháo lòng",
+        "name:vi": "Cháo lòng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8055434,
+          11.551249
+        ]
+      },
+      "id": "node/4756570421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4757332821",
+        "name": "Coffee shop",
+        "name:vi": "Coffee shop",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8083879,
+          11.5373238
+        ]
+      },
+      "id": "node/4757332821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4757332921",
+        "name": "Bún Bò",
+        "name:vi": "Bún Bò",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8125439,
+          11.5380781
+        ]
+      },
+      "id": "node/4757332921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4757336125",
+        "name": "khách sạn",
+        "name:vi": "khách sạn",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8055687,
+          11.5444111
+        ]
+      },
+      "id": "node/4757336125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4757339621",
+        "name": "Sữa đậu đêm",
+        "name:vi": "Sữa đậu đêm",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8055505,
+          11.5435775
+        ]
+      },
+      "id": "node/4757339621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4761370721",
+        "name": "Bánh Căn 331",
+        "name:vi": "Bánh Căn 331",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.763153,
+          10.6679087
+        ]
+      },
+      "id": "node/4761370721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4767500868",
+        "information": "office",
+        "name": "Trung Tâm Dự Khách Vísitor Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8723108,
+          16.2497842
+        ]
+      },
+      "id": "node/4767500868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4767822423",
+        "name:en": "Ministry of foreign affairs",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2527161,
+          22.6743825
+        ]
+      },
+      "id": "node/4767822423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4768917338",
+        "name": "Đảo Bé",
+        "name:vi": "Đảo Bé",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.145439,
+          15.3799336
+        ]
+      },
+      "id": "node/4768917338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4780593922",
+        "name": "Sinh tố NHỎ",
+        "name:vi": "Sinh tố NHỎ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.2304877,
+          10.3944597
+        ]
+      },
+      "id": "node/4780593922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4780594121",
+        "name": "Quán ngon",
+        "name:vi": "Quán ngon",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.2356301,
+          10.3898343
+        ]
+      },
+      "id": "node/4780594121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4783535321",
+        "name": "Ngo Tam Thuong",
+        "name:ko": "탐 투옹 거리",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8478083,
+          21.0314228
+        ]
+      },
+      "id": "node/4783535321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4785598222",
+        "name": "vũ lâm, vũ lễ, bắc sơn",
+        "name:vi": "vũ lâm, vũ lễ, bắc sơn",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1612825,
+          21.7919163
+        ]
+      },
+      "id": "node/4785598222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4803623528",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6048401,
+          8.6920515
+        ]
+      },
+      "id": "node/4803623528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4812667121",
+        "name": "Ấp 33",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6057098,
+          9.3192
+        ]
+      },
+      "id": "node/4812667121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4846795522",
+        "name:en": "Johnny Nam Tran",
+        "name:nl": "Johnny Nam Tran",
+        "tourism": "information",
+        "website": "http://www.rockyplateau.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9816082,
+          22.8152627
+        ]
+      },
+      "id": "node/4846795522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4860811623",
+        "name": "khu du lịch suối tiên",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3605783,
+          10.3620542
+        ]
+      },
+      "id": "node/4860811623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4887124632",
+        "name": "Son La Tourist Info",
+        "name:vi": "Son La Tourist Info",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9088147,
+          21.3271924
+        ]
+      },
+      "id": "node/4887124632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4896032824",
+        "addr:housenumber": "88/6",
+        "addr:street": "Mạc Đĩnh Chi",
+        "email": "info@lamha.jp",
+        "name:en": "SERVIC OFFICE",
+        "name:ja": "サービスオフィス",
+        "tourism": "information",
+        "website": "http://real-estate.lamha.jp/archives/408"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6964107,
+          10.7882446
+        ]
+      },
+      "id": "node/4896032824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4908449323",
+        "name": "Đèo B40",
+        "name:vi": "Đèo B40",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.719199,
+          11.7249916
+        ]
+      },
+      "id": "node/4908449323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4908449324",
+        "name": "Coffee & Breakfast",
+        "name:vi": "Coffee & Breakfast",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6838817,
+          11.860798
+        ]
+      },
+      "id": "node/4908449324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4908449423",
+        "name": "Hồ Tà Đùng DN",
+        "name:vi": "Hồ Tà Đùng DN",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9274548,
+          11.8576393
+        ]
+      },
+      "id": "node/4908449423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4910199021",
+        "name": "Thị Coffee",
+        "name:vi": "Thị Coffee",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.043648,
+          12.681391
+        ]
+      },
+      "id": "node/4910199021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4933484322",
+        "name:en": "Asia Group Tour",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8446032,
+          21.0334077
+        ]
+      },
+      "id": "node/4933484322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4934840879",
+        "information": "map",
+        "map_type": "scheme",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7169709,
+          10.7899023
+        ]
+      },
+      "id": "node/4934840879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4939243424",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2722553,
+          17.5190539
+        ]
+      },
+      "id": "node/4939243424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4943326621",
+        "name": "Bánh Bèo Chén",
+        "name:vi": "Bánh Bèo Chén",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2915356,
+          13.8809952
+        ]
+      },
+      "id": "node/4943326621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4943326721",
+        "name": "Chợ ăn đêm",
+        "name:vi": "Chợ ăn đêm",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2244813,
+          13.764245
+        ]
+      },
+      "id": "node/4943326721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4950201122",
+        "name:ko": "휴대폰싸게고치는곳",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.805089,
+          21.0458974
+        ]
+      },
+      "id": "node/4950201122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4967281621",
+        "name": "Nhà Thành",
+        "name:vi": "Nhà Thành",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8995383,
+          11.6241582
+        ]
+      },
+      "id": "node/4967281621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4986091822",
+        "name": "Quán bánh canh cá lóc",
+        "name:vi": "Quán bánh canh cá lóc",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6410873,
+          11.2568369
+        ]
+      },
+      "id": "node/4986091822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5025726422",
+        "addr:street": "453 Nguyen Trai",
+        "name": "Trung tâm thông tin du lịch",
+        "name:en": "Tourist information centre",
+        "opening_hours": "24/7",
+        "phone": "01652701245",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9839223,
+          22.8245468
+        ]
+      },
+      "id": "node/5025726422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5026174324",
+        "addr:housenumber": "453",
+        "addr:postcode": "310000",
+        "addr:street": "Nguyen Trai",
+        "email": "sales@visiontravelagent.com",
+        "name": "Trung tâm thông tin Du lịch",
+        "name:en": "Tourist information center",
+        "opening_hours": "24/7",
+        "phone": "0902093223",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9834445,
+          22.8244949
+        ]
+      },
+      "id": "node/5026174324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5041312726",
+        "name": "ngã 3 bền",
+        "name:vi": "ngã 3 bền",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.270288,
+          10.1990063
+        ]
+      },
+      "id": "node/5041312726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5046718222",
+        "name": "Dinh Thầy Thím",
+        "name:vi": "Dinh Thầy Thím",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1393685,
+          11.2757771
+        ]
+      },
+      "id": "node/5046718222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5060155921",
+        "name": "Hủ tíu giò",
+        "name:vi": "Hủ tíu giò",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.247766,
+          11.8129584
+        ]
+      },
+      "id": "node/5060155921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5070638321",
+        "name": "Bún Bò Cô Phương",
+        "name:vi": "Bún Bò Cô Phương",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8120912,
+          11.5515077
+        ]
+      },
+      "id": "node/5070638321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5076893227",
+        "name": "Mắt cá ngừ",
+        "name:vi": "Mắt cá ngừ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3174594,
+          13.0985594
+        ]
+      },
+      "id": "node/5076893227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5076909023",
+        "name": "mui dai lanh",
+        "name:vi": "mui dai lanh",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.4499692,
+          12.893366
+        ]
+      },
+      "id": "node/5076909023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5077357422",
+        "addr:postcode": "43000",
+        "email": "vnstartours@gmail.com",
+        "name": "Ga Ninh Bình",
+        "name:en": "Train Station",
+        "name:vi": "Ga Ninh Bình",
+        "phone": "+84916910480",
+        "tourism": "information",
+        "website": "http://ninhbinhguide.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.974684,
+          20.242242
+        ]
+      },
+      "id": "node/5077357422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5080624321",
+        "name": "Chợ đêm pleiku",
+        "name:vi": "Chợ đêm pleiku",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9972858,
+          13.979212
+        ]
+      },
+      "id": "node/5080624321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5211482039",
+        "information": "office",
+        "name": "Nhà thông tin",
+        "opening_hours": "07:00-17:00",
+        "tourism": "information",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7685762,
+          10.0395873
+        ]
+      },
+      "id": "node/5211482039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5242354821",
+        "name": "Chợ Đạ Loan",
+        "name:vi": "Chợ Đạ Loan",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3869291,
+          11.5757278
+        ]
+      },
+      "id": "node/5242354821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5246382198",
+        "name": "Under construction",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5451139,
+          15.6321918
+        ]
+      },
+      "id": "node/5246382198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5254277033",
+        "name": "Cắm Trai",
+        "name:vi": "Cắm Trai",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.5000703,
+          11.4957366
+        ]
+      },
+      "id": "node/5254277033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5255590921",
+        "name": "Hồ Hoà Trung",
+        "name:en": "Hoà Trung lake",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0595751,
+          16.0800271
+        ]
+      },
+      "id": "node/5255590921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5293332821",
+        "information": "office",
+        "name:en": "Tourist Information",
+        "phone": "0543831449",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5942124,
+          16.4683546
+        ]
+      },
+      "id": "node/5293332821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5293672221",
+        "name:en": "Tourist Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5958563,
+          16.4705645
+        ]
+      },
+      "id": "node/5293672221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5314041996",
+        "note": "Way to beach blocked by settlement",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0585493,
+          20.7252728
+        ]
+      },
+      "id": "node/5314041996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5330819721",
+        "name": "rừng phan dũng",
+        "name:vi": "rừng phan dũng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.605,
+          11.4495692
+        ]
+      },
+      "id": "node/5330819721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5373874832",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9089242,
+          18.3332281
+        ]
+      },
+      "id": "node/5373874832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5380071422",
+        "name:en": "Tourist Information Board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1176844,
+          22.6619872
+        ]
+      },
+      "id": "node/5380071422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5380071426",
+        "name:en": "Tourist Information Board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9327315,
+          22.6438308
+        ]
+      },
+      "id": "node/5380071426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5380071821",
+        "name:en": "Tourist Information Board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9067902,
+          22.642187
+        ]
+      },
+      "id": "node/5380071821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5380537621",
+        "name": "Nhật Vy lẩu bò",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4347915,
+          11.9455834
+        ]
+      },
+      "id": "node/5380537621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405880521",
+        "information": "office",
+        "name:en": "Tourist Information Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3288532,
+          15.8783775
+        ]
+      },
+      "id": "node/5405880521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5413915522",
+        "addr:street": "Lê Duẩn",
+        "information": "board",
+        "name:en": "History Information Boards",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6968241,
+          10.7789075
+        ]
+      },
+      "id": "node/5413915522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5413916123",
+        "addr:street": "Lê Duẩn",
+        "information": "board",
+        "name:en": "History Information Boards",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6968866,
+          10.7785384
+        ]
+      },
+      "id": "node/5413916123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5417353929",
+        "name:en": "central post office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.693281,
+          10.7682145
+        ]
+      },
+      "id": "node/5417353929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5428936021",
+        "name": "nơi cấp phép va thu phi tham quan",
+        "name:en": "Nationalpark Ticket Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5966545,
+          8.6990867
+        ]
+      },
+      "id": "node/5428936021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5430421421",
+        "name": "Điểm nghỉ chân Konktu",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0804631,
+          14.3224562
+        ]
+      },
+      "id": "node/5430421421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5430961722",
+        "name": "Enjoy coffee",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6852689,
+          12.003115
+        ]
+      },
+      "id": "node/5430961722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5436824923",
+        "name:en": "New Road. Nguyen Dong Chi",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7150052,
+          10.7344361
+        ]
+      },
+      "id": "node/5436824923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5466107421",
+        "information": "guidepost",
+        "name:en": "Motorbikes not allowed on Express way",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7515959,
+          20.8426596
+        ]
+      },
+      "id": "node/5466107421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5477035525",
+        "name": "Nhà thờ Minh Hòa",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4821992,
+          11.4439
+        ]
+      },
+      "id": "node/5477035525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5481860821",
+        "name": "Nhà Nghỉ Tạm được",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4280497,
+          11.9543001
+        ]
+      },
+      "id": "node/5481860821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485470021",
+        "name": "Phòng vé cáp treo Bà Nà Hills, Hoà Ninh, Hòa Vang, Đà Nẵng, 베트남",
+        "name:ko": "바나힐 관광안내소",
+        "name:vi": "Phòng vé cáp treo Bà Nà Hills",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0308928,
+          16.0255198
+        ]
+      },
+      "id": "node/5485470021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5485799621",
+        "name": "bánh xèo lâm hà",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1971531,
+          11.7473357
+        ]
+      },
+      "id": "node/5485799621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5504663926",
+        "name": "Hidden path - bring good shoes",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.055161,
+          20.7259373
+        ]
+      },
+      "id": "node/5504663926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5544308425",
+        "name:en": "access to the beach",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2672964,
+          16.0014555
+        ]
+      },
+      "id": "node/5544308425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5583682721",
+        "name:en": "Horrible road conditions 30-40 min. Avoid if possible",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2014407,
+          22.8146751
+        ]
+      },
+      "id": "node/5583682721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5633972324",
+        "name:en": "National Park Rangers Station",
+        "opening_hours": "24/7",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3789096,
+          17.4728876
+        ]
+      },
+      "id": "node/5633972324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5633972521",
+        "name:en": "National Park Rangers Station",
+        "opening_hours": "24/7",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3301831,
+          17.4835414
+        ]
+      },
+      "id": "node/5633972521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5637093822",
+        "addr:housenumber": "103",
+        "addr:street": "Tôn Đức Thắng",
+        "name": "Chloe",
+        "name:en": "Chloe Visas",
+        "name:vi": "Chloe Visas",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3278163,
+          15.8875456
+        ]
+      },
+      "id": "node/5637093822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5656891121",
+        "name:en": "SF SPA Hanoi Lakeview",
+        "name:ko": "에스에프 스파 하노이 레이크뷰",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8531149,
+          21.0328406
+        ]
+      },
+      "id": "node/5656891121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5662152123",
+        "name": "Floating Pontoon - 3,000₫ Crossing Fee",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8317778,
+          20.3255809
+        ]
+      },
+      "id": "node/5662152123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5676622822",
+        "name": "Bài Chòi Hoi An",
+        "name:en": "Hoi An Post Hut",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3268235,
+          15.8765491
+        ]
+      },
+      "id": "node/5676622822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5698439922",
+        "name": "Ngã 5",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8805816,
+          20.5454025
+        ]
+      },
+      "id": "node/5698439922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5719052214",
+        "name": "Dốc Đá Bạc",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4409399,
+          21.1084283
+        ]
+      },
+      "id": "node/5719052214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5784276755",
+        "addr:housenumber": "18",
+        "addr:street": "Lương Văn Can",
+        "name": "Song Hong Tourist",
+        "phone": "0964375588",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8500861,
+          21.0334835
+        ]
+      },
+      "id": "node/5784276755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5809817391",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4798726,
+          10.3749978
+        ]
+      },
+      "id": "node/5809817391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5853806386",
+        "name:en": "Ruota bucata",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.300939,
+          23.3092779
+        ]
+      },
+      "id": "node/5853806386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5856991295",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5783513,
+          16.4692657
+        ]
+      },
+      "id": "node/5856991295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5885103786",
+        "name": "Tạp hoá chị đẹp",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.578994,
+          11.982134
+        ]
+      },
+      "id": "node/5885103786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5892373185",
+        "name": "check in rừng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5434238,
+          11.8177668
+        ]
+      },
+      "id": "node/5892373185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5902107085",
+        "name": "phở cuốn",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8410576,
+          21.0459833
+        ]
+      },
+      "id": "node/5902107085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5904440585",
+        "name": "bánh cuốn",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.6775502,
+          21.9137565
+        ]
+      },
+      "id": "node/5904440585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5904472286",
+        "name": "kẹt xe đèo",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.410804,
+          22.2706084
+        ]
+      },
+      "id": "node/5904472286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5904472785",
+        "name": "chán vl",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.3327551,
+          22.3162668
+        ]
+      },
+      "id": "node/5904472785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5904472786",
+        "name": "Ngủ được",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9650608,
+          22.4997661
+        ]
+      },
+      "id": "node/5904472786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5904538085",
+        "name": "Chợ rau củ quả đêm LÀO CAI",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9681433,
+          22.5019169
+        ]
+      },
+      "id": "node/5904538085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5907401085",
+        "name": "Phở lào cai",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9744801,
+          22.497251
+        ]
+      },
+      "id": "node/5907401085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5907401185",
+        "name": "A Phủ Quán",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8406857,
+          22.3344262
+        ]
+      },
+      "id": "node/5907401185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5909796486",
+        "name": "Mũi Giày Mù Cang Chải",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.1433821,
+          21.8040527
+        ]
+      },
+      "id": "node/5909796486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5909796487",
+        "name": "Bánh Cốm Tú Lệ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.285384,
+          21.7874641
+        ]
+      },
+      "id": "node/5909796487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5909796488",
+        "name": "Mua mãng cầu Nghĩa Lộ 6A",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.5441115,
+          21.5606383
+        ]
+      },
+      "id": "node/5909796488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5909802185",
+        "name": "Nông trường Liên Sơn",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.4858017,
+          21.6733011
+        ]
+      },
+      "id": "node/5909802185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5909802385",
+        "name": "Đồi Chè Phú Đa - Phú Thọ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1502667,
+          21.1951345
+        ]
+      },
+      "id": "node/5909802385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5922460788",
+        "information": "map",
+        "map_size": "site",
+        "map_type": "scheme",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1238432,
+          15.7643824
+        ]
+      },
+      "id": "node/5922460788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5922460872",
+        "information": "map",
+        "map_size": "site",
+        "map_type": "scheme",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1237212,
+          15.7633537
+        ]
+      },
+      "id": "node/5922460872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5933325086",
+        "name": "Đình thần NGUYỄN TRUNG TRỰC",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8427965,
+          10.3736744
+        ]
+      },
+      "id": "node/5933325086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5942908485",
+        "name": "Bridge",
+        "name:fr": "Pont",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9914124,
+          10.2830473
+        ]
+      },
+      "id": "node/5942908485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5969545386",
+        "name": "Trồng rau orlar",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1819653,
+          10.774289
+        ]
+      },
+      "id": "node/5969545386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5976010755",
+        "name": "No Way",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2325513,
+          16.1471162
+        ]
+      },
+      "id": "node/5976010755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6001874388",
+        "name": "BếnĐò Pha Lương, Sông Lô",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3026773,
+          21.5064408
+        ]
+      },
+      "id": "node/6001874388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6002094795",
+        "name:en": "Entrance to beach",
+        "name:ru": "Вход на пляж",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2017405,
+          10.9474302
+        ]
+      },
+      "id": "node/6002094795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6063305588",
+        "name": "Tầm vu",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.459879,
+          10.4529067
+        ]
+      },
+      "id": "node/6063305588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6086959785",
+        "name:en": "HaTienTourism (visa service)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.4875838,
+          10.3809548
+        ]
+      },
+      "id": "node/6086959785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6098348887",
+        "name": "Đèo Cả",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3893751,
+          12.8447131
+        ]
+      },
+      "id": "node/6098348887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6098349185",
+        "name": "Đèo Cả",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3883098,
+          12.8443231
+        ]
+      },
+      "id": "node/6098349185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6119712585",
+        "name": "cầu bến lức",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4733716,
+          10.6377794
+        ]
+      },
+      "id": "node/6119712585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6152791085",
+        "name:en": "Road closed (Dec 2018)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3303184,
+          15.8716696
+        ]
+      },
+      "id": "node/6152791085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6173421488",
+        "name": "Nhà Choá Choánh",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4009135,
+          10.2399704
+        ]
+      },
+      "id": "node/6173421488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6173421489",
+        "name": "Nhà Chánh",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3793032,
+          10.3626239
+        ]
+      },
+      "id": "node/6173421489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6174514888",
+        "name": "ĐÌNH BÌNH THUỶ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7497362,
+          10.0731775
+        ]
+      },
+      "id": "node/6174514888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6189220985",
+        "name:en": "Crocodile farm",
+        "name:ko": "악아농장",
+        "name:ru": "Крокодиловая ферма",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.077768,
+          10.3565241
+        ]
+      },
+      "id": "node/6189220985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6198182085",
+        "addr:housenumber": "298",
+        "addr:street": "Cửa Đại",
+        "email": "info@flamingotravel.vm",
+        "name": "Flamingo Motorbikes",
+        "opening_hours": "Mo-Su 08:30-19:00",
+        "phone": "0964335086",
+        "tourism": "information",
+        "website": "https://flamingotravel.com.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3513437,
+          15.8868375
+        ]
+      },
+      "id": "node/6198182085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6198418685",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8557531,
+          16.1923903
+        ]
+      },
+      "id": "node/6198418685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6198418688",
+        "board_type": "notice",
+        "description": "rules of behavior of visitors of Bach Ma n.p.",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8541241,
+          16.1923892
+        ]
+      },
+      "id": "node/6198418688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6205627685",
+        "name": "Nhà cổ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7515599,
+          10.072284
+        ]
+      },
+      "id": "node/6205627685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6205627885",
+        "name": "quán ăn Thành Giao",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7792086,
+          10.0337111
+        ]
+      },
+      "id": "node/6205627885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6205628085",
+        "name": "lotus coffee",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7901544,
+          10.036858
+        ]
+      },
+      "id": "node/6205628085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6205628185",
+        "name": "Nhà Đại",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.7235117,
+          11.174412
+        ]
+      },
+      "id": "node/6205628185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6220873586",
+        "name:en": "ferry to an binh (scooter)",
+        "name:fr": "traversier vers an binh",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0253951,
+          10.3255744
+        ]
+      },
+      "id": "node/6220873586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6220876685",
+        "name:en": "ferry to cai be (scooter)",
+        "name:fr": "traversier vers cai be",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0229078,
+          10.2964773
+        ]
+      },
+      "id": "node/6220876685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6225531792",
+        "name:en": "Du Già village",
+        "name:es": "Pueblo de Du Già",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2237392,
+          22.9308495
+        ]
+      },
+      "id": "node/6225531792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6225531793",
+        "name:en": "Ngoc Chi village",
+        "name:es": "Pueblo de Ngoc Chi",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2025543,
+          22.8209222
+        ]
+      },
+      "id": "node/6225531793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6225547490",
+        "name:en": "Giap Trung christian village",
+        "name:es": "Aldea cristiana de Giap Trung",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2337842,
+          22.7976964
+        ]
+      },
+      "id": "node/6225547490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6225547592",
+        "name:en": "Border crossing point to China (no guards)",
+        "name:es": "Puesto fronterizo con China (sin vigilancia)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4799475,
+          23.2453081
+        ]
+      },
+      "id": "node/6225547592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6231555790",
+        "name:en": "Free entrance canyon, go down to the sand way",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2600728,
+          10.9551237
+        ]
+      },
+      "id": "node/6231555790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6248756885",
+        "name:en": "Nà Khuong (Hmong Christian village)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.5512655,
+          22.2675881
+        ]
+      },
+      "id": "node/6248756885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6251051585",
+        "name:es": "aldea “Vuon Quoc Gia Du Gia - C Nguyen Da Dong Van”",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2490394,
+          22.8967392
+        ]
+      },
+      "id": "node/6251051585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6253103286",
+        "name:es": "aldea perdida etnia",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2219583,
+          23.0042684
+        ]
+      },
+      "id": "node/6253103286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6255439385",
+        "name:en": "Thôn Côc Mếo",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.990654,
+          23.1589267
+        ]
+      },
+      "id": "node/6255439385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6269464286",
+        "name:en": "Steps (no motobike)",
+        "name:fr": "Marches (pas de moto)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0070867,
+          20.7974667
+        ]
+      },
+      "id": "node/6269464286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6285278185",
+        "name:en": "Dam",
+        "name:es": "Presa",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8339826,
+          21.8582733
+        ]
+      },
+      "id": "node/6285278185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315288901",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6928737,
+          10.7684982
+        ]
+      },
+      "id": "node/6315288901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315351600",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6932182,
+          10.7687756
+        ]
+      },
+      "id": "node/6315351600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315352820",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7025347,
+          10.775573
+        ]
+      },
+      "id": "node/6315352820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6332800385",
+        "name": "Information desk",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8029826,
+          21.2146151
+        ]
+      },
+      "id": "node/6332800385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6344224638",
+        "information": "board",
+        "name": "Trạm 3",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3979347,
+          12.8971273
+        ]
+      },
+      "id": "node/6344224638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6344224639",
+        "information": "board",
+        "name": "Trạm 1",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.3968143,
+          12.8909378
+        ]
+      },
+      "id": "node/6344224639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6359830887",
+        "name:en": "It's not a road, you cannot go to DU GIA by this way",
+        "name:fr": "Impossible d'atteindre DU GIA par ce chemin, faites demi tour !",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4176917,
+          23.041996
+        ]
+      },
+      "id": "node/6359830887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6359853586",
+        "name:en": "If you're want to go to DU GIA, turn right. Don't go straight even if Maps.me is telling you to go. There is no road down the mountain.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4105517,
+          23.1633228
+        ]
+      },
+      "id": "node/6359853586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6359853785",
+        "name:en": "Don't take this way if you're riding a motorbike. This is a pedestrian way",
+        "name:fr": "Chemin pédestre, ne pas emprunter en moto",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4006194,
+          23.2416856
+        ]
+      },
+      "id": "node/6359853785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6364168286",
+        "name:en": "Old town tickets",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3312879,
+          15.8782095
+        ]
+      },
+      "id": "node/6364168286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6385048395",
+        "information": "board",
+        "name": "History On Spratley Islands",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6835269,
+          20.8573568
+        ]
+      },
+      "id": "node/6385048395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6389069171",
+        "board_type": "notice",
+        "information": "board",
+        "name": "Bảng tin TDP 24",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6912318,
+          10.7530261
+        ]
+      },
+      "id": "node/6389069171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6402094633",
+        "check_date": "2025-02-20",
+        "information": "map",
+        "map_size": "city",
+        "map_type": "scheme",
+        "name": "Hội An Highlights",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3323713,
+          15.8776482
+        ]
+      },
+      "id": "node/6402094633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6402094634",
+        "information": "map",
+        "map_size": "city",
+        "map_type": "scheme",
+        "name": "Sơ Đồ Du Lịch Hội An",
+        "name:en": "Hội An Tourist Map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.33119,
+          15.8794729
+        ]
+      },
+      "id": "node/6402094634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6402094635",
+        "information": "map",
+        "map_size": "site",
+        "map_type": "scheme",
+        "name:en": "Vietnam-Japan Cultural Space",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3234219,
+          15.8783429
+        ]
+      },
+      "id": "node/6402094635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6402138453",
+        "information": "map",
+        "map_size": "site",
+        "map_type": "scheme",
+        "name": "Sơ Đồ Du Tích Mỹ Sơn",
+        "name:en": "Plan of the Mỹ Sơn Site",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1091044,
+          15.7735335
+        ]
+      },
+      "id": "node/6402138453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6445774985",
+        "addr:housenumber": "2",
+        "addr:street": "Phố Lê Thái Tổ",
+        "information": "office",
+        "name:en": "Vietnamtourism",
+        "opening_hours": "Mo-Su 08:00-12:00, 13:30-17:00",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510843,
+          21.0317242
+        ]
+      },
+      "id": "node/6445774985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6476741385",
+        "addr:street": "d. dien bien phu",
+        "name": "xe greenbus",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.844369,
+          22.3398502
+        ]
+      },
+      "id": "node/6476741385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6482331585",
+        "name:en": "Start walking from here or a bit further up (the rocky uphill is treacherous)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4161239,
+          23.1138466
+        ]
+      },
+      "id": "node/6482331585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6482331586",
+        "name:en": "Take a turn up the steps towards the small building",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4125857,
+          23.1144799
+        ]
+      },
+      "id": "node/6482331586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6490033385",
+        "name:en": "There is no entrance to the underground river here (don't bother searching!)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3121827,
+          23.294358
+        ]
+      },
+      "id": "node/6490033385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6535082724",
+        "board_type": "history",
+        "check_date": "2025-01-16",
+        "information": "board",
+        "name": "Lầu Kiến Trung",
+        "name:zh": "建忠殿",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5765646,
+          16.4710694
+        ]
+      },
+      "id": "node/6535082724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6539100485",
+        "name:en": "Nice spot for swimming",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2628306,
+          17.5001028
+        ]
+      },
+      "id": "node/6539100485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6539667033",
+        "board_type": "history",
+        "information": "board",
+        "name": "Chân Tảng Bằng Đá Thời Lý - Trần",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8388325,
+          21.0371007
+        ]
+      },
+      "id": "node/6539667033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6539667082",
+        "board_type": "history",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8388358,
+          21.0369023
+        ]
+      },
+      "id": "node/6539667082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6544886503",
+        "board_type": "history",
+        "information": "board",
+        "name": "Nền Điện Kính Thiên",
+        "name:en": "Foundation of Kinh Thien Hall",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8402386,
+          21.0365149
+        ]
+      },
+      "id": "node/6544886503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550665485",
+        "name:en": "Start of trail for Elephant cave",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2842977,
+          17.5215659
+        ]
+      },
+      "id": "node/6550665485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550667785",
+        "name:en": "Start of trail (not allowed without tour)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2630118,
+          17.5038447
+        ]
+      },
+      "id": "node/6550667785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6578201787",
+        "name": "bún tôm số 1",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0187335,
+          14.4451272
+        ]
+      },
+      "id": "node/6578201787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6578216186",
+        "name": "chùa",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8068157,
+          11.5416472
+        ]
+      },
+      "id": "node/6578216186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6578219585",
+        "name": "cafe Đông Dao",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6065862,
+          11.6490735
+        ]
+      },
+      "id": "node/6578219585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6579518931",
+        "board_type": "notice",
+        "information": "board",
+        "name": "Trạm tin phường Hàng Mã",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8476476,
+          21.0380401
+        ]
+      },
+      "id": "node/6579518931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6586555560",
+        "amenity": "Vì học sinh Trường Sa thân yêu",
+        "board_type": "board",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.919112,
+          8.6447273
+        ]
+      },
+      "id": "node/6586555560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591434554",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513406,
+          21.0292263
+        ]
+      },
+      "id": "node/6591434554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6597968743",
+        "board_type": "history",
+        "check_date": "2024-05-07",
+        "information": "board",
+        "name": "Khu Thái Học",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8361363,
+          21.0296363
+        ]
+      },
+      "id": "node/6597968743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6633485058",
+        "information": "guidepost",
+        "name": "Đường lên Chùa Quan Âm Tịnh Viện, Di tích Trận địa Pháo cổ & Hầm Thủy Lôi Núi Lớn",
+        "note": "444 Trần Phú, Phường 5, Thành phố Vũng Tàu, Tỉnh Bà Rịa - Vũng Tàu",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0656967,
+          10.3825411
+        ]
+      },
+      "id": "node/6633485058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649958885",
+        "name:en": "Park in front of restaurants, don’t pay here",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9167433,
+          20.2183416
+        ]
+      },
+      "id": "node/6649958885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649959085",
+        "name:en": "Bridge torn down(july2019)you can go over bamboo bridge-20k each way)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9659136,
+          22.2643022
+        ]
+      },
+      "id": "node/6649959085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6665251685",
+        "name": "Toc Tien Station",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0310449,
+          16.0269471
+        ]
+      },
+      "id": "node/6665251685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6743366807",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7752073,
+          22.3054477
+        ]
+      },
+      "id": "node/6743366807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6743928984",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.747237,
+          21.8554969
+        ]
+      },
+      "id": "node/6743928984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6757123011",
+        "information": "board",
+        "name:en": "Mac Dynasty Citadel Lang Son",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.749024,
+          21.8576962
+        ]
+      },
+      "id": "node/6757123011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6791916885",
+        "name": "trạm dừng chân đi tà pao",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.2928056,
+          10.936117
+        ]
+      },
+      "id": "node/6791916885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6919616673",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8538862,
+          21.0273325
+        ]
+      },
+      "id": "node/6919616673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6924044034",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9111148,
+          21.0643712
+        ]
+      },
+      "id": "node/6924044034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6936157385",
+        "name:en": "Lake road, lieu do direction",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.765643,
+          22.1116304
+        ]
+      },
+      "id": "node/6936157385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7081798485",
+        "name": "Free motorbike parking at restaurant",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9177432,
+          20.2184522
+        ]
+      },
+      "id": "node/7081798485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085620452",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.833833,
+          21.0354723
+        ]
+      },
+      "id": "node/7085620452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085620453",
+        "check_date": "2024-05-01",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8336581,
+          21.0353445
+        ]
+      },
+      "id": "node/7085620453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085620461",
+        "board_type": "rules",
+        "check_date": "2024-07-19",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8337217,
+          21.0343291
+        ]
+      },
+      "id": "node/7085620461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692615",
+        "information": "board",
+        "name": "Khai Quật Khảo Cổ Học Phía Sau Đoan Môn",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.840192,
+          21.035328
+        ]
+      },
+      "id": "node/7085692615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692617",
+        "information": "map",
+        "name": "Khu Vực Di Tích Điện Kính Thiên",
+        "name:en": "Site of Kinh Thien Hall",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8406672,
+          21.0361615
+        ]
+      },
+      "id": "node/7085692617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692621",
+        "board_type": "history",
+        "check_date": "2025-03-23",
+        "information": "board",
+        "name": "Hầm D67",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8404393,
+          21.0372831
+        ]
+      },
+      "id": "node/7085692621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692623",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8397291,
+          21.0336037
+        ]
+      },
+      "id": "node/7085692623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692624",
+        "information": "map",
+        "name": "Doan Mon Relic Area",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8398604,
+          21.0349098
+        ]
+      },
+      "id": "node/7085692624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692629",
+        "board_type": "history",
+        "information": "board",
+        "name": "Nhà Con Rồng",
+        "name:en": "Dragon House",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8403384,
+          21.0366492
+        ]
+      },
+      "id": "node/7085692629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692633",
+        "information": "board",
+        "name": "Khu Trung Tâm Hoàng Thánh Thăng Long",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8396342,
+          21.0335922
+        ]
+      },
+      "id": "node/7085692633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692635",
+        "information": "board",
+        "name": "Di Tích Đoan Môn",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8401503,
+          21.0348877
+        ]
+      },
+      "id": "node/7085692635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692639",
+        "board_type": "history",
+        "information": "board",
+        "name": "Thềm rồng",
+        "name:en": "Imperial dragon staircase",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8403432,
+          21.0363507
+        ]
+      },
+      "id": "node/7085692639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085692641",
+        "board_type": "history",
+        "check_date": "2025-03-23",
+        "information": "board",
+        "name": "Nhà D67",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8405158,
+          21.0372399
+        ]
+      },
+      "id": "node/7085692641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7095153583",
+        "information": "office",
+        "name": "Da Nang Visitor Centre",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2248261,
+          16.0684794
+        ]
+      },
+      "id": "node/7095153583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7106435088",
+        "name": "Mae Hich",
+        "name:vi": "Mai Hich",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0069059,
+          20.6127477
+        ]
+      },
+      "id": "node/7106435088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7138305585",
+        "name:en": "Road to take the boat",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4279669,
+          23.2278616
+        ]
+      },
+      "id": "node/7138305585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7142140385",
+        "name:en": "Money exchange",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9864876,
+          22.8316313
+        ]
+      },
+      "id": "node/7142140385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7148088485",
+        "name:en": "Be careful! By wet weather difficult to reach angel eye moutain.. muddy road",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3209643,
+          22.7631552
+        ]
+      },
+      "id": "node/7148088485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7148088486",
+        "name:en": "Turn left here to go to the lake",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3284497,
+          22.7627002
+        ]
+      },
+      "id": "node/7148088486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7159950933",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5789487,
+          16.4705877
+        ]
+      },
+      "id": "node/7159950933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7160009310",
+        "description": "Truong Sanh Residence",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5752619,
+          16.4700326
+        ]
+      },
+      "id": "node/7160009310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7160020614",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5762996,
+          16.4673898
+        ]
+      },
+      "id": "node/7160020614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7160021601",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5705201,
+          16.3881806
+        ]
+      },
+      "id": "node/7160021601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7162752439",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9062716,
+          20.2847097
+        ]
+      },
+      "id": "node/7162752439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7162763622",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9065725,
+          20.284704
+        ]
+      },
+      "id": "node/7162763622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7162764789",
+        "description": "Temple of the Le Dai Hanh King",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9065492,
+          20.2858475
+        ]
+      },
+      "id": "node/7162764789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7163447485",
+        "addr:housenumber": "84",
+        "addr:street": "Trần Hưng Đạo",
+        "email": "phuquoc@alfatoursvietnam.ru",
+        "name": "ALFA TOURS PRO",
+        "name:ru": "АЛЬФА ТУРС ФУКУОК",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+84899358858",
+        "tourism": "information",
+        "website": "https://alfatoursvietnam.ru/phuquoc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9635213,
+          10.2050822
+        ]
+      },
+      "id": "node/7163447485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7168777844",
+        "board_type": "geology",
+        "check_date": "2025-03-21",
+        "information": "board",
+        "name": "Trung Trang Grotto",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9979939,
+          20.7894527
+        ]
+      },
+      "id": "node/7168777844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7168800408",
+        "check_date": "2024-02-17",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.9904498,
+          20.7936764
+        ]
+      },
+      "id": "node/7168800408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176870074",
+        "board_type": "history",
+        "check_date": "2024-05-07",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.836492,
+          21.0297657
+        ]
+      },
+      "id": "node/7176870074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178787115",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8715777,
+          21.1122946
+        ]
+      },
+      "id": "node/7178787115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178787193",
+        "description": "An Duong Vuong Temple area",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8716575,
+          21.1121016
+        ]
+      },
+      "id": "node/7178787193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178791097",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8736762,
+          21.1133496
+        ]
+      },
+      "id": "node/7178791097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178793212",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.871602,
+          21.1119733
+        ]
+      },
+      "id": "node/7178793212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178795963",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8713353,
+          21.1124118
+        ]
+      },
+      "id": "node/7178795963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178796704",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8771714,
+          21.1107729
+        ]
+      },
+      "id": "node/7178796704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178802083",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8734631,
+          21.1119487
+        ]
+      },
+      "id": "node/7178802083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178802378",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8734416,
+          21.1138891
+        ]
+      },
+      "id": "node/7178802378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178806804",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8736402,
+          21.1133525
+        ]
+      },
+      "id": "node/7178806804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178806805",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8736469,
+          21.1136105
+        ]
+      },
+      "id": "node/7178806805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178808937",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8734196,
+          21.113653
+        ]
+      },
+      "id": "node/7178808937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7178811274",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.871586,
+          21.1122435
+        ]
+      },
+      "id": "node/7178811274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7210804885",
+        "name:en": "Bad road",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0432095,
+          23.0489521
+        ]
+      },
+      "id": "node/7210804885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7217426985",
+        "addr:housenumber": "120",
+        "addr:street": "Phố Hàng Bông",
+        "email": "Tonytouristvietnam@gmail.com",
+        "information": "office",
+        "name:en": "Free Hanoi City Tour everyday",
+        "opening_hours": "Mo-Su 10:00-13:00",
+        "phone": "+84971985588",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8459616,
+          21.0296754
+        ]
+      },
+      "id": "node/7217426985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7234493185",
+        "name": "Cat Ba Journey",
+        "name:en": "Cheapest Bus tickets, cheap and good Halong Bay Tour, very nice and english speaking lady",
+        "name:vi": "Cat Ba Journey - Tourism and Booking",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.049498,
+          20.7248091
+        ]
+      },
+      "id": "node/7234493185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7279535585",
+        "name:en": "From this Point to Mui ne there are Police scams for Motorcycle drivers.",
+        "tourism": "information",
+        "website": "https://www.tigitmotorbikes.com/mui-ne-police-sand-dune-trap/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.289652,
+          10.9432775
+        ]
+      },
+      "id": "node/7279535585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7373934498",
+        "information": "map",
+        "name": "Bản đồ chủ quyền biển đảo Việt Nam",
+        "name:en": "Map of Vietnam's sovereignty over the islands and seas",
+        "name:id": "Peta Kedaulatan Laut dan Pulau",
+        "name:zh": "越南海岛主权地图",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0902684,
+          10.3346333
+        ]
+      },
+      "id": "node/7373934498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7383674385",
+        "name": "bánh bèo ngon Phước Tỉnh",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0744987,
+          10.3609466
+        ]
+      },
+      "id": "node/7383674385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7389407285",
+        "name": "chè Ngọc Điệp",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4387684,
+          10.3883105
+        ]
+      },
+      "id": "node/7389407285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7394142885",
+        "name": "Hòn phụ tử",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.6351406,
+          10.1428584
+        ]
+      },
+      "id": "node/7394142885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7394221385",
+        "name": "cây thốt nốt trái tim",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.951032,
+          10.401473
+        ]
+      },
+      "id": "node/7394221385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7418220996",
+        "name": "Nhà của Dung Hổ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.208712,
+          12.9924703
+        ]
+      },
+      "id": "node/7418220996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7908036692",
+        "name": "Cây da lôc giao",
+        "name:en": "6 rooted-intersecting ficus",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4066266,
+          11.4418514
+        ]
+      },
+      "id": "node/7908036692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7908036889",
+        "information": "guidepost",
+        "name": "Cây gõ bác dông",
+        "name:en": "Uncle Dong Reddish Wood Tree Sign",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4223609,
+          11.4379546
+        ]
+      },
+      "id": "node/7908036889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7908036890",
+        "name:en": "Da Ban Stream Trail Sign",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4045249,
+          11.4408959
+        ]
+      },
+      "id": "node/7908036890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7972608589",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3099082,
+          23.2937087
+        ]
+      },
+      "id": "node/7972608589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7972608592",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3109825,
+          23.2940721
+        ]
+      },
+      "id": "node/7972608592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7972608594",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3103897,
+          23.2941473
+        ]
+      },
+      "id": "node/7972608594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7975480312",
+        "board_type": "geology",
+        "information": "board",
+        "name": "Cụm Di sản địa chất khu vực Sà Phìn - Lũng Tác",
+        "name:en": "Geoheritage of Sà Phìn - Lũng Tác area",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2658141,
+          23.2528378
+        ]
+      },
+      "id": "node/7975480312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8569184254",
+        "name": "Thác Edu",
+        "name:ru": "Водопад ЛИЛУ",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.7814364,
+          12.2591327
+        ]
+      },
+      "id": "node/8569184254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8592028817",
+        "name": "surf table SUP",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0668894,
+          23.0051278
+        ]
+      },
+      "id": "node/8592028817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8785201817",
+        "name": "camping site",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7527478,
+          22.6075413
+        ]
+      },
+      "id": "node/8785201817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8831426218",
+        "name": "Potential family homestay",
+        "name:en": "potential family",
+        "name:es": "potential family",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1947583,
+          23.2022837
+        ]
+      },
+      "id": "node/8831426218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8852221117",
+        "name": "lung thau",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1805362,
+          23.1881375
+        ]
+      },
+      "id": "node/8852221117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8852530717",
+        "name:en": "abandoned house for rent",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1876863,
+          23.19736
+        ]
+      },
+      "id": "node/8852530717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8871389117",
+        "name": "end of roád",
+        "name:en": "road end",
+        "name:es": "road end",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.168338,
+          23.2282129
+        ]
+      },
+      "id": "node/8871389117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8993045217",
+        "name": "Trung tâm quảng bá du lịch",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9702049,
+          21.5358625
+        ]
+      },
+      "id": "node/8993045217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9357620117",
+        "name:ca": "potencial casa",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2708984,
+          23.2660367
+        ]
+      },
+      "id": "node/9357620117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9357857222",
+        "name:en": "bee’s place",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2729149,
+          23.1171772
+        ]
+      },
+      "id": "node/9357857222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9644783326",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "name": "Rose Valley",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4576536,
+          11.8620628
+        ]
+      },
+      "id": "node/9644783326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9859762047",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5894536,
+          16.4420715
+        ]
+      },
+      "id": "node/9859762047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9988788317",
+        "name": "Ako dhong",
+        "name:fr": "Village",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0620236,
+          12.7041997
+        ]
+      },
+      "id": "node/9988788317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10205504616",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.726421,
+          17.3748718
+        ]
+      },
+      "id": "node/10205504616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10205545218",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "name": "Bãi tắm Hải Ninh Kính chào quý khách",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6887716,
+          17.3668575
+        ]
+      },
+      "id": "node/10205545218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10209306813",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7240571,
+          17.3729532
+        ]
+      },
+      "id": "node/10209306813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10223052621",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "name": "Nui Dia Linh",
+        "name:en": "Dia Linh Mountain",
+        "name:fr": "Montagne Dia Linh",
+        "name:vi": "Nui Dia Linh",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9098705,
+          20.244504
+        ]
+      },
+      "id": "node/10223052621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10268906508",
+        "information": "board",
+        "name": "Poisonous Tree",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1606958,
+          20.8208651
+        ]
+      },
+      "id": "node/10268906508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10295071610",
+        "name:en": "Ticket Office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9088635,
+          20.2845075
+        ]
+      },
+      "id": "node/10295071610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10633393962",
+        "address": "19 Nguyễn Hữu Thọ, Tân Phong, Quận 7, TP HCM",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "name": "Đại học Tôn Đức Thắng",
+        "name:en": "Ton Duc Thang University",
+        "operator": "Đại học Tôn Đức Thắng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6998188,
+          10.7325639
+        ]
+      },
+      "id": "node/10633393962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10633729996",
+        "address": "19 Nguyễn Hữu Thọ, Tân Phong, Quận 7, TP HCM",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "name": "Đại học Tôn Đức Thắng",
+        "name:en": "Ton Duc Thang University",
+        "operator": "Đại học Tôn Đức Thắng",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.698958,
+          10.7332008
+        ]
+      },
+      "id": "node/10633729996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10635540904",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0806772,
+          20.8589695
+        ]
+      },
+      "id": "node/10635540904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10635583305",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0801891,
+          20.8583596
+        ]
+      },
+      "id": "node/10635583305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10678697705",
+        "addr:housenumber": "024",
+        "addr:postcode": "2700000",
+        "email": "Trannamloc89@gmail.com",
+        "name": "Cao Bang Motorbikerentals",
+        "opening_hours": "24/7",
+        "phone": "+84868352168",
+        "tourism": "information",
+        "website": "http://Facebook.com/caobangmotorbikerentals"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2637073,
+          22.6602358
+        ]
+      },
+      "id": "node/10678697705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10815694806",
+        "name:en": "Road under construction in 2023. Worth it !!",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.4980586,
+          22.3936155
+        ]
+      },
+      "id": "node/10815694806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10822875820",
+        "addr": "69X5+4G Bến Tre, Ben Tre",
+        "board_type": "religion",
+        "historic": "yes",
+        "information": "map",
+        "map_type": "information",
+        "name": "Ben Tre Holy Land",
+        "name:vi": "Thánh Địa Bến Tre",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3588125,
+          10.2478125
+        ]
+      },
+      "id": "node/10822875820"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10831380266",
+        "addr:postcode": "70000",
+        "board_type": "religion",
+        "email": "maitrism@proton.me",
+        "historic": "yes",
+        "information": "map",
+        "inscription": "Maitrism",
+        "map_type": "information",
+        "name": "Maitrism",
+        "opening_hours": "24/7",
+        "operator": "Maitrism",
+        "phone": "+13173449969",
+        "tourism": "information",
+        "website": "https://granol.io/maitrism",
+        "wikipedia": "vi:Đạo Nhân Từ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6893134,
+          10.7568076
+        ]
+      },
+      "id": "node/10831380266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10845600805",
+        "name": "No Automatic Scooters",
+        "name:en": "Automatic scooters prohibited (manual shift motorcycles/cars allowed)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3097764,
+          16.1137653
+        ]
+      },
+      "id": "node/10845600805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10869973005",
+        "name:en": "Le Journey",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.982541,
+          20.9269899
+        ]
+      },
+      "id": "node/10869973005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10889069405",
+        "information": "office",
+        "name": "Trung Tâm Dự Khách Vísitor Center",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8723598,
+          16.2497354
+        ]
+      },
+      "id": "node/10889069405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10918134805",
+        "name:en": "Thon Lac Nghie",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8806187,
+          11.3392841
+        ]
+      },
+      "id": "node/10918134805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10949968405",
+        "name:en": "Access to Mekong",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5194746,
+          10.2145341
+        ]
+      },
+      "id": "node/10949968405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10961214305",
+        "name:en": "Boat Ticket out of the island",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6057589,
+          8.6811275
+        ]
+      },
+      "id": "node/10961214305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11097103406",
+        "information": "yes",
+        "name": "Guest Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2287873,
+          16.0389567
+        ]
+      },
+      "id": "node/11097103406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11104991038",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1011381,
+          20.9472302
+        ]
+      },
+      "id": "node/11104991038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11127396526",
+        "board_type": "welcome_sign",
+        "direction": "110",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4028694,
+          21.2890569
+        ]
+      },
+      "id": "node/11127396526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11127562981",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3971054,
+          21.2902292
+        ]
+      },
+      "id": "node/11127562981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162742705",
+        "name": "4",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8686991,
+          20.2813862
+        ]
+      },
+      "id": "node/11162742705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162742706",
+        "name:en": "Tu An tower",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8659019,
+          20.2797541
+        ]
+      },
+      "id": "node/11162742706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162742707",
+        "name": "33",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8658349,
+          20.2798615
+        ]
+      },
+      "id": "node/11162742707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162742708",
+        "name": "10",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.866858,
+          20.2779386
+        ]
+      },
+      "id": "node/11162742708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162742805",
+        "name": "7",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8683379,
+          20.2807044
+        ]
+      },
+      "id": "node/11162742805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162742905",
+        "name": "9",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8675456,
+          20.2790129
+        ]
+      },
+      "id": "node/11162742905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162898906",
+        "name": "13",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8664956,
+          20.2746759
+        ]
+      },
+      "id": "node/11162898906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162900509",
+        "name": "11",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8664424,
+          20.277264
+        ]
+      },
+      "id": "node/11162900509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162900706",
+        "name": "14",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8647649,
+          20.2740278
+        ]
+      },
+      "id": "node/11162900706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11162927106",
+        "name": "12",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8658589,
+          20.2760934
+        ]
+      },
+      "id": "node/11162927106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11189743748",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7984452,
+          21.0459428
+        ]
+      },
+      "id": "node/11189743748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11210222100",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "inscription": "Đại học Kĩ thuật Lê Quý Đôn\nLe Quy Don Technical University",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7864498,
+          21.0466213
+        ]
+      },
+      "id": "node/11210222100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212488936",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7822602,
+          21.0486606
+        ]
+      },
+      "id": "node/11212488936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212747093",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7837242,
+          21.0461125
+        ]
+      },
+      "id": "node/11212747093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212747094",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7835259,
+          21.0461109
+        ]
+      },
+      "id": "node/11212747094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212747127",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7845954,
+          21.0462028
+        ]
+      },
+      "id": "node/11212747127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212747136",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7846928,
+          21.0462028
+        ]
+      },
+      "id": "node/11212747136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11212782846",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7847901,
+          21.0462027
+        ]
+      },
+      "id": "node/11212782846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11215130265",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7817806,
+          21.0485934
+        ]
+      },
+      "id": "node/11215130265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11351132871",
+        "addr:housenumber": "19",
+        "name": "Tourist Information Centre",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6241064,
+          17.4648837
+        ]
+      },
+      "id": "node/11351132871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11449757786",
+        "addr:city": "bắc giang",
+        "addr:district": "hoàng văn thụ",
+        "addr:housenumber": "76C4+V25",
+        "addr:province": "bắc giang",
+        "addr:street": "Hùng Vương",
+        "addr:subdistrict": "hoàng văn thụ",
+        "information": "office",
+        "name": "VietNam MapInfo",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2050983,
+          21.272132
+        ]
+      },
+      "id": "node/11449757786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11459117061",
+        "information": "office",
+        "name": "Thông tin Du lịch Hà Nội",
+        "name:en": "Hanoi Tourism Information",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8570305,
+          21.0239139
+        ]
+      },
+      "id": "node/11459117061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11506120851",
+        "information": "office",
+        "name": "Quầy thông tin và bán vé",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.983128,
+          20.9570895
+        ]
+      },
+      "id": "node/11506120851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11506120852",
+        "information": "office",
+        "name": "Quầy thông tin và bán vé",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9759838,
+          20.9536952
+        ]
+      },
+      "id": "node/11506120852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11513586669",
+        "addr:housenumber": "W7MQ+RC6",
+        "addr:postcode": "810000",
+        "addr:street": "Xuân Lộc",
+        "name": "Cầu Bốn Thước",
+        "name:en": "Four Gauge Bridge",
+        "opening_hours": "24/7",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.2885043,
+          10.9345649
+        ]
+      },
+      "id": "node/11513586669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11536087095",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0968858,
+          12.2560701
+        ]
+      },
+      "id": "node/11536087095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11598158959",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7819091,
+          21.0369972
+        ]
+      },
+      "id": "node/11598158959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11614903224",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7821637,
+          21.0369664
+        ]
+      },
+      "id": "node/11614903224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11617804914",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7817675,
+          21.0383241
+        ]
+      },
+      "id": "node/11617804914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11618566523",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7818755,
+          21.0379006
+        ]
+      },
+      "id": "node/11618566523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11632580569",
+        "addr:housenumber": "18/2/9",
+        "addr:postcode": "900000",
+        "addr:street": "Trương Định",
+        "email": "info@canthobiketours.com",
+        "name": "Thông tin du lịch",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "+84962008953",
+        "tourism": "information",
+        "website": "https://canthobiketours.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7848199,
+          10.038933
+        ]
+      },
+      "id": "node/11632580569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11635030445",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.798346,
+          21.0400063
+        ]
+      },
+      "id": "node/11635030445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11635030446",
+        "information": "office",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7984758,
+          21.0406247
+        ]
+      },
+      "id": "node/11635030446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11637382370",
+        "name:en": "Wrong location for Blue Lake. correct location is also on the map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3194338,
+          15.8899063
+        ]
+      },
+      "id": "node/11637382370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11639829369",
+        "name:en": "no shuttle here anymore",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1219489,
+          15.7657365
+        ]
+      },
+      "id": "node/11639829369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11645403969",
+        "addr:housenumber": "10",
+        "addr:postcode": "100000",
+        "addr:street": "Ngõ 144 An Dương Vương",
+        "name": "Bè Cá Tuấn Anh",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "phone": "090 668 60 66",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.797451,
+          21.0915886
+        ]
+      },
+      "id": "node/11645403969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11663386449",
+        "name": "End Of Road 2025",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4407547,
+          12.2588221
+        ]
+      },
+      "id": "node/11663386449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11668430469",
+        "name:en": "NO bridge !",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3687584,
+          17.5986051
+        ]
+      },
+      "id": "node/11668430469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11696642970",
+        "name:en": "Do not touch or take out the starfish. They die.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9440142,
+          10.389292
+        ]
+      },
+      "id": "node/11696642970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11696642971",
+        "name:en": "You can take boat from here to starfish beach. 100k p.p. You can also walk 20-30min.",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9386631,
+          10.3747915
+        ]
+      },
+      "id": "node/11696642971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11832165658",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8355134,
+          21.038943
+        ]
+      },
+      "id": "node/11832165658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11841319480",
+        "information": "route_marker",
+        "name": "intersection where 3D2N and 2D1N split",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1853142,
+          17.4398549
+        ]
+      },
+      "id": "node/11841319480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11846443380",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9615292,
+          20.2628003
+        ]
+      },
+      "id": "node/11846443380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11876474969",
+        "name:en": "Road destroyed",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2737504,
+          16.1273414
+        ]
+      },
+      "id": "node/11876474969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12054603730",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.7981875,
+          12.2516553
+        ]
+      },
+      "id": "node/12054603730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12086846809",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.831211,
+          21.0364203
+        ]
+      },
+      "id": "node/12086846809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12091477918",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8355128,
+          21.0312483
+        ]
+      },
+      "id": "node/12091477918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12385922768",
+        "addr:city": "Đà Nẵng",
+        "addr:district": "Quận Sơn Trà",
+        "addr:housenumber": "70",
+        "addr:province": "Đà Nẵng",
+        "addr:street": "Lý Từ Tấn",
+        "addr:subdistrict": "Thọ Quang",
+        "information": "visitor_centre",
+        "operator": "GreenViet (https://greenviet.org/)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2589873,
+          16.1073055
+        ]
+      },
+      "id": "node/12385922768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12460765501",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9808612,
+          22.8141361
+        ]
+      },
+      "id": "node/12460765501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12466466920",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.8583588,
+          16.1993793
+        ]
+      },
+      "id": "node/12466466920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12548171456",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6260798,
+          8.7274584
+        ]
+      },
+      "id": "node/12548171456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12592517201",
+        "name": "На водопад наверх прямо",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1011441,
+          12.2219294
+        ]
+      },
+      "id": "node/12592517201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12615298505",
+        "board_type": "nature",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4422879,
+          11.4504829
+        ]
+      },
+      "id": "node/12615298505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12615298602",
+        "board_type": "nature",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4293382,
+          11.4256365
+        ]
+      },
+      "id": "node/12615298602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12620366050",
+        "board_type": "nature",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0909383,
+          9.588191
+        ]
+      },
+      "id": "node/12620366050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12620399349",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Dơi ngựa thái lan",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0733683,
+          9.6215481
+        ]
+      },
+      "id": "node/12620399349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12622951409",
+        "information": "map",
+        "map_size": "region",
+        "map_type": "topo",
+        "name": "Bản Đô",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.6307516,
+          9.7986894
+        ]
+      },
+      "id": "node/12622951409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12636014615",
+        "board_type": "notice",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.054627,
+          10.2086657
+        ]
+      },
+      "id": "node/12636014615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12636014616",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0548852,
+          10.2087809
+        ]
+      },
+      "id": "node/12636014616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670314985",
+        "information": "map",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4289135,
+          11.4243021
+        ]
+      },
+      "id": "node/12670314985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670348476",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Cây Gõ bác Đồng",
+        "name:en": "Uncle Dong Makha Tree",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4234286,
+          11.4374681
+        ]
+      },
+      "id": "node/12670348476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670419044",
+        "information": "board",
+        "name": "KHU K.I AREA I",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4302752,
+          11.4412547
+        ]
+      },
+      "id": "node/12670419044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670442144",
+        "information": "board",
+        "name": "KHU K.I AREA I",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4324972,
+          11.4431681
+        ]
+      },
+      "id": "node/12670442144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670520287",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Cây Tụng",
+        "name:en": "Acient Tung Tree",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3643127,
+          11.45078
+        ]
+      },
+      "id": "node/12670520287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670525532",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3477574,
+          11.4577744
+        ]
+      },
+      "id": "node/12670525532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670594868",
+        "board_type": "nature",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4066081,
+          11.4418452
+        ]
+      },
+      "id": "node/12670594868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12670594871",
+        "information": "board",
+        "name": "KHU K.I AREA I",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4318184,
+          11.4415621
+        ]
+      },
+      "id": "node/12670594871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12674735245",
+        "board_type": "nature",
+        "information": "board",
+        "name": "Cây Đa",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.2733207,
+          12.2233479
+        ]
+      },
+      "id": "node/12674735245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12676826043",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.438738,
+          12.249856
+        ]
+      },
+      "id": "node/12676826043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12691210392",
+        "board_type": "notice",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1646174,
+          11.6871731
+        ]
+      },
+      "id": "node/12691210392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12691212647",
+        "board_type": "notice",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1660477,
+          11.6882848
+        ]
+      },
+      "id": "node/12691212647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12696727493",
+        "board_type": "notice",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4272378,
+          11.0638713
+        ]
+      },
+      "id": "node/12696727493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12696881632",
+        "board_type": "notice",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3052162,
+          10.9525884
+        ]
+      },
+      "id": "node/12696881632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12696914359",
+        "board_type": "geology",
+        "information": "board",
+        "name": "Đồi Cát Bay",
+        "name:en": "Sand Dunes",
+        "tourism": "information",
+        "website": "https://muinevietnam.vn/vi/doicatbaymuine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2978477,
+          10.948883
+        ]
+      },
+      "id": "node/12696914359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698776242",
+        "board_type": "history",
+        "information": "board",
+        "name": "Làng Chài Mũi Né",
+        "name:en": "Mui Ne Fishing Village",
+        "tourism": "information",
+        "website": "https://muinevietnam.vn/vi/langchaimuine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2793613,
+          10.9409844
+        ]
+      },
+      "id": "node/12698776242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698785329",
+        "board_type": "history",
+        "information": "board",
+        "name": "Bãi Đá Ông Địa",
+        "name:en": "Da Ong Dia Beach",
+        "tourism": "information",
+        "website": "https://muinevietnam.vn/vi/daongdiabeach"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1842521,
+          10.9368487
+        ]
+      },
+      "id": "node/12698785329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698899014",
+        "information": "board",
+        "name": "Tháp Pô Sah Inư",
+        "name:en": "Po Sah Inu Tower",
+        "tourism": "information",
+        "website": "https://muinevietnam.vn/vi/posanu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1471089,
+          10.9366961
+        ]
+      },
+      "id": "node/12698899014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698939008",
+        "board_type": "history",
+        "information": "board",
+        "name": "lễ hội Katê tại tháp Po Sah Inư",
+        "name:en": "Kate festival at Po Sah Inu tower",
+        "tourism": "information",
+        "website": "https://muinevietnam.vn/vi/detailnews/?t=le-hoi-kate-tai-thap-po-sah-inu&id=news_2310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1462594,
+          10.9359748
+        ]
+      },
+      "id": "node/12698939008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698939009",
+        "board_type": "history",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1460303,
+          10.9358479
+        ]
+      },
+      "id": "node/12698939009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12698961567",
+        "information": "board",
+        "name": "Tháp nước Phan Thiết",
+        "name:en": "Phan Thiet water tower",
+        "tourism": "information",
+        "website": "https://muinevietnam.vn/vi/thapnuocpt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1001578,
+          10.9287832
+        ]
+      },
+      "id": "node/12698961567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12717823885",
+        "information": "guidepost",
+        "name": "Noî Quy",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3746178,
+          10.3319055
+        ]
+      },
+      "id": "node/12717823885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12731141301",
+        "name": "Closed road (March 25)",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9777428,
+          20.2554809
+        ]
+      },
+      "id": "node/12731141301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12745179814",
+        "information": "guidepost",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4264154,
+          11.4392885
+        ]
+      },
+      "id": "node/12745179814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12819714967",
+        "board_type": "welcome_sign",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2446858,
+          21.1555659
+        ]
+      },
+      "id": "node/12819714967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12828756543",
+        "board_type": "nature",
+        "information": "board",
+        "phone": "+84 372 838 999",
+        "tourism": "information",
+        "website": "https://cattiennationalpark.com.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3221194,
+          11.3826516
+        ]
+      },
+      "id": "node/12828756543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12828775084",
+        "board_type": "nature",
+        "information": "board",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3221905,
+          11.3826568
+        ]
+      },
+      "id": "node/12828775084"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12834033580",
+        "name": "Under construction 2025",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3493997,
+          11.4188962
+        ]
+      },
+      "id": "node/12834033580"
+    }
+  ]
+}

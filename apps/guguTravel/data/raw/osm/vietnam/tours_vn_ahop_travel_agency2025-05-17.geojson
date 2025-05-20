@@ -1,0 +1,7007 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-16T16:10:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/589652301",
+        "addr:city": "Dalat",
+        "addr:housenumber": "124",
+        "addr:street": "Ba Tháng Hai",
+        "building": "yes",
+        "name": "DALAT OPEN TOURS",
+        "operator": "TNK TRAVEL",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108.432435,
+              11.9415715
+            ],
+            [
+              108.4325072,
+              11.9416107
+            ],
+            [
+              108.4323664,
+              11.941859
+            ],
+            [
+              108.4322942,
+              11.9418199
+            ],
+            [
+              108.432435,
+              11.9415715
+            ]
+          ]
+        ]
+      },
+      "id": "way/589652301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/694479627",
+        "addr:housenumber": "218",
+        "addr:street": "Đường Điện Biên Phủ",
+        "building": "temple",
+        "name": "Vietjetair",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108.1964062,
+              16.0660183
+            ],
+            [
+              108.1963597,
+              16.0660192
+            ],
+            [
+              108.1963566,
+              16.0658773
+            ],
+            [
+              108.1964031,
+              16.0658763
+            ],
+            [
+              108.1964062,
+              16.0660183
+            ]
+          ]
+        ]
+      },
+      "id": "way/694479627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/695895013",
+        "building": "yes",
+        "name": "Fiditour Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.7027752,
+              10.7745285
+            ],
+            [
+              106.7026381,
+              10.7743829
+            ],
+            [
+              106.7027401,
+              10.7742902
+            ],
+            [
+              106.7028772,
+              10.7744358
+            ],
+            [
+              106.7027752,
+              10.7745285
+            ]
+          ]
+        ]
+      },
+      "id": "way/695895013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/792193940",
+        "building": "yes",
+        "name": "Hoa Mai",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.0751573,
+              10.3484364
+            ],
+            [
+              107.0751029,
+              10.3485716
+            ],
+            [
+              107.0750691,
+              10.3485596
+            ],
+            [
+              107.0751202,
+              10.3484229
+            ],
+            [
+              107.0751573,
+              10.3484364
+            ]
+          ]
+        ]
+      },
+      "id": "way/792193940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1218469295",
+        "addr:district": "Phú Hội",
+        "addr:housenumber": "9 tổ 11",
+        "addr:place": "Huế",
+        "addr:postcode": "49000",
+        "addr:street": "Lê Lợi kiet 66",
+        "building": "yes",
+        "check_date:opening_hours": "2023-10-26",
+        "email": "guidetvn@gmail.com",
+        "mobile": "+84 817 431 431",
+        "name": "Hue Tours",
+        "name:signed": "no",
+        "note": "address needs correction",
+        "opening_hours:signed": "no",
+        "shop": "travel_agency",
+        "website": "https://nguyen-tour.business.site"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              107.5949394,
+              16.4695785
+            ],
+            [
+              107.5950339,
+              16.4696384
+            ],
+            [
+              107.59499,
+              16.4697022
+            ],
+            [
+              107.5948954,
+              16.4696423
+            ],
+            [
+              107.5949394,
+              16.4695785
+            ]
+          ]
+        ]
+      },
+      "id": "way/1218469295"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/542601018",
+        "name": "Cuulong Tourist",
+        "shop": "travel_agency",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9714673,
+          10.2579478
+        ]
+      },
+      "id": "node/542601018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/943230076",
+        "name": "Đại Lý Bán Vé Máy Bay Việt Nam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.711216,
+          10.7899087
+        ]
+      },
+      "id": "node/943230076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/946794460",
+        "name": "Thai Express",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7056762,
+          10.7817958
+        ]
+      },
+      "id": "node/946794460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/946794497",
+        "name": "Du Lịch Hùng Vỹ",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7099613,
+          10.7890383
+        ]
+      },
+      "id": "node/946794497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/946794506",
+        "name": "Du Lịch Miền Nam",
+        "name:en": "South Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7070687,
+          10.7644017
+        ]
+      },
+      "id": "node/946794506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/980136116",
+        "name": "Công Ty Trách Nhiệm Hữu Hạn Một Thành Viên Dịch Vụ Du Lịch Công Đoàn Long An",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4238793,
+          10.5364364
+        ]
+      },
+      "id": "node/980136116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/980137127",
+        "name": "Du Lịch Tư Siêng",
+        "name:en": "Tu Sieng",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4060212,
+          10.5370931
+        ]
+      },
+      "id": "node/980137127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/980138584",
+        "name": "Đại Lý Bán Vé Máy Bay Việt Nam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4131659,
+          10.5414513
+        ]
+      },
+      "id": "node/980138584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1150926585",
+        "operator": "Vietnam Airlines",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4332127,
+          11.9364411
+        ]
+      },
+      "id": "node/1150926585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1152316068",
+        "name": "Phòng Vé Máy Bay",
+        "name:en": "Air ticket",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4460265,
+          11.936627
+        ]
+      },
+      "id": "node/1152316068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1152344978",
+        "name": "Phòng Vé Máy Bay",
+        "name:en": "Air ticket",
+        "shop": "travel_agency",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4444983,
+          11.9374222
+        ]
+      },
+      "id": "node/1152344978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1555554590",
+        "name": "Blue Swimmer Adventures",
+        "shop": "travel_agency",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0578831,
+          20.7320601
+        ]
+      },
+      "id": "node/1555554590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1939509184",
+        "addr:city": "Cát Bà",
+        "addr:housename": "Noble House",
+        "addr:housenumber": "229",
+        "addr:province": "Vietnam",
+        "addr:street": "Đường 1/4",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "sports_centre",
+        "name": "Cat Ba Local",
+        "old_name": "Slo Pony Adventures",
+        "shop": "travel_agency",
+        "sport": "climbing;kayak;stand_up_paddling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.050286,
+          20.7236391
+        ]
+      },
+      "id": "node/1939509184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2068752777",
+        "name": "GM Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1950953,
+          12.2373614
+        ]
+      },
+      "id": "node/2068752777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2068752802",
+        "name": "Mir Tour",
+        "name:de": "Mir Tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1941333,
+          12.2366426
+        ]
+      },
+      "id": "node/2068752802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2069606520",
+        "name": "Sea Crystal Tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.193929,
+          12.2362957
+        ]
+      },
+      "id": "node/2069606520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2070423200",
+        "addr:housenumber": "56",
+        "name": "Nha Trang Smile Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1949045,
+          12.2390074
+        ]
+      },
+      "id": "node/2070423200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2076777568",
+        "check_date": "2024-09-19",
+        "name": "Vietnam Airlines",
+        "name:de": "Vietnam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1945917,
+          12.2348821
+        ]
+      },
+      "id": "node/2076777568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2091401452",
+        "name": "Hoi An Tickets",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3263923,
+          15.876802
+        ]
+      },
+      "id": "node/2091401452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2092582340",
+        "name": "Hoi An Tickets",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3312547,
+          15.8775227
+        ]
+      },
+      "id": "node/2092582340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2092582372",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2646519,
+          16.0034039
+        ]
+      },
+      "id": "node/2092582372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2136331315",
+        "name": "Hoang Long",
+        "shop": "travel_agency",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6902109,
+          20.8657497
+        ]
+      },
+      "id": "node/2136331315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2495914595",
+        "name": "cửa hàng xe máy phú hải thành",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6657565,
+          20.8619585
+        ]
+      },
+      "id": "node/2495914595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2590496220",
+        "brand": "Vietnam Airlines",
+        "name": "Vietnam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9588579,
+          10.2148988
+        ]
+      },
+      "id": "node/2590496220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2598670021",
+        "brand": "Vietnam Airlines",
+        "name": "Du Lịch Vietnam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6676645,
+          10.7677795
+        ]
+      },
+      "id": "node/2598670021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2859940471",
+        "addr:city": "Hanoï",
+        "addr:country": "VN",
+        "addr:housenumber": "1",
+        "addr:street": "Hàng Buồm",
+        "name": "Du Lịch Adventure Indochina",
+        "phone": "+84 4 6683 5539",
+        "shop": "travel_agency",
+        "website": "https://www.adventureindochina.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8527852,
+          21.0359602
+        ]
+      },
+      "id": "node/2859940471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2946894267",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "addr:housenumber": "08",
+        "addr:postcode": "10000",
+        "addr:street": "Đường Nguyễn Chí Thanh",
+        "name": "Du Lịch Quốc Tế Đại Việt",
+        "name:en": "GrandViet Tour",
+        "note": "Trụ sở của công ty Du Lịch Quốc Tế Đại Việt - GrandViet Tour. Chuyên về các tour và dịch vụ du lịch, lưu trú, vận tải cho du khách trong và ngoài nước.",
+        "phone": "+8443 7474 138",
+        "shop": "travel_agency",
+        "website": "https://dulichdaiviet.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8124578,
+          21.0295631
+        ]
+      },
+      "id": "node/2946894267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3312952761",
+        "addr:city": "Dương Đông",
+        "addr:postcode": "920000",
+        "addr:province": "Kiến Giang",
+        "name": "Jerry's Jungle Tours",
+        "operator": "Jerry",
+        "phone": "+84 93 822 60 21",
+        "shop": "travel_agency",
+        "website": "http://www.jerrystours.com",
+        "wikidata": "Q146695",
+        "wikipedia": "en:Phú Quốc"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9585031,
+          10.2175098
+        ]
+      },
+      "id": "node/3312952761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3797904542",
+        "addr:city": "Hanoi",
+        "addr:country": "VN",
+        "addr:district": "Hoang Mai",
+        "addr:housenumber": "912",
+        "addr:province": "Vietnam",
+        "addr:subdistrict": "No 4B",
+        "level": "9",
+        "name": "Công Ty Du Lịch Great La Vita",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8304142,
+          20.9640787
+        ]
+      },
+      "id": "node/3797904542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4082426390",
+        "addr:housenumber": "11",
+        "addr:street": "Tôn Đàn",
+        "name": "Booking Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.19626,
+          12.237955
+        ]
+      },
+      "id": "node/4082426390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4139858489",
+        "addr:street": "Đường Ðề Thám",
+        "name": "Du Lịch The Sinh",
+        "name:de": "The Sinh Tourist",
+        "name:ko": "신투어리스트",
+        "shop": "travel_agency",
+        "website": "http://www.thesinhtourist.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6935296,
+          10.7683471
+        ]
+      },
+      "id": "node/4139858489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4150425791",
+        "addr:country": "VN",
+        "addr:housenumber": "35",
+        "addr:street": "Hang Giay",
+        "name": "Du Lịch Ethnic",
+        "phone": "+84439261951",
+        "shop": "travel_agency",
+        "website": "www.ethnictravel.com.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.851339,
+          21.0348735
+        ]
+      },
+      "id": "node/4150425791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4151786600",
+        "name": "Danang Visitor Center",
+        "name:en": "Danang Visitor Center - Tourist Information",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2249522,
+          16.0684878
+        ]
+      },
+      "id": "node/4151786600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4153286091",
+        "highway": "bus_stop",
+        "name": "Trạm Xe Bus Vietnam Airlines Minibus",
+        "public_transport": "platform",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8499938,
+          21.0262081
+        ]
+      },
+      "id": "node/4153286091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4180461389",
+        "addr:housenumber": "16",
+        "addr:street": "Ngõ Huyện",
+        "name": "Du Lịch Lily's",
+        "name:en": "See You At Lily's Hostel and Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8487217,
+          21.0295942
+        ]
+      },
+      "id": "node/4180461389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4183850095",
+        "addr:housenumber": "220",
+        "addr:street": "Đường Ðề Thám",
+        "name": "Du Lịch TNK",
+        "name:de": "TNK Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6940237,
+          10.7675725
+        ]
+      },
+      "id": "node/4183850095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4216687889",
+        "name": "Ferry",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1087053,
+          10.2438949
+        ]
+      },
+      "id": "node/4216687889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4237236696",
+        "name": "Bao Tranh Travel Open Bus",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5935003,
+          16.4654017
+        ]
+      },
+      "id": "node/4237236696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4246128906",
+        "name": "Tours, bicycle and scooter rental",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3737741,
+          10.2344897
+        ]
+      },
+      "id": "node/4246128906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4256260391",
+        "addr:housenumber": "159",
+        "addr:street": "Đường Phạm Ngũ Lão",
+        "email": "tn.diamondtravel@gmail.com",
+        "name": "Du Lịch Trung Nam",
+        "phone": "0866825612",
+        "shop": "travel_agency",
+        "website": "www.trungnamtourist.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6944326,
+          10.7691149
+        ]
+      },
+      "id": "node/4256260391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4259774590",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1949742,
+          12.2331965
+        ]
+      },
+      "id": "node/4259774590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4259787793",
+        "name": "Nhà Xe Minh Quốc",
+        "name:en": "Minh Quoc Bus Station",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.00158,
+          14.346183
+        ]
+      },
+      "id": "node/4259787793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4259838290",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.19345,
+          12.239017
+        ]
+      },
+      "id": "node/4259838290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4273072590",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.851346,
+          21.0358291
+        ]
+      },
+      "id": "node/4273072590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4295430592",
+        "addr:housenumber": "18C",
+        "addr:street": "Trần Hưng Đạo",
+        "name": "Viet Nhat Bus",
+        "phone": "0583524707",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1945848,
+          12.2448446
+        ]
+      },
+      "id": "node/4295430592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4295432191",
+        "addr:country": "VN",
+        "addr:housenumber": "17",
+        "addr:street": "Lương Văn Can",
+        "name": "The Sinh Cafe Tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8501772,
+          21.0335885
+        ]
+      },
+      "id": "node/4295432191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4295590991",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "1A",
+        "addr:postcode": "100000",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Mã Mây",
+        "addr:subdistrict": "Hang Buồm",
+        "email": "atmtravelagency@gmail.com",
+        "name": "ATM Travel Agency",
+        "operator": "Travel Company",
+        "shop": "travel_agency",
+        "website": "http://www.atmtravelagenc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.852858,
+          21.0361142
+        ]
+      },
+      "id": "node/4295590991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297631495",
+        "name": "Jack Tran's Eco Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3889281,
+          15.8764942
+        ]
+      },
+      "id": "node/4297631495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4301730817",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Q1",
+        "addr:housenumber": "129",
+        "addr:postcode": "00084",
+        "addr:street": "Nguyễn Huệ",
+        "addr:subdistrict": "Ben Nghe",
+        "name": "Du Lịch Fiditour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7018622,
+          10.7739725
+        ]
+      },
+      "id": "node/4301730817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4312804092",
+        "name": "Dich Vu Dulich - Vu Huong - Minibus to Nha Trang",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4381455,
+          11.9388831
+        ]
+      },
+      "id": "node/4312804092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4315288305",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3636636,
+          10.3523555
+        ]
+      },
+      "id": "node/4315288305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4321342195",
+        "name": "Sinh travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8470898,
+          21.0335895
+        ]
+      },
+      "id": "node/4321342195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4323261191",
+        "name": "Sinh cafe tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8519882,
+          21.0328605
+        ]
+      },
+      "id": "node/4323261191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4333466202",
+        "addr:street": "Phan Châu Trinh",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3310683,
+          15.8786432
+        ]
+      },
+      "id": "node/4333466202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4333473417",
+        "addr:street": "Trần Phú",
+        "name": "Trần Phú",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3287799,
+          15.8771746
+        ]
+      },
+      "id": "node/4333473417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4345609589",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9783681,
+          22.8169939
+        ]
+      },
+      "id": "node/4345609589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4382897391",
+        "addr:country": "VN",
+        "addr:housenumber": "46",
+        "addr:street": "Gia Ngư",
+        "name:en": "Cuong's Motorbike Adventure",
+        "phone": "+84439261534",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8520233,
+          21.033123
+        ]
+      },
+      "id": "node/4382897391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4403988545",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "10",
+        "addr:housenumber": "7B",
+        "addr:postcode": "700000",
+        "addr:street": "Thành Thái",
+        "addr:subdistrict": "Ward 14",
+        "name": "Du Lịch Saigon Tour",
+        "opening_hours": "Mo-Su 08:00-22:30",
+        "operator": "Saigon Buddy Tours",
+        "phone": "+84 168 724 8520",
+        "shop": "travel_agency",
+        "website": "http://saigonbuddytours.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.667087,
+          10.7681327
+        ]
+      },
+      "id": "node/4403988545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424483890",
+        "name": "Vietjet Air Booking Office",
+        "name:vi": "Vietjet Air Booking Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543574,
+          21.0204093
+        ]
+      },
+      "id": "node/4424483890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4424677292",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8490197,
+          21.0297256
+        ]
+      },
+      "id": "node/4424677292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4437513192",
+        "name": "Du Lịch Ethnic",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8524751,
+          21.0379379
+        ]
+      },
+      "id": "node/4437513192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4442095890",
+        "addr:housenumber": "53",
+        "addr:postcode": "670000",
+        "addr:street": "Tô Hiến Thành",
+        "email": "contact@dalattrip.com",
+        "name": "Cty TNHH Hành Trình Đà Lạt",
+        "name:en": "Dalat Trip Ltd",
+        "name:vi": "Cty TNHH Hành Trình Đà Lạt",
+        "opening_hours": "Mo-Su 21:00-06:00",
+        "phone": "0633516888",
+        "shop": "travel_agency",
+        "website": "https://www.dalattrip.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4453373,
+          11.928172
+        ]
+      },
+      "id": "node/4442095890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4452658989",
+        "name": "JetstarPasific",
+        "name:vi": "JetstarPasific",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0886105,
+          10.3659233
+        ]
+      },
+      "id": "node/4452658989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4470369690",
+        "addr:housenumber": "223",
+        "addr:street": "Đường 1/4",
+        "building": "yes",
+        "name": "Cat Ba Ventures",
+        "name:vi": "Cat Ba Ventures",
+        "shop": "travel_agency",
+        "website": "https://catbaventures.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0499198,
+          20.7243115
+        ]
+      },
+      "id": "node/4470369690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4481179196",
+        "name": "Du lịch Tầm Nhìn Mở",
+        "name:en": "Vzn Travel Agency",
+        "name:vi": "Du lịch Tầm Nhìn Mở",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0123516,
+          22.8368647
+        ]
+      },
+      "id": "node/4481179196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4487124289",
+        "addr:postcode": "380000",
+        "addr:street": "võ nguyên giaps",
+        "email": "dulichdienbien.online@gmail.com",
+        "name": "Tam Tam travel",
+        "opening_hours": "24/7",
+        "phone": "02303501699",
+        "shop": "travel_agency",
+        "website": "http://facebook.com/tamtamtravel.dienbienphu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.0239674,
+          21.402508
+        ]
+      },
+      "id": "node/4487124289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4533014590",
+        "addr:housenumber": "30/3",
+        "addr:postcode": "00000",
+        "addr:street": "Lê lợi",
+        "email": "Ngoc64334@gmail.com",
+        "name": "P. Đề thám, TP Thái bình",
+        "name:en": "Việt nam",
+        "name:vi": "P. Đề thám, TP Thái bình",
+        "phone": "0915991289",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3410838,
+          20.4484904
+        ]
+      },
+      "id": "node/4533014590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4533631589",
+        "addr:postcode": "00000",
+        "addr:street": "QL 39",
+        "email": "dvien29@gmail.com",
+        "name": "Nguyên xá, Đông hưng, Thái bình",
+        "name:vi": "Nguyên xá, Đông hưng, Thái bình",
+        "phone": "0915863368",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3491844,
+          20.5560224
+        ]
+      },
+      "id": "node/4533631589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4550175292",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6973398,
+          10.7735331
+        ]
+      },
+      "id": "node/4550175292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4557010331",
+        "addr:country": "VN",
+        "addr:housenumber": "13",
+        "addr:street": "Ngõ Hàng Hương",
+        "name": "ODC travel",
+        "name:en": "ODC Vietnam",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8454798,
+          21.0352461
+        ]
+      },
+      "id": "node/4557010331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4557132292",
+        "name": "Du Lịch Thành Công",
+        "name:en": "Thanh cong travel",
+        "name:vi": "Thanh cong travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6943605,
+          10.7690993
+        ]
+      },
+      "id": "node/4557132292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4579058889",
+        "name:en": "Inter Bus Lines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8504297,
+          22.3377082
+        ]
+      },
+      "id": "node/4579058889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4594668689",
+        "email": "mekongsongtien@gmail.com",
+        "name": "Cty DL Mekông Sông Tiền",
+        "opening_hours": "Mo-Su 08:00-16:00",
+        "phone": "0903086969",
+        "shop": "travel_agency",
+        "website": "http://Mekongsongtien.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.360176,
+          10.341089
+        ]
+      },
+      "id": "node/4594668689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4599051589",
+        "name": "Mekong Tour",
+        "name:vi": "Mekong Tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7876427,
+          10.0307085
+        ]
+      },
+      "id": "node/4599051589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4611212790",
+        "addr:street": "Nguyễn Công Trứ",
+        "name": "Ferry Ticket Office",
+        "name:en": "Ferry Ticket Office",
+        "name:vi": "Ferry Ticket Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0790789,
+          10.0112694
+        ]
+      },
+      "id": "node/4611212790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612104689",
+        "addr:housenumber": "34",
+        "addr:street": "Mạc Thị Bưởi",
+        "name": "Du Lịch Nam Trip",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7049251,
+          10.7756897
+        ]
+      },
+      "id": "node/4612104689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612116604",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7286506,
+          10.8134959
+        ]
+      },
+      "id": "node/4612116604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4613616090",
+        "name": "Thanh tam travel",
+        "name:vi": "Hue",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5833715,
+          16.467519
+        ]
+      },
+      "id": "node/4613616090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4619676489",
+        "addr:street": "56 Dong Ho, KP 1, Phuong Dong, Ho, Tx. Ha Tien, Kien Giang",
+        "email": "info@hatienmekongtravel.com",
+        "name": "Ha Tien Mekong Travel",
+        "name:en": "Ha Tien Mekong Travel",
+        "name:vi": "Ha Tien Mekong Travel",
+        "phone": "+84 0982 952 963",
+        "shop": "travel_agency",
+        "website": "http://www.hatienmekongtravel.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.4902452,
+          10.3821265
+        ]
+      },
+      "id": "node/4619676489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4627346590",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "addr:housenumber": "62",
+        "addr:street": "Hàng Buồm",
+        "email": "sidney@friendstravelvietnam.com",
+        "name": "Du Lịch Friends",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "phone": "+84904329289",
+        "shop": "travel_agency",
+        "website": "https://www.friendstravelvietnam.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8514679,
+          21.0358698
+        ]
+      },
+      "id": "node/4627346590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4643633492",
+        "addr:housenumber": "232-234",
+        "addr:street": "Tây Sơn",
+        "name": "Sơn Tùng",
+        "name:vi": "Sơn Tùng",
+        "phone": "1900555523",
+        "shop": "travel_agency",
+        "website": "https://xechatluongcaosontung.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2095811,
+          13.7539851
+        ]
+      },
+      "id": "node/4643633492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4668846589",
+        "email": "contact@oxalisadventure.com",
+        "name:en": "Oxalis - Tu lan caving adventure",
+        "operator": "Oxalis",
+        "phone": "+84 919900357",
+        "shop": "travel_agency",
+        "website": "https://oxalisadventure.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.050519,
+          17.7692157
+        ]
+      },
+      "id": "node/4668846589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4674130689",
+        "name:en": "Golf Asian",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2214171,
+          16.0798115
+        ]
+      },
+      "id": "node/4674130689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4684941489",
+        "name": "Du Lịch Viettourist",
+        "name:en": "VIETTOURIST",
+        "name:vi": "VIETTOURIST",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.704074,
+          10.7646198
+        ]
+      },
+      "id": "node/4684941489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4694445504",
+        "name:en": "Jetstar",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8499999,
+          21.0265279
+        ]
+      },
+      "id": "node/4694445504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4695120290",
+        "name:en": "Rung Thieng Jungle Travel",
+        "phone": "0905533521",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3235288,
+          15.8785924
+        ]
+      },
+      "id": "node/4695120290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4697048190",
+        "addr:city": "Hà Nội",
+        "addr:housenumber": "74",
+        "addr:street": "Hàng Bạc",
+        "description": "Provide walking and scooter food tours.",
+        "name": "Du Lịch Hanoi Street Food Tour",
+        "name:en": "Hanoi Street Food Tour",
+        "operator": "Kim Tours's Building",
+        "phone": "0966 960 188",
+        "shop": "travel_agency",
+        "website": "https://www.hanoistreetfoodtour.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521332,
+          21.0339986
+        ]
+      },
+      "id": "node/4697048190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4698583792",
+        "addr:street": "Nguyễn Thị Minh Khai",
+        "email": "biendaotour@yahoo.com",
+        "name:en": "Bien Dao Tour",
+        "opening_hours": "Mo-Su 07:30-22:00",
+        "phone": "0583526494",
+        "shop": "travel_agency",
+        "website": "https://www.biendaotour.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1962571,
+          12.2386436
+        ]
+      },
+      "id": "node/4698583792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4700615800",
+        "addr:street": "Đường Bùi Viện",
+        "name:en": "Air Asia official ticket sales shop",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.693229,
+          10.7671287
+        ]
+      },
+      "id": "node/4700615800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4704577089",
+        "addr:housenumber": "10",
+        "addr:street": "Hàng Buồm",
+        "email": "info@getupandgovietnam.com",
+        "name": "Du Lịch Get Up And Go",
+        "name:de": "Get up and Go",
+        "shop": "travel_agency",
+        "website": "https://getupandgovietnam.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8526831,
+          21.0360042
+        ]
+      },
+      "id": "node/4704577089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4708273389",
+        "name:en": "Vina Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6909599,
+          10.7677097
+        ]
+      },
+      "id": "node/4708273389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4710377692",
+        "name": "EcoTour",
+        "name:vi": "EcoTour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7879424,
+          10.0309399
+        ]
+      },
+      "id": "node/4710377692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4710428790",
+        "name": "EcoTour",
+        "name:vi": "EcoTour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7880395,
+          10.0315983
+        ]
+      },
+      "id": "node/4710428790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4730355191",
+        "name": "Aaaaaa",
+        "name:vi": "Aaaaaa",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1168219,
+          10.9381309
+        ]
+      },
+      "id": "node/4730355191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4731257222",
+        "name:en": "Camel Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2200519,
+          16.0850682
+        ]
+      },
+      "id": "node/4731257222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4731257223",
+        "name:en": "Queen",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2196985,
+          16.0852477
+        ]
+      },
+      "id": "node/4731257223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4731263722",
+        "name:en": "Ban Ve Xe Du Lich",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2201096,
+          16.0852705
+        ]
+      },
+      "id": "node/4731263722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4732100621",
+        "name": "Highland holiday tours",
+        "name:vi": "Highland holiday tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4353623,
+          11.9433253
+        ]
+      },
+      "id": "node/4732100621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4737430222",
+        "name": "đường vào ubnd xã sông cầu",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.9448736,
+          12.2697786
+        ]
+      },
+      "id": "node/4737430222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4741641737",
+        "addr:housenumber": "170-172",
+        "addr:postcode": "70000",
+        "addr:street": "Nam Kỳ Khởi Nghĩa",
+        "name": "Du Lịch TransViet",
+        "name:en": "TransViet Travel",
+        "name:vi": "TransViet Travel",
+        "phone": "+84839330777",
+        "shop": "travel_agency",
+        "website": "https://www.transviet.com.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6945892,
+          10.7800871
+        ]
+      },
+      "id": "node/4741641737"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4746797222",
+        "name": "Du Lịch Thử Thách Việt",
+        "name:en": "Viet Challenge Tours",
+        "name:vi": "Du Lịch Thử Thách Việt",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4348907,
+          11.9443255
+        ]
+      },
+      "id": "node/4746797222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4748673724",
+        "addr:housenumber": "62",
+        "addr:street": "Hàng Buồm",
+        "email": "info@friendstravelvietnam.com",
+        "name:en": "Friends travel Vietnam",
+        "opening_hours": "Mo-Su 06:00-18:30",
+        "phone": "+840904329289",
+        "shop": "travel_agency",
+        "website": "https://www.friendstravelvietnam.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8513435,
+          21.0358283
+        ]
+      },
+      "id": "node/4748673724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4749009724",
+        "addr:housenumber": "93",
+        "addr:street": "Mậu Thân",
+        "name": "Mekong Tours",
+        "name:en": "Mekong Tours",
+        "name:vi": "Mekong Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7753146,
+          10.0310909
+        ]
+      },
+      "id": "node/4749009724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4751837832",
+        "name": "Hoang Yen",
+        "name:vi": "Hoang Yen",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.290863,
+          22.536604
+        ]
+      },
+      "id": "node/4751837832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4761909244",
+        "addr:housenumber": "19B",
+        "addr:street": "Hàng Bè",
+        "name:en": "Vietnam awesome travel",
+        "shop": "travel_agency",
+        "website": "https://www.vietnamawesometravel.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8539143,
+          21.0333039
+        ]
+      },
+      "id": "node/4761909244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4764106621",
+        "name": "Rose Travel Agency",
+        "name:vi": "Rose Travel Agency",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8489776,
+          21.0296356
+        ]
+      },
+      "id": "node/4764106621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4770683321",
+        "name:en": "T.M. Camel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1946392,
+          12.2444717
+        ]
+      },
+      "id": "node/4770683321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4778422921",
+        "addr:city": "Đà Lạt",
+        "addr:housenumber": "109",
+        "addr:postcode": "670000",
+        "addr:province": "Lâm Đồng",
+        "addr:street": "Nguyễn Văn Trỗi",
+        "addr:subdistrict": "Phường 2",
+        "description": "Phat Tire Ventures Vietnam is the longest running adventure sports outfitter in Vietnam specializing in mountain biking, trekking, kayaking, camping and canyoning. We have offices in both Da Lat and Hoi An.",
+        "email": "info@phattireventures.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Phat Tire Ventures Vietnam - Da Lat Office",
+        "opening_hours": "Mo-Su 07:30-20:30",
+        "operator": "Adventure travel company",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+84-983-829-422",
+        "shop": "travel_agency",
+        "website": "https://www.ptv-vietnam.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4370052,
+          11.9493682
+        ]
+      },
+      "id": "node/4778422921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4780214321",
+        "name": "Rose Travel Agency",
+        "name:en": "Rose Travel Agency",
+        "name:vi": "Rose Travel Agency",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8485205,
+          21.0294434
+        ]
+      },
+      "id": "node/4780214321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4784745324",
+        "addr:housenumber": "135",
+        "addr:postcode": "700000",
+        "addr:street": "Nguyễn Hữu Cảnh",
+        "name": "Du Lịch Bến Nghé",
+        "name:en": "Ben Nghe Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7186833,
+          10.7960397
+        ]
+      },
+      "id": "node/4784745324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4790964221",
+        "addr:housenumber": "173",
+        "addr:street": "Tôn Đức Thắng",
+        "name:en": "Hahn Cafe",
+        "phone": "0623830186",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1111404,
+          10.9338694
+        ]
+      },
+      "id": "node/4790964221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4792711124",
+        "addr:street": "Đường Trung Tâm Long Hải",
+        "name": "Cô Hân",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.2336985,
+          10.3874831
+        ]
+      },
+      "id": "node/4792711124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4793299122",
+        "name": "Hung Thanh Travel",
+        "name:vi": "Hung Thanh Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1147292,
+          16.8109671
+        ]
+      },
+      "id": "node/4793299122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4797704628",
+        "addr:housenumber": "491A",
+        "addr:street": "Điện Biên Phủ",
+        "name": "Hồ Bơi-Tennis",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1875148,
+          10.4947857
+        ]
+      },
+      "id": "node/4797704628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4805692022",
+        "name:de": "Phongnha Discovery Tours",
+        "name:en": "Phongnha Discovery Tours",
+        "shop": "travel_agency",
+        "website": "https://www.phongnhadiscovery.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6207463,
+          17.4764208
+        ]
+      },
+      "id": "node/4805692022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4805739121",
+        "name:de": "Tour to the Caves",
+        "name:en": "Tour to the Caves",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6229202,
+          17.4783819
+        ]
+      },
+      "id": "node/4805739121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4806984621",
+        "addr:housenumber": "37",
+        "addr:street": "Nguyễn Thái Học",
+        "email": "hue@thesinhtourist.vn",
+        "name:en": "TheSinh Tourist",
+        "opening_hours": "Mo-Su 06:30-20:30",
+        "phone": "+842343845022",
+        "shop": "travel_agency",
+        "website": "http://www.thesinhtourist.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5977454,
+          16.4682276
+        ]
+      },
+      "id": "node/4806984621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4809950621",
+        "addr:street": "28A Truong Dinh, District 1",
+        "email": "info@innervietnam.com",
+        "name:en": "Inner Vietnam Travel",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+84838221661",
+        "shop": "travel_agency",
+        "website": "http://www.innervietnam.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6960819,
+          10.7720577
+        ]
+      },
+      "id": "node/4809950621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4811210821",
+        "name:en": "Saigon Odessey",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6945804,
+          10.7677163
+        ]
+      },
+      "id": "node/4811210821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4812503221",
+        "name:en": "Tour Viet Tour Operator",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.196127,
+          12.2358838
+        ]
+      },
+      "id": "node/4812503221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4836407130",
+        "addr:city": "Hòa Bình",
+        "addr:district": "Kỳ Sơn",
+        "addr:postcode": "351541",
+        "addr:province": "Hòa Bình",
+        "addr:street": "QL 6",
+        "addr:subdistrict": "Mông Hóa",
+        "name": "Công ty TNHH MTV Hoàng Đức",
+        "opening_hours": "Mọi lúc",
+        "operator": "Công ty TNHH MTV Hoàng Đức",
+        "shop": "travel_agency",
+        "website": "https://www.facebook.com/xedulichhoabinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3924063,
+          20.9026367
+        ]
+      },
+      "id": "node/4836407130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4840694721",
+        "addr:housenumber": "184",
+        "addr:street": "Một Tháng Tư",
+        "name:en": "Cat Ba Vision",
+        "opening_hours": "Mo-Su 07:30-20:30",
+        "phone": "+84 96 854 41 44",
+        "shop": "travel_agency",
+        "website": "https://catbavision.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0481191,
+          20.7255586
+        ]
+      },
+      "id": "node/4840694721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4851264122",
+        "addr:postcode": "100000",
+        "addr:street": "8 Lane 25/7 - Vũ Ngọc Phan - Láng Hạ",
+        "email": "booking@lafermeducolvert.com",
+        "name": "VĂN PHÒNG | Vịt Cổ Xanh Resort Spa Việt-Pháp",
+        "name:en": "La Ferme du Colvert R&S | HANOI OFFICE",
+        "name:fr": "BUREAU RESERVATION | La Ferme du Colvert R&S",
+        "opening_hours": "Mo-Sa 08:30-17:30",
+        "phone": "+84 4 3776 4301",
+        "shop": "travel_agency",
+        "website": "http://lafermeducolvert.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8099627,
+          21.0138394
+        ]
+      },
+      "id": "node/4851264122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4851377121",
+        "addr:housenumber": "90",
+        "addr:street": "Phạm Văn Đồng",
+        "email": "airbooking.ht@gmail.com",
+        "name": "Phòng vé Hân Thảo",
+        "name:en": "Hân Thảo Travel Agency",
+        "name:vi": "Phòng vé Hân Thảo",
+        "phone": "+84936316952",
+        "shop": "travel_agency",
+        "website": "http://www.vemaybay333.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1565907,
+          11.9217624
+        ]
+      },
+      "id": "node/4851377121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4867473631",
+        "addr:housenumber": "R1-72",
+        "addr:street": "Nội Khu Hưng Phước 4",
+        "name": "Easy Tour",
+        "name:ko": "이지투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7068711,
+          10.7298057
+        ]
+      },
+      "id": "node/4867473631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4875867421",
+        "addr:housenumber": "6",
+        "addr:street": "Chu Văn An",
+        "name": "Hung Thanh Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5964698,
+          16.4683609
+        ]
+      },
+      "id": "node/4875867421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4880374321",
+        "name": "Groovy Geeko",
+        "name:vi": "Groovy Geeko",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4346309,
+          11.9439295
+        ]
+      },
+      "id": "node/4880374321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4907187821",
+        "name": "Vietnam Nomad Trails",
+        "name:vi": "Vietnam Nomad Trails",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8412836,
+          22.3338744
+        ]
+      },
+      "id": "node/4907187821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4944024421",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0296433,
+          10.133734
+        ]
+      },
+      "id": "node/4944024421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4968881227",
+        "addr:housenumber": "23",
+        "addr:street": "Lê Lợi",
+        "name": "Phuong Trang - Futa Bus Lines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0832859,
+          10.009942
+        ]
+      },
+      "id": "node/4968881227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4968899724",
+        "name": "Superdong",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0785645,
+          10.0122862
+        ]
+      },
+      "id": "node/4968899724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4968899728",
+        "addr:housenumber": "53",
+        "addr:street": "Phố Quang Trung",
+        "name": "Vietnam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8477591,
+          21.0184513
+        ]
+      },
+      "id": "node/4968899728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4988187621",
+        "addr:housenumber": "19A",
+        "addr:street": "Huỳnh Thúc Kháng",
+        "name:ru": "турагенство \"Русалка-тур\"",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2515604,
+          10.9528344
+        ]
+      },
+      "id": "node/4988187621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4989536321",
+        "addr:housenumber": "22",
+        "addr:street": "Nguyen Dinh Chieu",
+        "name:ru": "Русалка ТУР",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+84942255403",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1951264,
+          10.9439884
+        ]
+      },
+      "id": "node/4989536321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5023960849",
+        "addr:housenumber": "29 D",
+        "addr:street": "Biệt Thự",
+        "name:en": "Nha Trang Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1937889,
+          12.2352934
+        ]
+      },
+      "id": "node/5023960849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5025728122",
+        "addr:city": "Hà Giang",
+        "addr:housenumber": "N.69, Lane 487",
+        "addr:postcode": "310000",
+        "addr:province": "Hà Giang",
+        "addr:street": "Đường Lý Thường Kiệt",
+        "addr:subdistrict": "Ngọc Hà",
+        "email": "sales@visiontravelagent.com",
+        "name": "Công ty du lịch Vision Travel",
+        "name:en": "Vision Travel",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:visa": "yes",
+        "phone": "+84825331983",
+        "shop": "travel_agency",
+        "website": "https://visiontravelagent.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0119813,
+          22.8387815
+        ]
+      },
+      "id": "node/5025728122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5029790923",
+        "name": "Du Lịch Hanoi Travel",
+        "name:en": "HanoiTravel",
+        "name:vi": "HanoiTravel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8248341,
+          21.0347836
+        ]
+      },
+      "id": "node/5029790923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5032658122",
+        "email": "60minutes@escapeiqhoian.com",
+        "name": "Escape iQ Hoi An",
+        "name:en": "Escape iQ Hoi An",
+        "name:vi": "Escape iQ Hoi An",
+        "shop": "travel_agency",
+        "website": "http://www.eacapeiqhoian.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3220258,
+          15.8753092
+        ]
+      },
+      "id": "node/5032658122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5136769321",
+        "addr:housenumber": "08",
+        "addr:street": "Bà Triệu",
+        "email": "thaont@vietdantravel.com",
+        "name:en": "Vietnam Rejser",
+        "opening_hours": "Mo-Sa 08:00-17:00; Su 00:00-24:00",
+        "phone": "00841657018820",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3247181,
+          15.8833313
+        ]
+      },
+      "id": "node/5136769321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5137057424",
+        "addr:housenumber": "57",
+        "addr:street": "Lương Ngọc Quyến",
+        "email": "kontakt@vietnam-rejser.dk",
+        "name:en": "Vietnam Travel",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "00841215116624",
+        "shop": "travel_agency",
+        "website": "http://Vietnam-Rejser.dk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8515999,
+          21.0347561
+        ]
+      },
+      "id": "node/5137057424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5137981655",
+        "addr:city": "Ho Chi Minh City",
+        "addr:district": "Tan Binh",
+        "addr:housenumber": "88",
+        "addr:postcode": "736463",
+        "addr:street": "Bạch Đằng",
+        "addr:subdistrict": "2",
+        "email": "cd@discotravel.vn",
+        "name": "Disco Travel - Du lịch Quốc Tế Khám Phá",
+        "name:en": "DISCO TRAVEL",
+        "opening_hours": "Mo-Fr 08:30-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "02871078910",
+        "shop": "travel_agency",
+        "tourism": "attraction",
+        "website": "https://discotravel.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6734822,
+          10.8151663
+        ]
+      },
+      "id": "node/5137981655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5147403123",
+        "name:en": "Tour Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6941975,
+          10.7690388
+        ]
+      },
+      "id": "node/5147403123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5157320426",
+        "name:en": "Holidays with Hanna Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8534511,
+          21.0356288
+        ]
+      },
+      "id": "node/5157320426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5209759922",
+        "name:en": "The Sinh tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8534705,
+          21.0354751
+        ]
+      },
+      "id": "node/5209759922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5219226925",
+        "addr:street": "Quốc lộ 15",
+        "email": "maichau@asiaoutdoors.com.vn",
+        "name": "Asia Outdoors Mai Chau",
+        "name:en": "Asia Outdoors Mai Chau",
+        "name:vi": "Asia Outdoors Mai Chau",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "+84 0218 3868 859",
+        "shop": "travel_agency",
+        "website": "https://www.asiaoutdoors.com.vn/mai-chau.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0784065,
+          20.6540501
+        ]
+      },
+      "id": "node/5219226925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5229978921",
+        "addr:housenumber": "Phuong Nam",
+        "addr:postcode": "+842435373535",
+        "addr:street": "Láng Hạ",
+        "email": "info@phuongnamtravel.com.vn",
+        "name": "Du Lịch Phương Nam",
+        "opening_hours": "Mo-Sa 08:00-12:00,13:00-17:00",
+        "phone": "+84935373535",
+        "shop": "travel_agency",
+        "website": "http://www.phuongnamtravel.com.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8177616,
+          21.019306
+        ]
+      },
+      "id": "node/5229978921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5249726521",
+        "addr:housenumber": "18C",
+        "addr:street": "Trần Hưng Đạo",
+        "name": "Việt Nhật",
+        "name:en": "Viet Nhat bus stop.",
+        "phone": "02583524717",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.194825,
+          12.2444727
+        ]
+      },
+      "id": "node/5249726521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5255497224",
+        "name:en": "TNT Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5925593,
+          16.466259
+        ]
+      },
+      "id": "node/5255497224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5261621325",
+        "name:en": "Handspan Indochina Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.853343,
+          21.0345041
+        ]
+      },
+      "id": "node/5261621325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5265127722",
+        "addr:housenumber": "14",
+        "addr:postcode": "10000",
+        "addr:street": "Mã Mây",
+        "email": "duckinh84@gmail.com",
+        "name": "Van Phong Du Lich Bao Nam",
+        "name:en": "Vietnam Top Tours",
+        "opening_hours": "24/7",
+        "phone": "+84947692776",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8531762,
+          21.0359304
+        ]
+      },
+      "id": "node/5265127722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5267034121",
+        "addr:housenumber": "184",
+        "addr:postcode": "180000",
+        "addr:street": "Đường 1/4",
+        "email": "info.catbavision@gmail.com",
+        "name": "Tầm Nhìn Cát Bà",
+        "name:en": "CatBa Vision",
+        "name:vi": "Pinneaplee hotel",
+        "opening_hours": "Mo-Su 07:30-09:00",
+        "phone": "0968544144",
+        "shop": "travel_agency",
+        "website": "https://www.catbavision.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0473146,
+          20.7257022
+        ]
+      },
+      "id": "node/5267034121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271446822",
+        "addr:housenumber": "126",
+        "addr:street": "Nguyễn Đình Chiểu",
+        "name": "Gluck Tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.228438,
+          10.9552938
+        ]
+      },
+      "id": "node/5271446822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5294987624",
+        "addr:housenumber": "283/20",
+        "addr:street": "Phạm Ngũ Lão",
+        "name:en": "SinhBalo Adventure Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6909141,
+          10.767183
+        ]
+      },
+      "id": "node/5294987624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5294987625",
+        "addr:housenumber": "2/6",
+        "addr:street": "Nguyễn Văn Cừ",
+        "name:en": "Hanh Cafe",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4341985,
+          11.9393264
+        ]
+      },
+      "id": "node/5294987625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5297289721",
+        "addr:street": "08 Thac Bac Road",
+        "email": "trekking@sapaochau.org",
+        "name:en": "Sapa O’Chau - Sustainable Tourism",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "+84915502589",
+        "shop": "travel_agency",
+        "website": "http://www.sapaochau.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8397492,
+          22.3357766
+        ]
+      },
+      "id": "node/5297289721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5302838321",
+        "name:en": "the sinh cafe tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8471114,
+          21.0342686
+        ]
+      },
+      "id": "node/5302838321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5345118864",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.660158,
+          10.7966408
+        ]
+      },
+      "id": "node/5345118864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075549",
+        "addr:street": "178/46/4, Đường Ba Tháng Hai, Phường Hưng Lợi, Quận Ninh Kiều, Xuân Khánh, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Công Ty TNHH Một Thành Viên Du Lịch Hương Quê",
+        "phone": "+84 91 985 69 45",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7674837,
+          10.024026
+        ]
+      },
+      "id": "node/5346075549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075550",
+        "addr:street": "268/4A, Nguyễn Văn Linh, Phường Hưng Lợi, Quận Ninh Kiều, Thành Phố Cần Thơ, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Dịch Vụ Du Lịch CKS",
+        "phone": "+84 292 6258 080",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7601344,
+          10.0250403
+        ]
+      },
+      "id": "node/5346075550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075551",
+        "addr:street": "17-19A2, Nguyễn Hiền, Khu Dân Cư 91B, Phường An Khánh, Quận Ninh Kiều, Thành Phố Cần Thơ, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Công Ty TNHH MTV Du Lịch Hồng Tân",
+        "phone": "+84 90 109 00 11",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.755572,
+          10.0225707
+        ]
+      },
+      "id": "node/5346075551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075552",
+        "addr:street": "152, Ba Tháng Hai, Phường Hưng Lợi, Quận Ninh Kiều, Thành Phố Cần Thơ, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Công Ty TNHH MTV Du Lịch Khỏe",
+        "phone": "+84 292 6250 828",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.76316,
+          10.0193298
+        ]
+      },
+      "id": "node/5346075552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075553",
+        "addr:street": "60, Đường 3/2, Phường Hưng Lợi, Quận Ninh Kiều, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Công Ty TNHH Du Lịch Xanh",
+        "phone": "+84 292 3767 676",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7579511,
+          10.0140366
+        ]
+      },
+      "id": "node/5346075553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075554",
+        "addr:street": "60, Đường 3/2, Phường Hưng Lợi, Quận Ninh Kiều, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Công Ty TNHH Du Lịch Xanh",
+        "phone": "+84 292 3767 676",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7604805,
+          10.0118575
+        ]
+      },
+      "id": "node/5346075554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075555",
+        "addr:street": "662 Ba Mươi Tháng Tư, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Công Ty Du Lịch Fittravel",
+        "phone": "+84 292 3769 237",
+        "shop": "travel_agency",
+        "website": "fittravel.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7607621,
+          10.0133076
+        ]
+      },
+      "id": "node/5346075555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075556",
+        "addr:street": "Khu Dân Cư Metro, 40, Phường Hưng Lợi, Quận Ninh Kiều, Thành Phố Cần Thơ, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Công Ty Cổ Phần Du Lịch Sông Nước Miền Tây",
+        "phone": "+84 292 6507 474",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7615238,
+          10.0139468
+        ]
+      },
+      "id": "node/5346075556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075557",
+        "addr:street": "776, Đường 30/4, Phường Hưng Lợi, Quận Ninh Kiều, Thành Phố Cần Thơ, Hưng Lợi, Ninh Kiều, Cần Thơ, Việt Nam",
+        "name": "Công Ty CP Du Lịch Thương Mại Xây Dựng BBC",
+        "phone": "+84 90 907 07 88",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7627845,
+          10.0149717
+        ]
+      },
+      "id": "node/5346075557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346075559",
+        "addr:street": "117/3A Ba Tháng Hai, Hưng Lợi, Ninh Kiều, Hưng Lợi Ninh Kiều Cần Thơ 9200000, Việt Nam",
+        "name": "công ty du lịch Sóng Phù Sa",
+        "opening_hours": "8:00 - 21:00",
+        "phone": "+84 98 999 77 81",
+        "shop": "travel_agency",
+        "website": "http://www.songphusatour.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7618618,
+          10.0174994
+        ]
+      },
+      "id": "node/5346075559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5358473823",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3254808,
+          15.8819807
+        ]
+      },
+      "id": "node/5358473823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5367507321",
+        "addr:street": "Lý Thường Kiệt",
+        "name:ja": "HIS ハノイ支店",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8543132,
+          21.0221163
+        ]
+      },
+      "id": "node/5367507321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405834521",
+        "addr:housenumber": "162B",
+        "addr:postcode": "100000",
+        "addr:street": "Đường Trần Quang Khải",
+        "email": "fullmoonpartytour@gmail.com",
+        "name": "Du Lịch Full Moon",
+        "opening_hours": "Mo-Su 07:00-20:00",
+        "phone": "0974426821",
+        "shop": "travel_agency",
+        "website": "https://www.fullmoonpartytourvietnam.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8559887,
+          21.032418
+        ]
+      },
+      "id": "node/5405834521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5405834621",
+        "addr:housenumber": "225",
+        "addr:postcode": "35000",
+        "addr:street": "Đường 1/4",
+        "email": "fullmoonpartytour@gmail.com",
+        "name": "Full Moon Party Tour",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "0974426821",
+        "shop": "travel_agency",
+        "website": "https://www.fullmoonpartytourvietnam.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0500972,
+          20.7240557
+        ]
+      },
+      "id": "node/5405834621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5415671021",
+        "name": "Du Lịch Indochina",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8481848,
+          21.0282731
+        ]
+      },
+      "id": "node/5415671021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5419456321",
+        "name:ru": "Коля тур",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2996666,
+          10.9493902
+        ]
+      },
+      "id": "node/5419456321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5419667022",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "34",
+        "addr:province": "Hà Nội",
+        "addr:street": "Đường Trần Nhật Duật",
+        "addr:subdistrict": "Đồng Xuân",
+        "name": "Hoàng Long Bus Company",
+        "phone": "+84 243 928 2828",
+        "shop": "travel_agency",
+        "website": "https://www.hoanglongasia.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8516517,
+          21.0386991
+        ]
+      },
+      "id": "node/5419667022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5420066421",
+        "name": "Queen cafe bus",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5936519,
+          16.4687355
+        ]
+      },
+      "id": "node/5420066421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5433699927",
+        "name:en": "Ocean tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8534715,
+          21.0342433
+        ]
+      },
+      "id": "node/5433699927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5444301130",
+        "addr:street": "Lý Nhân Tông",
+        "email": "superdong_2008@yahoo.com.vn",
+        "name": "Superdong Ferry Ticket Office",
+        "name:en": "Superdong Ticket Office",
+        "name:vi": "Superdong Ticket Office",
+        "phone": "0919 664 660",
+        "shop": "travel_agency",
+        "website": "https://superdong.com.vn/en/dich-vu/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0784709,
+          10.0092605
+        ]
+      },
+      "id": "node/5444301130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5455875221",
+        "name:en": "Visa Extention",
+        "name:ru": "Продление визы",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3268942,
+          15.8800039
+        ]
+      },
+      "id": "node/5455875221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5468791928",
+        "addr:housenumber": "199",
+        "addr:street": "Đường Phạm Ngũ Lão",
+        "name": "Tâm Hanh Travel",
+        "name:en": "Tam Hanh Travel",
+        "opening_hours": "Mo-Su 06:00-21:00",
+        "phone": "0915817979",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6931799,
+          10.7685664
+        ]
+      },
+      "id": "node/5468791928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5470197821",
+        "addr:housenumber": "21",
+        "addr:street": "Vườn Đào - Bãi Cháy",
+        "email": "tnxtravel@gmail.com",
+        "name:en": "Green Steppe Trading & Travel",
+        "opening_hours": "24/7",
+        "phone": "(+84) 972268698",
+        "shop": "travel_agency",
+        "website": "http://www.tnxtravel.com.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0500695,
+          20.9571775
+        ]
+      },
+      "id": "node/5470197821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5479083921",
+        "name:en": "The Sinh Tourist 2",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7004511,
+          10.7686085
+        ]
+      },
+      "id": "node/5479083921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5479216121",
+        "addr:street": "Phó Ðức Chính",
+        "name:en": "The Sinh Tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7004845,
+          10.7686434
+        ]
+      },
+      "id": "node/5479216121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5480874221",
+        "name:en": "Amazing Snorkeling",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1952554,
+          12.2355229
+        ]
+      },
+      "id": "node/5480874221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5486137921",
+        "name:en": "Hoa Asia Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8474578,
+          21.0341341
+        ]
+      },
+      "id": "node/5486137921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5510024021",
+        "addr:housenumber": "98",
+        "addr:street": "Nguyễn Huệ",
+        "email": "bookings@lesrivesexperience.com",
+        "name": "Du Lịch Les Rives Authentic River Experience",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "phone": "00841285920018",
+        "shop": "travel_agency",
+        "website": "https://lesrivesexperience.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7024191,
+          10.7753728
+        ]
+      },
+      "id": "node/5510024021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5537970227",
+        "name": "Old Quarter travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8533566,
+          21.0350739
+        ]
+      },
+      "id": "node/5537970227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5556809321",
+        "name": "hoang thanh anh travel",
+        "name:en": "hoi an orioles travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3323523,
+          15.8765049
+        ]
+      },
+      "id": "node/5556809321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5573958521",
+        "addr:housenumber": "23",
+        "addr:street": "Yên Thái",
+        "name:en": "Miss Ly's Travel Agency",
+        "opening_hours": "Mo-Su 09:00-09:00, 19:00-19:00",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8476694,
+          21.0318951
+        ]
+      },
+      "id": "node/5573958521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5578246999",
+        "addr:housenumber": "184",
+        "name": "Cat Ba Vision",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0474133,
+          20.725681
+        ]
+      },
+      "id": "node/5578246999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5595948425",
+        "name:en": "Hieu's Tour",
+        "name:zh": "水上游",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7876085,
+          10.0323021
+        ]
+      },
+      "id": "node/5595948425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5596685322",
+        "name:en": "Quoc Bao",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2916255,
+          13.8831658
+        ]
+      },
+      "id": "node/5596685322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5606335898",
+        "name": "Saigon Tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0760166,
+          10.3473921
+        ]
+      },
+      "id": "node/5606335898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5611469157",
+        "brand": "Royal Enfield;Honda;Kawasaki;Suzuki",
+        "description": "Motorcycle tours and off-road adventure travel in Vietnam, Laos, Cambodia, Myanmar, India, Nepal, Bhutan, Sri Lanka",
+        "email": "info@mototoursasia.com",
+        "motorcycle:rental": "yes",
+        "motorcycle:tours": "guided",
+        "motorcycle:type": "standard;dualsport",
+        "name": "Du Lịch Mototours",
+        "phone": "+84 979 900 800",
+        "shop": "travel_agency",
+        "website": "https://mototoursasia.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8416938,
+          21.0432493
+        ]
+      },
+      "id": "node/5611469157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5614486423",
+        "addr:housenumber": "13",
+        "addr:street": "Ngõ Huyện",
+        "email": "huyphung0507@gmail.com",
+        "name": "Phùng Motorbike",
+        "phone": "0904253491",
+        "shop": "travel_agency",
+        "website": "https://2wheelsvietnam.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8488304,
+          21.0295697
+        ]
+      },
+      "id": "node/5614486423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5618684514",
+        "name": "Trịnh Mạnh Thắng",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0752769,
+          10.3484934
+        ]
+      },
+      "id": "node/5618684514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5630697373",
+        "name": "Dalat Open Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4323715,
+          11.9416449
+        ]
+      },
+      "id": "node/5630697373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5671205921",
+        "name": "Du Lịch Vanaday",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.693796,
+          10.7677438
+        ]
+      },
+      "id": "node/5671205921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5677758524",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "37 b",
+        "addr:street": "Phố Nguyễn Hữu Huân",
+        "addr:subdistrict": "Lý Thái Tổ",
+        "name": "Cát Bà Express Tours & Bus",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8545699,
+          21.0333109
+        ]
+      },
+      "id": "node/5677758524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5705714121",
+        "name:en": "Hue Thong Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5846251,
+          16.4690148
+        ]
+      },
+      "id": "node/5705714121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5707475823",
+        "name": "Hanh Café - Open bus",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2363017,
+          16.0557091
+        ]
+      },
+      "id": "node/5707475823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5714410121",
+        "name:en": "Hung Thanh Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3270532,
+          15.8876031
+        ]
+      },
+      "id": "node/5714410121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5720847721",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8790593,
+          10.3049119
+        ]
+      },
+      "id": "node/5720847721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5740151381",
+        "name": "Cherolet Gia Lai",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9946058,
+          14.0059644
+        ]
+      },
+      "id": "node/5740151381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5762588463",
+        "addr:housenumber": "123",
+        "addr:street": "Trần Hưng Đạo",
+        "name": "thiên hưng",
+        "phone": "0937820009",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.228887,
+          16.0802042
+        ]
+      },
+      "id": "node/5762588463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5803086155",
+        "addr:housenumber": "150",
+        "addr:postcode": "650000",
+        "addr:street": "Hùng Vương",
+        "email": "info@alfatoursvietnam.ru",
+        "name": "ALFA TOURS - VĂN PHÒNG 1",
+        "name:en": "ALFA TOURS - OFFICE 5",
+        "name:ru": "АЛЬФА ТУРС - ОФИС 5",
+        "name:vi": "ALFA TOURS - VĂN PHÒNG 5",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "093 162 00 88",
+        "shop": "travel_agency",
+        "website": "https://alfatoursvietnam.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1954999,
+          12.2328335
+        ]
+      },
+      "id": "node/5803086155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5818326260",
+        "addr:housenumber": "587",
+        "addr:street": "Hai Bà Trưng",
+        "email": "hoian@thesinhtourist.vn",
+        "name": "Sinh tourist",
+        "name:en": "The Sinh tourist",
+        "name:vi": "The Sinh tourist",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "shop": "travel_agency",
+        "website": "https://m.thesinhtourist.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.326004,
+          15.8816373
+        ]
+      },
+      "id": "node/5818326260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5818327809",
+        "name": "Du Lịch Camel Travel",
+        "name:de": "Camel Travel",
+        "name:en": "Camel Travel",
+        "name:vi": "Camel Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8541802,
+          21.0085734
+        ]
+      },
+      "id": "node/5818327809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5824558153",
+        "addr:housenumber": "73",
+        "addr:street": "3 Tháng 2",
+        "name": "Queen Cafe",
+        "name:de": "Queen Cafe",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2197562,
+          16.0851822
+        ]
+      },
+      "id": "node/5824558153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5832405085",
+        "name:en": "Champa Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.4834083,
+          10.377741
+        ]
+      },
+      "id": "node/5832405085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5860819285",
+        "addr:housenumber": "13",
+        "addr:street": "Tuệ Tĩnh",
+        "email": "info@vietnamnomadtrails.com",
+        "name:en": "Vietnam nomadtrails",
+        "name:fr": "Vietnam nomadtrails",
+        "phone": "+84203872192",
+        "shop": "travel_agency",
+        "website": "https://www.vietnamnomadtrails.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8415441,
+          22.3341888
+        ]
+      },
+      "id": "node/5860819285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5863442185",
+        "name:fr": "Ethos",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8333924,
+          22.3371478
+        ]
+      },
+      "id": "node/5863442185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5867034585",
+        "addr:housenumber": "22",
+        "addr:street": "Trần Quang Khải",
+        "name:en": "Katyusha",
+        "name:ru": "Катюша",
+        "phone": "+841634982475",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1957763,
+          12.2333626
+        ]
+      },
+      "id": "node/5867034585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5887599985",
+        "name:en": "Dimatour",
+        "name:ru": "Дима-тур",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2512357,
+          10.9527881
+        ]
+      },
+      "id": "node/5887599985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5915198885",
+        "addr:housenumber": "47",
+        "addr:street": "47 Hoàng Sĩ Khải, An Hải Bắc, Sơn Trà, Đà Nẵng 550000",
+        "name:en": "그린투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2318786,
+          16.0754562
+        ]
+      },
+      "id": "node/5915198885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5920284286",
+        "addr:housenumber": "1",
+        "addr:street": "Phố Quang Trung",
+        "name": "Vietnam Airlines",
+        "name:en": "Vietnam Airlines Booking Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8497409,
+          21.0263711
+        ]
+      },
+      "id": "node/5920284286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5958483585",
+        "addr:city": "Hai Phong",
+        "addr:district": "Cat Ba Town",
+        "addr:housenumber": "210",
+        "addr:province": "Hải Phòng",
+        "addr:street": "Đường 1/4",
+        "addr:subdistrict": "cat ba",
+        "email": "catba@asiaoutdoors.com",
+        "name": "Asia Outdoors",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+84 225 368 8450",
+        "shop": "travel_agency",
+        "website": "https://www.asiaoutdoors.com.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0487729,
+          20.725271
+        ]
+      },
+      "id": "node/5958483585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5968520107",
+        "addr:housenumber": "14",
+        "addr:street": "Nguyễn Hữu Cảnh",
+        "name:en": "Hoa Sen Tours",
+        "phone": "02963867817",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1179093,
+          10.7096511
+        ]
+      },
+      "id": "node/5968520107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5980916092",
+        "addr:housenumber": "52",
+        "addr:street": "Lương Ngọc Quyến",
+        "name": "The Sinh Tourist",
+        "name:en": "The Sinh Tourist (since 1993)",
+        "office": "travel_agent",
+        "phone": "+841656208056",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8517757,
+          21.0347675
+        ]
+      },
+      "id": "node/5980916092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6001874391",
+        "name": "Bbens đô Hải Lựu",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3081839,
+          21.5084636
+        ]
+      },
+      "id": "node/6001874391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6001874393",
+        "name": "Bến phà Đức Bác",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.4068103,
+          21.3440006
+        ]
+      },
+      "id": "node/6001874393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6083877885",
+        "name": "Cat Ba Ventures",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.049812,
+          20.7250403
+        ]
+      },
+      "id": "node/6083877885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6122520361",
+        "addr:housenumber": "district 1",
+        "addr:street": "241/15 Pham ngu Lao street",
+        "name:en": "eastern dream travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6925213,
+          10.767913
+        ]
+      },
+      "id": "node/6122520361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6144231885",
+        "name": "Sinh Cafe Tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8533456,
+          21.0351737
+        ]
+      },
+      "id": "node/6144231885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6153917385",
+        "description": "train tickets",
+        "description:ja": "電車チケット",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3292016,
+          15.8772115
+        ]
+      },
+      "id": "node/6153917385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6164323486",
+        "name": "hidden land travel",
+        "phone": "+84941365563",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5917789,
+          16.4621805
+        ]
+      },
+      "id": "node/6164323486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6176462985",
+        "addr:street": "Lê Hồng Phong",
+        "name": "Ticket office speed boat superdong to con dao",
+        "name:en": "Ticket office speed boat superdong to con dao + bus",
+        "name:fr": "Vente de ticket speed boat Superdong pour Con Dao + bus",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9744347,
+          9.5947985
+        ]
+      },
+      "id": "node/6176462985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6176510487",
+        "addr:housenumber": "109",
+        "addr:postcode": "670000",
+        "addr:street": "Phan Bội Châu",
+        "email": "hoangnguyendl@gmail.com",
+        "name": "ĐẠI LÝ VÉ XE",
+        "name:en": "Dau tram",
+        "opening_hours": "24/7",
+        "phone": "+84941465548",
+        "shop": "travel_agency",
+        "website": "https://dalatbusstation.com/home/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4388732,
+          11.9435557
+        ]
+      },
+      "id": "node/6176510487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6179976485",
+        "name:en": "Sapa Chau",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8472081,
+          22.3375268
+        ]
+      },
+      "id": "node/6179976485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6181298286",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8465991,
+          21.0326366
+        ]
+      },
+      "id": "node/6181298286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6187523485",
+        "addr:housenumber": "108",
+        "addr:street": "Lý Thường Kiệt",
+        "name": "Quán Chay",
+        "phone": "0919113644",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0769562,
+          10.0120137
+        ]
+      },
+      "id": "node/6187523485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6199323285",
+        "name": "Phong vé Scoot Viêt Nam",
+        "name:en": "Scoot Compagny",
+        "name:fr": "Scoot Compagnie",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6763465,
+          10.7701479
+        ]
+      },
+      "id": "node/6199323285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6203094485",
+        "name:en": "Hadeco Speedboat Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6798698,
+          20.8645258
+        ]
+      },
+      "id": "node/6203094485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6204697287",
+        "name": "cat ba journey",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0501308,
+          20.724039
+        ]
+      },
+      "id": "node/6204697287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6226247285",
+        "name": "tobi travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8554818,
+          21.0312848
+        ]
+      },
+      "id": "node/6226247285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6251429235",
+        "addr:city": "Thành phố Hải Phòng",
+        "addr:district": "Huyện Cát Hải",
+        "addr:housenumber": "238",
+        "addr:postcode": "187315",
+        "addr:province": "Hải Phòng",
+        "addr:street": "Đường 1/4",
+        "addr:subdistrict": "Thị trấn Cát Bà",
+        "email": "info@gmail.com",
+        "name": "Captain Jacks tour",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "Captain Jacks Adventure Co,.Ltd",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+84 985 870 750",
+        "shop": "travel_agency",
+        "website": "captainjacks.asia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0506103,
+          20.7229979
+        ]
+      },
+      "id": "node/6251429235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6258946185",
+        "addr:housenumber": "26",
+        "addr:street": "Lò Sũ",
+        "name:en": "Khanh Sinh Tour",
+        "name:ru": "Khanh Sinh Tour",
+        "phone": "0439261718",
+        "shop": "travel_agency",
+        "website": "http://halongluxurysails.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8551588,
+          21.0314571
+        ]
+      },
+      "id": "node/6258946185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6276228786",
+        "name:en": "Adventure Indochina travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8530491,
+          21.0361411
+        ]
+      },
+      "id": "node/6276228786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6284329185",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6647802,
+          10.8110882
+        ]
+      },
+      "id": "node/6284329185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6295640885",
+        "addr:housenumber": "52",
+        "addr:street": "Lương Ngọc Quyến",
+        "name": "The Sinh Tourist",
+        "name:en": "TheSinhTouristHanoi",
+        "name:zh": "新咖啡旅游",
+        "phone": "24 3926 1568",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8514249,
+          21.0348342
+        ]
+      },
+      "id": "node/6295640885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6299042087",
+        "name:en": "Con Dao Express",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6079641,
+          8.6849221
+        ]
+      },
+      "id": "node/6299042087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315351598",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.699064,
+          10.7725023
+        ]
+      },
+      "id": "node/6315351598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315352819",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7027039,
+          10.7757144
+        ]
+      },
+      "id": "node/6315352819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315359288",
+        "name:en": "Vietnam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6874042,
+          20.8589696
+        ]
+      },
+      "id": "node/6315359288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315390452",
+        "name:en": "Vietnam Booking",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6976832,
+          10.7732591
+        ]
+      },
+      "id": "node/6315390452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315390590",
+        "name:en": "Vietnam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6961972,
+          10.7958533
+        ]
+      },
+      "id": "node/6315390590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315672469",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6999489,
+          10.7879839
+        ]
+      },
+      "id": "node/6315672469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315672843",
+        "name:en": "Singapore Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7012701,
+          10.7828607
+        ]
+      },
+      "id": "node/6315672843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315685191",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6890358,
+          10.7808522
+        ]
+      },
+      "id": "node/6315685191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315685396",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6890432,
+          10.7805936
+        ]
+      },
+      "id": "node/6315685396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315686287",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6888616,
+          10.7807473
+        ]
+      },
+      "id": "node/6315686287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315686496",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6714597,
+          10.758763
+        ]
+      },
+      "id": "node/6315686496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315686500",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6730685,
+          10.7606151
+        ]
+      },
+      "id": "node/6315686500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315687000",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6711599,
+          10.7601166
+        ]
+      },
+      "id": "node/6315687000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315687012",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6795474,
+          10.7633775
+        ]
+      },
+      "id": "node/6315687012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6315688288",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7027487,
+          10.7686439
+        ]
+      },
+      "id": "node/6315688288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6319111454",
+        "description": "Cambodia (via Bavet): 5, 7, 8, 9, 10, 11:30, 12:30, 13:30, 15:30 (530k)",
+        "highway": "bus_stop",
+        "name": "Du Lịch Danh Danh",
+        "office": "travel_agent",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6912882,
+          10.7677332
+        ]
+      },
+      "id": "node/6319111454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6319115356",
+        "highway": "bus_stop",
+        "name": "Du Lịch Long Phương",
+        "name:de": "Busses to Phnom Penh",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6907955,
+          10.7675464
+        ]
+      },
+      "id": "node/6319115356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6359662385",
+        "addr:city": "Hà Giang",
+        "addr:housenumber": "10",
+        "addr:postcode": "310000",
+        "addr:province": "Hà Giang",
+        "addr:street": "Đường Quyết Thắng",
+        "addr:subdistrict": "Ngọc Hà",
+        "email": "sales@hagiangpro.com",
+        "name": "Ha Giang Loop Tour",
+        "opening_hours": "Mo-Su 07:00-18:00",
+        "operator": "Vision Travel",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+84826567828",
+        "shop": "travel_agency",
+        "website": "https://hagiangpro.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.01257,
+          22.8372564
+        ]
+      },
+      "id": "node/6359662385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6366085204",
+        "name": "Vietnam Insolite",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8508454,
+          21.0181279
+        ]
+      },
+      "id": "node/6366085204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6380179287",
+        "name": "Mekong Smile Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7885031,
+          10.0339384
+        ]
+      },
+      "id": "node/6380179287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6382977385",
+        "name": "THANH NIÊN TIÊN GIANG",
+        "name:en": "THANH NIÊN TIÊN GIANG agency",
+        "name:fr": "THANH NIÊN TIÊN GIANG agence",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0336212,
+          10.3289481
+        ]
+      },
+      "id": "node/6382977385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6433699970",
+        "name": "Đại Lý Gas - Thức Ăn Gia Súc Lê Gia",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8004978,
+          14.055437
+        ]
+      },
+      "id": "node/6433699970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6443549685",
+        "addr:housenumber": "17/13",
+        "addr:postcode": "670000",
+        "addr:street": "Nguyễn Trãi",
+        "email": "hoangnguyendl@gmail.com",
+        "name": "Đại Lý Vé Xe Buýt",
+        "name:en": "DALAT BUS AND OPEN TOUR",
+        "opening_hours": "24/7",
+        "phone": "+84941465548",
+        "shop": "travel_agency",
+        "website": "https://dalatbusstation.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4527076,
+          11.9421702
+        ]
+      },
+      "id": "node/6443549685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6466509651",
+        "name": "Du Lịch APT",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8536439,
+          21.0348307
+        ]
+      },
+      "id": "node/6466509651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6467213309",
+        "alt_name": "rientravel",
+        "description": "booking office and bus stop",
+        "name": "rienttravel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.854174,
+          21.0354393
+        ]
+      },
+      "id": "node/6467213309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6469030975",
+        "name": "Cat Ba Express",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0499518,
+          20.724254
+        ]
+      },
+      "id": "node/6469030975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6469030976",
+        "name": "Signature Journey",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0499898,
+          20.7242245
+        ]
+      },
+      "id": "node/6469030976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6474576485",
+        "name:ru": "Мир Тур Экскурсии",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+84847220122",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.19625,
+          12.2380106
+        ]
+      },
+      "id": "node/6474576485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6496928985",
+        "name:en": "The real Swan Cruises Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0682546,
+          20.9553123
+        ]
+      },
+      "id": "node/6496928985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6564867091",
+        "addr:housenumber": "115",
+        "addr:postcode": "650000",
+        "addr:street": "Hùng Vương",
+        "check_date": "2024-09-19",
+        "name:ru": "Туроператор Мир Тур Выгодные экскурсии",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+847220122",
+        "shop": "travel_agency",
+        "website": "http://mirtur.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1961598,
+          12.2333822
+        ]
+      },
+      "id": "node/6564867091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6572901085",
+        "name:ru": "Мир Тур (экскурсии)",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+84847220122",
+        "shop": "travel_agency",
+        "website": "http://mirtur.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1994239,
+          12.2281285
+        ]
+      },
+      "id": "node/6572901085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6591434186",
+        "name": "vietrans tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8483443,
+          21.0267142
+        ]
+      },
+      "id": "node/6591434186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6602127504",
+        "addr:city": "Hanoi",
+        "addr:country": "VN",
+        "addr:housenumber": "83",
+        "addr:postcode": "10000",
+        "addr:province": "Hoan Kiem",
+        "addr:street": "83 Ma May Street",
+        "description": "Mr Linh's Adventures is a professional travel company, specialising in off the beaten track, adventure, trekking, cycling tours in Vietnam, Cambodia.",
+        "name": "Du Lịch Mr Linh's Adventures",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "operator": "Nguyen Tuan Linh",
+        "phone": "+84 98 958 74 00",
+        "shop": "travel_agency",
+        "website": "https://www.mrlinhadventure.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8534882,
+          21.0339221
+        ]
+      },
+      "id": "node/6602127504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6696113990",
+        "addr:housenumber": "66A",
+        "addr:street": "Hàng Bông",
+        "name": "The Sinh Tourist",
+        "name:vi": "Thé Sinh tourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8473588,
+          21.0304834
+        ]
+      },
+      "id": "node/6696113990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6703665514",
+        "addr:housenumber": "22/1/122",
+        "addr:postcode": "100000",
+        "addr:street": "Phú Viên",
+        "email": "info@amasiatravel.com",
+        "name": "Công Ty TNHH TM & DL Amasia Việt Nam",
+        "name:en": "Amasia Travel",
+        "opening_hours": "Mo-Sa 08:30-17:30",
+        "phone": "+842438721656",
+        "shop": "travel_agency",
+        "website": "https://www.amasiatravel.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8680192,
+          21.0376274
+        ]
+      },
+      "id": "node/6703665514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6703689886",
+        "addr:housenumber": "1/122",
+        "addr:postcode": "100000",
+        "addr:street": "Phú Viên",
+        "name:en": "Cycling Indochina Holiday",
+        "opening_hours": "Mo-Su 08:30-17:30",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8687052,
+          21.0378795
+        ]
+      },
+      "id": "node/6703689886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6703691385",
+        "addr:housenumber": "2/1/122",
+        "addr:postcode": "100000",
+        "addr:street": "Phú Viên",
+        "name": "Du Lịch Explorers Indochina",
+        "name:en": "Explorers Indochina",
+        "name:vi": "Explorers Indochina",
+        "opening_hours": "Mo-Su 08:30-17:30",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8686074,
+          21.0378229
+        ]
+      },
+      "id": "node/6703691385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6712119087",
+        "addr:street": "Mường Hoa",
+        "email": "info@sapaoriginaltrek.com",
+        "name": "Hành Trình Sa Pa",
+        "name:en": "Sapa Original Trek",
+        "opening_hours": "Mo-Su 08:00-19:00",
+        "phone": "+84965225387",
+        "shop": "travel_agency",
+        "website": "https://sapaoriginaltrek.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8444415,
+          22.3316477
+        ]
+      },
+      "id": "node/6712119087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6712119088",
+        "name:en": "Ket Doan Bus Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8511614,
+          22.3383694
+        ]
+      },
+      "id": "node/6712119088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6813664286",
+        "name": "Ананас",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1966051,
+          12.2338787
+        ]
+      },
+      "id": "node/6813664286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6908091991",
+        "addr:city": "móng cái",
+        "addr:housenumber": "số 13",
+        "addr:province": "quảng ninh",
+        "addr:street": "Đại lộ Hòa Bình",
+        "addr:subdistrict": "trần phú",
+        "atm": "yes",
+        "drive_through": "yes",
+        "name": "Công ty TNHH Du lịch và Thương mại Quốc tế Kỳ Mỹ",
+        "name:vi": "Công ty TNHH Du lịch và Thương mại Quốc tế Kỳ Mỹ",
+        "name:zh": "奇美国际旅游及贸易有限公司",
+        "operator": "Công ty TNHH Du lịch và Thương mại Quốc tế Kỳ Mỹ",
+        "operator:zh": "奇美国际旅游及贸易有限公司",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.973617,
+          21.5315441
+        ]
+      },
+      "id": "node/6908091991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6950557185",
+        "addr:housenumber": "58",
+        "addr:street": "Phố Ấu Triệu",
+        "email": "info@indochina-junk.com",
+        "name:en": "DRAGON LEGEND CRUISE",
+        "phone": "+ 84 24 3926 4085",
+        "shop": "travel_agency",
+        "website": "https://www.dragonlegendcruise.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482597,
+          21.0285135
+        ]
+      },
+      "id": "node/6950557185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6967835785",
+        "addr:housenumber": "109",
+        "addr:postcode": "670000",
+        "addr:street": "Phan Bội Châu",
+        "email": "hoangnguyendl@gmail.com",
+        "name:en": "DALAT BUS TICKET AND OPEN TOUR",
+        "opening_hours": "24/7",
+        "phone": "+84947969729",
+        "shop": "travel_agency",
+        "website": "https://dalatbusstation.com/home/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4388631,
+          11.9435439
+        ]
+      },
+      "id": "node/6967835785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6969643786",
+        "name": "SuperDong",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6081429,
+          8.6850856
+        ]
+      },
+      "id": "node/6969643786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6991588287",
+        "name:en": "GCC REP OFFICE",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7001006,
+          10.792022
+        ]
+      },
+      "id": "node/6991588287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7094728185",
+        "addr:housenumber": "45D",
+        "addr:street": "Nguyễn Đình Chiểu",
+        "name": "DIMA-TOUR",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "phone": "+84384500190",
+        "shop": "travel_agency",
+        "website": "https://ru.dimatourmuine.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1953738,
+          10.9444001
+        ]
+      },
+      "id": "node/7094728185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7094728285",
+        "addr:housenumber": "10",
+        "addr:street": "Nguyễn Đình Chiểu",
+        "name": "DIMA-TOUR",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "phone": "+84384500190",
+        "shop": "travel_agency",
+        "website": "https://ru.dimatourmuine.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1900471,
+          10.9400597
+        ]
+      },
+      "id": "node/7094728285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7095259592",
+        "name": "Kickple",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2248136,
+          16.0683147
+        ]
+      },
+      "id": "node/7095259592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7097233085",
+        "name": "Langur's Adventures",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "0225 3887 789",
+        "shop": "travel_agency",
+        "website": "https://www.langursadventures.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0482392,
+          20.7255114
+        ]
+      },
+      "id": "node/7097233085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7109127686",
+        "email": "aseantravelsmiles@gmail.com",
+        "name:en": "Asean Travel, Mr Pham Dinh Tri or Mr Ly",
+        "phone": "8402862778599",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6949825,
+          10.772241
+        ]
+      },
+      "id": "node/7109127686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7116343885",
+        "name:en": "The Church Travels Travel agency, Ngoc",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8480254,
+          21.0282809
+        ]
+      },
+      "id": "node/7116343885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7125480587",
+        "addr:street": "Bát Đàn",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8476836,
+          21.0338051
+        ]
+      },
+      "id": "node/7125480587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7148125385",
+        "addr:city": "Nha Trang",
+        "addr:housenumber": "152",
+        "addr:postcode": "65000",
+        "addr:province": "Khanh Hoa",
+        "addr:street": "Hùng Vương",
+        "addr:subdistrict": "Lộc Thọ",
+        "email": "info@alfatoursvietnam.ru",
+        "name": "Công Ty Alfa Tours Pro",
+        "name:en": "ALFA TOURS PRO Co., Ltd",
+        "name:ru": "АЛЬФА ТУРС | ГЛАВНЫЙ ОФИС",
+        "opening_hours": "Mo-Su 09:00-21:30",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "093 1620088",
+        "shop": "travel_agency",
+        "website": "https://alfatoursvietnam.ru/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1957668,
+          12.2346689
+        ]
+      },
+      "id": "node/7148125385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7170676512",
+        "addr:housenumber": "01A",
+        "description": "In Sapa Dragon Hotel lobby",
+        "name": "TOM - Trails of Mountain",
+        "phone": "+84 02143 872 996",
+        "shop": "travel_agency",
+        "website": "https://www.trailsofmountain.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8392157,
+          22.3356209
+        ]
+      },
+      "id": "node/7170676512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176902688",
+        "addr:housenumber": "79",
+        "addr:street": "Huỳnh Thúc Kháng",
+        "email": "qwertymod@rambler.ru",
+        "name:en": "Dimatour",
+        "name:ru": "Дима-тур",
+        "opening_hours": "Mo-Su 12:00-21:00",
+        "phone": "+84908059603",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2587457,
+          10.9501938
+        ]
+      },
+      "id": "node/7176902688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176902689",
+        "addr:housenumber": "131",
+        "addr:street": "Nguyễn Đình Chiểu",
+        "email": "Elena_dimatour@mail.ru",
+        "name": "Dima-Tour",
+        "name:ru": "Дима-Тур",
+        "opening_hours": "Mo-Su 12:30-21:30",
+        "phone": "+79136060796",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2134443,
+          10.9524927
+        ]
+      },
+      "id": "node/7176902689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7183917586",
+        "addr:housenumber": "646",
+        "addr:street": "Hai Bà Trưng",
+        "name": "The Sinh Tourist",
+        "name:en": "TheSinhTourist",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.325216,
+          15.8819792
+        ]
+      },
+      "id": "node/7183917586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7183917685",
+        "name": "Queen Cafe Open Bus",
+        "name:en": "Hung Thanh Travels",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.327128,
+          15.8876131
+        ]
+      },
+      "id": "node/7183917685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7183957085",
+        "name:en": "An Phu Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.325771,
+          15.8815693
+        ]
+      },
+      "id": "node/7183957085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7195067502",
+        "name": "Hue Attraction Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5951081,
+          16.4686883
+        ]
+      },
+      "id": "node/7195067502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7202402649",
+        "name": "Vietnamese Fabulous Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.845705,
+          21.0315186
+        ]
+      },
+      "id": "node/7202402649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7202554796",
+        "description": "Bus Office and station for Hanoi - Cat Ba",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8510133,
+          21.0331668
+        ]
+      },
+      "id": "node/7202554796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7205103785",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8470639,
+          21.0338593
+        ]
+      },
+      "id": "node/7205103785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7205103885",
+        "name:en": "Banh mi",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8483227,
+          21.0359638
+        ]
+      },
+      "id": "node/7205103885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7205104085",
+        "name:en": "Jewellery",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8486621,
+          21.030266
+        ]
+      },
+      "id": "node/7205104085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7205407880",
+        "name": "Vietravel Rạch Giá",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.0917522,
+          9.9969505
+        ]
+      },
+      "id": "node/7205407880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7210506385",
+        "name": "Hué Five Season",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5959268,
+          16.4690263
+        ]
+      },
+      "id": "node/7210506385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7213217985",
+        "addr:city": "Hà Nội",
+        "addr:district": "Hoàn Kiếm",
+        "addr:housenumber": "96",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Nguyễn Hữu Huân",
+        "addr:subdistrict": "Lý Thái Tổ",
+        "name": "Du Lịch Daiichi",
+        "phone": "+84 866 465 120",
+        "shop": "travel_agency",
+        "website": "https://daiichitravel.com/booking-services.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8544765,
+          21.0320359
+        ]
+      },
+      "id": "node/7213217985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7222461485",
+        "description": "The woman is very helpful. And all this without waiting for a return. She has lots of information, possibility to book bus tickets, rent motorcycles for half a day.",
+        "description:fr": "La femme est très serviable. Et tout ça sans attendre de retour. Elle a pleins de renseignements, possibilité de réserver aussi des ticket de bus, louer des motos a la demie journée.",
+        "name": "Lucky GH",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8492912,
+          22.3375437
+        ]
+      },
+      "id": "node/7222461485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230629785",
+        "name": "Kumho Samco Buslines",
+        "name:it": "Sleeping Bus for Ho Chi Minh",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4474477,
+          11.9280909
+        ]
+      },
+      "id": "node/7230629785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7271627785",
+        "name": "Huong Giang Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5946295,
+          16.4709092
+        ]
+      },
+      "id": "node/7271627785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7283979085",
+        "name:en": "Private house with motorboat tour",
+        "name:uk": "Приватний будиночок з туром на моторному човні",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.814643,
+          20.333418
+        ]
+      },
+      "id": "node/7283979085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7406092077",
+        "name": "Cty TNHH An Toàn",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0760242,
+          10.3464184
+        ]
+      },
+      "id": "node/7406092077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7502330535",
+        "name": "Du Lịch Vietnam Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.698349,
+          10.7774797
+        ]
+      },
+      "id": "node/7502330535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7502711483",
+        "name": "Công Ty Du Lịch Bismillah Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6966593,
+          10.77159
+        ]
+      },
+      "id": "node/7502711483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7709806085",
+        "name": "Du Lịch Kim",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.847587,
+          21.0338306
+        ]
+      },
+      "id": "node/7709806085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8032750095",
+        "name": "Đại Lý Hãng Hàng Không Vietjet Air",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6849346,
+          10.7890236
+        ]
+      },
+      "id": "node/8032750095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8044546185",
+        "addr:street": "Ly Nam de",
+        "email": "booking@exploremyvietnam.com",
+        "name": "Explore my Vietnam",
+        "opening_hours": "24/7",
+        "phone": "+84778587757",
+        "shop": "travel_agency",
+        "website": "https://www.exploremyvietnam.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3332307,
+          15.8844307
+        ]
+      },
+      "id": "node/8044546185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8149539324",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6569563,
+          10.8479495
+        ]
+      },
+      "id": "node/8149539324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9816867518",
+        "name": "Hop On Hop Off",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8562975,
+          21.0266074
+        ]
+      },
+      "id": "node/9816867518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10230445217",
+        "addr:housenumber": "55 F",
+        "addr:postcode": "100000",
+        "addr:street": "Phố Bát Sứ",
+        "email": "Bookinghagiangloopadventure@gmail.com",
+        "name:en": "Ha Giang Loop Motorbike Adventure",
+        "opening_hours": "24/7",
+        "phone": "02438248778",
+        "shop": "travel_agency",
+        "website": "http://Hagiangmotorbiketours.info"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8473473,
+          21.0341066
+        ]
+      },
+      "id": "node/10230445217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10248661412",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Bắc Từ Liêm",
+        "addr:housenumber": "30",
+        "addr:province": "Hà Nội",
+        "addr:street": "Ngõ 61 Phạm Tuấn Tài",
+        "addr:subdistrict": "Phường Cổ Nhuế 1",
+        "name": "Hạ Nguyên CSC",
+        "shop": "travel_agency",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7853124,
+          21.0453378
+        ]
+      },
+      "id": "node/10248661412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10279649409",
+        "name:en": "Goodmorning CatBa",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8528035,
+          21.0366317
+        ]
+      },
+      "id": "node/10279649409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10285502009",
+        "check_date:opening_hours": "2025-03-17",
+        "name": "Tâm Cốc Holiday Travel",
+        "opening_hours:signed": "no",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9377612,
+          20.2158041
+        ]
+      },
+      "id": "node/10285502009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10866731005",
+        "name:en": "How Long Sapa Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482094,
+          21.0338811
+        ]
+      },
+      "id": "node/10866731005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10875571105",
+        "name:en": "Tbus Agency",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.9765887,
+          22.8050699
+        ]
+      },
+      "id": "node/10875571105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10914027505",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.5103791,
+          21.6027871
+        ]
+      },
+      "id": "node/10914027505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10949122205",
+        "name:en": "Motorcyclist tours and rental",
+        "phone": "0982050225",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8589616,
+          21.0666294
+        ]
+      },
+      "id": "node/10949122205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11018633905",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.848276,
+          21.0294021
+        ]
+      },
+      "id": "node/11018633905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11018743705",
+        "name": "Alquiler moto",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8485312,
+          21.0290642
+        ]
+      },
+      "id": "node/11018743705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11018746105",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8898553,
+          21.0625183
+        ]
+      },
+      "id": "node/11018746105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11054014405",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3673111,
+          23.3018455
+        ]
+      },
+      "id": "node/11054014405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11058117506",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3767348,
+          23.2636414
+        ]
+      },
+      "id": "node/11058117506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11063673805",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521632,
+          21.0347288
+        ]
+      },
+      "id": "node/11063673805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11063721305",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.857439,
+          21.0302456
+        ]
+      },
+      "id": "node/11063721305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11063758705",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8581485,
+          21.0277958
+        ]
+      },
+      "id": "node/11063758705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11063780106",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8867139,
+          22.2501026
+        ]
+      },
+      "id": "node/11063780106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11072645371",
+        "addr:city": "Ho Chi Minh City",
+        "addr:housenumber": "45D",
+        "addr:postcode": "7000",
+        "addr:street": "Hồ Tùng Mậu",
+        "addr:subdistrict": "Bến Nghé",
+        "name": "Les Rives - Saigon River Tours Operator",
+        "phone": "+84785920018",
+        "shop": "travel_agency",
+        "website": "https://lesrivesexperience.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7040043,
+          10.7714397
+        ]
+      },
+      "id": "node/11072645371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11101897905",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2002258,
+          10.9468948
+        ]
+      },
+      "id": "node/11101897905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11109544705",
+        "addr:housenumber": "15B",
+        "addr:street": "An Bình",
+        "name:en": "Highland Adventure Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4361828,
+          11.930296
+        ]
+      },
+      "id": "node/11109544705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11138720805",
+        "addr:housenumber": "32A",
+        "addr:street": "Bà Triệu",
+        "name:en": "Daily tours",
+        "phone": "0905509767",
+        "shop": "travel_agency",
+        "website": "https://dailytours.vn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5987304,
+          16.4684434
+        ]
+      },
+      "id": "node/11138720805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11159159105",
+        "name": "Thien Phu Hostel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3108556,
+          17.6099983
+        ]
+      },
+      "id": "node/11159159105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11260197537",
+        "email": "bismillahvn@gmail.com",
+        "name:en": "Bismillah tours travel",
+        "name:es": "Agencia de viajes Bismillah",
+        "phone": "+84938426859",
+        "shop": "travel_agency",
+        "website": "https://www.bismillahtour.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6965605,
+          10.7716223
+        ]
+      },
+      "id": "node/11260197537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11436329569",
+        "addr:housenumber": "234",
+        "addr:postcode": "27000",
+        "addr:street": "Đường 3 Tháng 10",
+        "name:en": "Cao Bang Eco Travel",
+        "opening_hours": "24/7",
+        "phone": "0868352168",
+        "shop": "travel_agency",
+        "website": "http://Caobangecotravel.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2637589,
+          22.6603156
+        ]
+      },
+      "id": "node/11436329569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11527037759",
+        "addr:city": "Thành phố Hồ Chí Minh",
+        "addr:district": "Quận 3",
+        "addr:housenumber": "117",
+        "addr:postcode": "70000",
+        "addr:province": "Việt Nam",
+        "addr:street": "Đường Lý Chính Thắng",
+        "addr:subdistrict": "Phường Võ Thị Sáu",
+        "name": "Đậu Visa - Tư vấn visa Mỹ Úc Canada",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "operator": "company",
+        "payment:cash": "yes",
+        "phone": "+84772567772",
+        "shop": "travel_agency",
+        "website": "https://dauvisa.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6850748,
+          10.7873357
+        ]
+      },
+      "id": "node/11527037759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11568928305",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Cầu Giấy",
+        "addr:housenumber": "52",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Đặng Thùy Trâm",
+        "addr:subdistrict": "Phường Dịch Vọng Hậu",
+        "name": "Hùng Vương Travel",
+        "shop": "travel_agency",
+        "website": "https://hungvuongtravel.com.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7859443,
+          21.0436631
+        ]
+      },
+      "id": "node/11568928305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11572079077",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Cầu Giấy",
+        "addr:housenumber": "9",
+        "addr:province": "Hà Nội",
+        "addr:street": "Ngách 1/84 Phạm Tuấn Tài",
+        "addr:subdistrict": "Phường Dịch Vọng Hậu",
+        "name": "Viet Rivertow",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7844817,
+          21.0432985
+        ]
+      },
+      "id": "node/11572079077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11584471495",
+        "name": "Tân Quang Dũng",
+        "shop": "travel_agency",
+        "website": "https://tanquangdung.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7815631,
+          21.0453039
+        ]
+      },
+      "id": "node/11584471495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11584471513",
+        "name": "Nhà xe Kỳ Anh",
+        "shop": "travel_agency",
+        "website": "https://tanquangdung.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7815365,
+          21.0448521
+        ]
+      },
+      "id": "node/11584471513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11590657182",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Bắc Từ Liêm",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Đặng Thùy Trâm",
+        "addr:subdistrict": "Phường Cổ Nhuế 1",
+        "name": "Tiến Đạt Thành",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7842304,
+          21.0458119
+        ]
+      },
+      "id": "node/11590657182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11703526769",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.6316654,
+          20.8500035
+        ]
+      },
+      "id": "node/11703526769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11729779569",
+        "addr:housenumber": "217",
+        "addr:postcode": "180000",
+        "addr:street": "Quảng trường Cát Bà",
+        "email": "kingcongtravel@gmail.com",
+        "name": "KingCong Travel ( Taxi & Boat )",
+        "opening_hours": "24/7",
+        "phone": "+84981131629",
+        "shop": "travel_agency",
+        "website": "https://kingcongtravell.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0493908,
+          20.7248934
+        ]
+      },
+      "id": "node/11729779569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11779491069",
+        "name:en": "Ninh Binh Mr Khanh Travel Agency",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9734146,
+          20.242342
+        ]
+      },
+      "id": "node/11779491069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11842760049",
+        "name": "Du Lịch Daiichi",
+        "phone": "+84 866 465 120",
+        "shop": "travel_agency",
+        "website": "https://daiichitravel.com/booking-services.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0491222,
+          20.7251029
+        ]
+      },
+      "id": "node/11842760049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964604047",
+        "name": "Big Boss Jungle Tour",
+        "shop": "travel_agency",
+        "website": "https://junglebosstours.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.3238578,
+          17.6156239
+        ]
+      },
+      "id": "node/11964604047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12073037854",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Hoàn Kiếm",
+        "addr:housenumber": "36",
+        "addr:place": "Tập thể Chắn 5 Trần Phú",
+        "addr:province": "Hà Nội",
+        "addr:subdistrict": "Phường Cửa Đông",
+        "name": "The Sinh Cafe Tour Online",
+        "shop": "travel_agency",
+        "website": "http://thesinhcafetours.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8449248,
+          21.0315758
+        ]
+      },
+      "id": "node/12073037854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078122287",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Hoàn Kiếm",
+        "addr:housenumber": "86",
+        "addr:place": "Tập thể Chắn 5 Trần Phú",
+        "addr:province": "Hà Nội",
+        "addr:subdistrict": "Phường Cửa Đông",
+        "check_date": "2024-07-28",
+        "name": "Hanoi Train Street Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8445447,
+          21.0306904
+        ]
+      },
+      "id": "node/12078122287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078122290",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Hoàn Kiếm",
+        "addr:housenumber": "92",
+        "addr:place": "Tập thể Chắn 5 Trần Phú",
+        "addr:province": "Hà Nội",
+        "addr:subdistrict": "Phường Cửa Đông",
+        "check_date": "2024-07-28",
+        "name": "Hanoi Happy Tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8444437,
+          21.0305652
+        ]
+      },
+      "id": "node/12078122290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078134472",
+        "addr:city": "Hà Nội",
+        "addr:district": "Quận Hoàn Kiếm",
+        "addr:housenumber": "5",
+        "addr:province": "Hà Nội",
+        "addr:street": "Phố Trần Phú",
+        "addr:subdistrict": "Phường Cửa Đông",
+        "check_date": "2024-07-28",
+        "name": "Hanoi Train Street Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8443693,
+          21.0303137
+        ]
+      },
+      "id": "node/12078134472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12304596742",
+        "name": "Langur's Adventures",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0499718,
+          20.7241927
+        ]
+      },
+      "id": "node/12304596742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12418135201",
+        "email": "catbapathfinders@gmail.com",
+        "opening_hours": "24/7",
+        "phone": "+84374835024",
+        "shop": "travel_agency",
+        "website": "https://catbapathfinders.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0529557,
+          20.7486505
+        ]
+      },
+      "id": "node/12418135201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12428750901",
+        "name": "Hanoi SSB",
+        "opening_hours": "Mo-Su 08:30-20:00",
+        "shop": "travel_agency",
+        "website": "https://luxuryvanlimousine.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8536427,
+          21.0355861
+        ]
+      },
+      "id": "node/12428750901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12428793601",
+        "addr:housenumber": "55",
+        "addr:street": "Đê Trần Khát Chân",
+        "name": "Apec Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8642293,
+          21.0084432
+        ]
+      },
+      "id": "node/12428793601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12603146901",
+        "addr:housenumber": "172",
+        "addr:postcode": "1000",
+        "addr:street": "Đường Trần Quang Khải",
+        "name:fr": "daiichi travel bus (cat ba - Hanoï)",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8568174,
+          21.0306378
+        ]
+      },
+      "id": "node/12603146901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12635131522",
+        "contact:facebook": "https://web.facebook.com/groups/350575242096806",
+        "email": "info@phuquoc.cz",
+        "name": "Jirka Tours",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+84 369 771 939",
+        "shop": "travel_agency",
+        "website": "https://phuquoc.cz/turisticke-informacni-stredisko/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9680165,
+          10.1875075
+        ]
+      },
+      "id": "node/12635131522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12690021843",
+        "addr:street": "Phố Cát Bà",
+        "name": "Daiichi Travel",
+        "opening_hours": "06:00-21:00",
+        "operator": "Daiichi Group",
+        "phone": "+84 96 100 47 09",
+        "shop": "travel_agency",
+        "website": "https://www.daiichitravel.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0490121,
+          20.725205
+        ]
+      },
+      "id": "node/12690021843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12787411701",
+        "addr:housenumber": "28",
+        "addr:street": "Biệt Thự",
+        "contact:instagram": "ric.nhatrang",
+        "contact:vk": "rusinformcenter",
+        "email": "info@rusinfocenter.com",
+        "name": "Русский Информационный Центр",
+        "name:ru": "РИЦ",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+84901907700",
+        "shop": "travel_agency",
+        "website": "https://rusinfocenter.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1943492,
+          12.2354506
+        ]
+      },
+      "id": "node/12787411701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12809566801",
+        "internet_access": "wlan",
+        "name:en": "Sapa O'Chau Travel Social Enterprise",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.840811,
+          22.3399409
+        ]
+      },
+      "id": "node/12809566801"
+    }
+  ]
+}

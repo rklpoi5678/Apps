@@ -1,0 +1,2840 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-17T08:48:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/362083411",
+        "building": "yes",
+        "name": "Green Paradise Travel Agency",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.9146216,
+              13.9861923
+            ],
+            [
+              105.9145871,
+              13.9861393
+            ],
+            [
+              105.9146216,
+              13.9861181
+            ],
+            [
+              105.9146562,
+              13.9861711
+            ],
+            [
+              105.9146216,
+              13.9861923
+            ]
+          ]
+        ]
+      },
+      "id": "way/362083411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/374815425",
+        "building": "yes",
+        "name": "Lao Experience Travel Agent",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.1321826,
+              19.8902562
+            ],
+            [
+              102.1321161,
+              19.89019
+            ],
+            [
+              102.1321636,
+              19.8901478
+            ],
+            [
+              102.1322301,
+              19.8902141
+            ],
+            [
+              102.1321826,
+              19.8902562
+            ]
+          ]
+        ]
+      },
+      "id": "way/374815425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/707289159",
+        "building": "yes",
+        "building:levels": "2",
+        "email": "info@manifatravel.com",
+        "name": "Manifa Travel",
+        "note": "https://www.manifatravel.com",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+856 71 254 179",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.1404301,
+              19.8942256
+            ],
+            [
+              102.1403816,
+              19.8941924
+            ],
+            [
+              102.1404329,
+              19.8941262
+            ],
+            [
+              102.1404813,
+              19.8941595
+            ],
+            [
+              102.1404301,
+              19.8942256
+            ]
+          ]
+        ]
+      },
+      "id": "way/707289159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/477408070",
+        "addr:city": "Vientiane",
+        "addr:country": "LA",
+        "addr:district": "Chanthabouly",
+        "addr:street": "Francois Ngin Road",
+        "fax": "+856 21 254181",
+        "name": "Funky Monkey Hostel",
+        "phone": "+856 20 28000207;+856 20 99111185",
+        "shop": "travel_agency",
+        "tourism": "hostel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6044449,
+          17.9643337
+        ]
+      },
+      "id": "node/477408070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524296635",
+        "name": "Scenic Travel",
+        "name:en": "Scenic Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6100276,
+          17.9654101
+        ]
+      },
+      "id": "node/524296635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524296640",
+        "name": "Xiengthong Travel",
+        "name:en": "Xiengthong Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6102377,
+          17.9653175
+        ]
+      },
+      "id": "node/524296640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524296647",
+        "name": "Kian Min",
+        "name:en": "Kian Min",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6101515,
+          17.9651578
+        ]
+      },
+      "id": "node/524296647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524396263",
+        "name": "All Time Travel Service",
+        "name:en": "All Time Travel Service",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6115164,
+          17.9657263
+        ]
+      },
+      "id": "node/524396263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524396266",
+        "name": "World Wide Air Tickets",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.611042,
+          17.9654809
+        ]
+      },
+      "id": "node/524396266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524396271",
+        "name": "Khaen Lao Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6121369,
+          17.966104
+        ]
+      },
+      "id": "node/524396271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524396302",
+        "name": "Keomany Air Booking",
+        "name:en": "Keomany Air Booking",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6059647,
+          17.9671842
+        ]
+      },
+      "id": "node/524396302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/524396311",
+        "name": "Oudomsin Trading and Travel Co., Ltd.",
+        "name:en": "Oudomsin Trading and Travel Co., Ltd.",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6054627,
+          17.9674393
+        ]
+      },
+      "id": "node/524396311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/525511717",
+        "addr:street": "Hengboun Road",
+        "email": "info@greendiscoverylaos.com",
+        "name": "Inthira Group",
+        "name:en": "Green Discovery Vientiane",
+        "office": "company",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "shop": "travel_agency",
+        "website": "https://greendiscoverylaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6055738,
+          17.9668384
+        ]
+      },
+      "id": "node/525511717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/528566901",
+        "name": "Lao Vieng Travel",
+        "name:en": "Lao Vieng Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6198575,
+          17.958875
+        ]
+      },
+      "id": "node/528566901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/528857593",
+        "name": "Champa Lao Travel",
+        "name:en": "Champa Lao Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6247745,
+          17.9589896
+        ]
+      },
+      "id": "node/528857593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/534023305",
+        "name": "Lao Air Express",
+        "name:en": "Lao Air Express",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.60069,
+          17.9674347
+        ]
+      },
+      "id": "node/534023305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/536575090",
+        "name": "S&M Air Booking",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6083847,
+          17.9650039
+        ]
+      },
+      "id": "node/536575090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/536575092",
+        "name": "Green Discovery",
+        "phone": "+856 20 2252 3729",
+        "shop": "travel_agency",
+        "website": "https://www.greendiscoverylaos.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6045064,
+          17.9672905
+        ]
+      },
+      "id": "node/536575092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790836576",
+        "name:en": "Tiger Trail",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6143968,
+          20.5716741
+        ]
+      },
+      "id": "node/790836576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1204189955",
+        "name": "Green Discovery",
+        "shop": "travel_agency",
+        "website": "https://greendiscoverylaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.449113,
+          18.9259825
+        ]
+      },
+      "id": "node/1204189955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1435372284",
+        "name": "D&K Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6046138,
+          17.9647236
+        ]
+      },
+      "id": "node/1435372284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1435372286",
+        "check_date": "2023-01-13",
+        "fax": "+856 21 242 286",
+        "name": "DD Travel & Ticketing",
+        "phone": "+856 21 242 287;+856 21 242 288",
+        "shop": "travel_agency",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6050557,
+          17.9638726
+        ]
+      },
+      "id": "node/1435372286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1435372310",
+        "name": "Lao Youth Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6041725,
+          17.9635311
+        ]
+      },
+      "id": "node/1435372310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1435372311",
+        "name": "Lao's Passenger Service",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6072097,
+          17.9635771
+        ]
+      },
+      "id": "node/1435372311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1435372313",
+        "name": "Lasi International Air Ticketing",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6045892,
+          17.965194
+        ]
+      },
+      "id": "node/1435372313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1435372320",
+        "name": "Nam Xan River Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6058837,
+          17.9638128
+        ]
+      },
+      "id": "node/1435372320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1470852013",
+        "name": "Naga Express Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1346727,
+          19.8901485
+        ]
+      },
+      "id": "node/1470852013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1937921954",
+        "name": "Lao Fly",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6070577,
+          17.9646939
+        ]
+      },
+      "id": "node/1937921954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2066033456",
+        "name": "Phone Travel Co.,Ltd",
+        "phone": "+856 21 244386",
+        "shop": "travel_agency",
+        "website": "http://www.laokim.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6029145,
+          17.9647338
+        ]
+      },
+      "id": "node/2066033456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2122532325",
+        "name": "Soutchai Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6026603,
+          17.9649295
+        ]
+      },
+      "id": "node/2122532325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2134397386",
+        "name": "Lao Skyline Airticketing",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1352394,
+          19.8903753
+        ]
+      },
+      "id": "node/2134397386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2134397389",
+        "name": "Manifa Travel Co. Ltd.",
+        "name:en": "Manifa Travel Co. Ltd.",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1373838,
+          19.8919848
+        ]
+      },
+      "id": "node/2134397389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2134397394",
+        "email": "info@laosabaidee.com",
+        "name": "Sabaidee Luangprabang Travel",
+        "phone": "+856 20 55771646",
+        "shop": "travel_agency",
+        "website": "www.sabaideeluangprabang.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1353134,
+          19.8904156
+        ]
+      },
+      "id": "node/2134397394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2149891271",
+        "fax": "071 213024",
+        "name": "Tripthala All Ticketing Service",
+        "phone": "+856 20 22852010",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1330651,
+          19.8910696
+        ]
+      },
+      "id": "node/2149891271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2275990463",
+        "name": "Lao Airlines Luang Namtha Branch Office",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4097899,
+          20.9994682
+        ]
+      },
+      "id": "node/2275990463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2480850913",
+        "contact:phone": "+856 23 511230",
+        "name": "Green Discovery",
+        "shop": "travel_agency",
+        "website": "https://www.greendiscoverylaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4459695,
+          18.9230897
+        ]
+      },
+      "id": "node/2480850913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2760122174",
+        "name": "Ecotourism Information Trekking Service",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0585598,
+          20.6758653
+        ]
+      },
+      "id": "node/2760122174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2792775211",
+        "name": "Green Discovery",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.80428,
+          17.395403
+        ]
+      },
+      "id": "node/2792775211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2792787946",
+        "accommodation": "yes",
+        "addr:city": "Pakse",
+        "addr:housenumber": "05-67",
+        "addr:postcode": "16000",
+        "addr:street": "Th 46",
+        "description": "Hotel, hostel, guest house.   They offer shared rooms, private rooms, tours",
+        "hostel": "yes",
+        "hotel": "yes",
+        "name": "Soutchai Hostel and Tour Company",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "payment:cash": "yes",
+        "phone": "+856 031 212 921",
+        "shop": "travel_agency",
+        "tourism": "Travel_company._You_can_book_tours_through_them.",
+        "tours": "yes",
+        "website": "soutchaitravel.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8047332,
+          15.1210103
+        ]
+      },
+      "id": "node/2792787946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3090176865",
+        "man_made": "pier",
+        "name": "Ferry tourism services - Pak Ou Cave",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.138275,
+          19.8953263
+        ]
+      },
+      "id": "node/3090176865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3388959357",
+        "email": "info.la@vietnamairlines.com",
+        "level": "0",
+        "name": "Vietnam Airlines",
+        "note": "1st floor",
+        "office": "travel_agent",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:30; Sa 08:00-12:00",
+        "phone": "+856 24 252618;+856 21 217562",
+        "shop": "travel_agency",
+        "website": "https://www.vietnamairlines.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6083755,
+          17.9665594
+        ]
+      },
+      "id": "node/3388959357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3862585817",
+        "email": "info@la.diethelmtravel.com",
+        "name": "Mojo Bar & Lounge",
+        "phone": "+856 21 316390",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6190967,
+          17.9519237
+        ]
+      },
+      "id": "node/3862585817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3884792017",
+        "name": "Green Discovery Laos",
+        "phone": "+856 31 251908",
+        "shop": "travel_agency",
+        "website": "https://greendiscoverylaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7990494,
+          15.1205907
+        ]
+      },
+      "id": "node/3884792017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4032831764",
+        "addr:housenumber": "16",
+        "addr:postcode": "30600",
+        "email": "info@vangviengtour.com",
+        "name": "VLT Tours",
+        "name:en": "VLT Tours",
+        "phone": "+856 20 55208283",
+        "shop": "travel_agency",
+        "website": "https://www.vangviengtour.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4465068,
+          18.9241668
+        ]
+      },
+      "id": "node/4032831764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4059892464",
+        "name:en": "Green Discovery Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6147713,
+          20.5716844
+        ]
+      },
+      "id": "node/4059892464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4059892466",
+        "name": "Jewel Tours Laos",
+        "name:en": "Q Adventure Tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6172109,
+          20.5692744
+        ]
+      },
+      "id": "node/4059892466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4059892468",
+        "name:en": "NK Adventure",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6171767,
+          20.5690007
+        ]
+      },
+      "id": "node/4059892468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4059892470",
+        "name": "Nong Khiaw Adventure Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6147505,
+          20.5718591
+        ]
+      },
+      "id": "node/4059892470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4200491590",
+        "name": "Pakse Travel",
+        "office": "travel_agent",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7996112,
+          15.1219412
+        ]
+      },
+      "id": "node/4200491590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4284276595",
+        "addr:city": "Luang Prabang",
+        "addr:street": "Chanboupha Road",
+        "description": "We're here to make traveling so easier.",
+        "name": "LaosTripAdvisorTravel Co.,Ltd.",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1391019,
+          19.8835324
+        ]
+      },
+      "id": "node/4284276595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4330500623",
+        "name": "Soutchai Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4486448,
+          18.9220823
+        ]
+      },
+      "id": "node/4330500623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4381854591",
+        "addr:postcode": "2856",
+        "addr:street": "ຮ່ອມ 10",
+        "email": "laowonderland@gmail.com",
+        "name": "ບ້ານ ໝອງບົວທອງ",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "+8562028828882;+85621258168",
+        "shop": "travel_agency",
+        "website": "http://www.laowonderland.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.5928187,
+          17.989806
+        ]
+      },
+      "id": "node/4381854591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4381871690",
+        "addr:postcode": "2956",
+        "addr:street": "ຮ່ອມ 10",
+        "email": "laowonderland@gmail.com",
+        "name": "ໝອງບົວທອງ ຮ່ອມ 10",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "+8562028828882;+85621258168",
+        "shop": "travel_agency",
+        "website": "http://www.laowonderland.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.5927437,
+          17.9895081
+        ]
+      },
+      "id": "node/4381871690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4384741921",
+        "opening_hours": "Mo-Su 07:00-22:30",
+        "phone": "+856 20 55742477",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9148171,
+          13.9859072
+        ]
+      },
+      "id": "node/4384741921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4384741924",
+        "name:en": "Bamboo Bar Travel",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9144125,
+          13.985346
+        ]
+      },
+      "id": "node/4384741924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4412720619",
+        "email": "hello@thehikerlaos.com",
+        "name": "The Hiker",
+        "name:de": "The Hiker",
+        "name:en": "The Hiker",
+        "phone": "+85686212343",
+        "shop": "travel_agency",
+        "website": "https://www.thehikerlaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.409396,
+          21.0021841
+        ]
+      },
+      "id": "node/4412720619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4418945890",
+        "addr:city": "Luang Prabang",
+        "addr:housenumber": "29/2",
+        "addr:postcode": "06000",
+        "addr:street": "Wisunalat Road",
+        "email": "info@offroadlaosadventures.com",
+        "name": "Off Road Laos Adventures",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "operator": "Equipe Franco-Lao",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:visa": "yes",
+        "shop": "travel_agency",
+        "website": "https://www.offroadlaosadventures.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1398001,
+          19.8867805
+        ]
+      },
+      "id": "node/4418945890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4438494391",
+        "addr:street": "ບ້ານປາກເຊ",
+        "name:en": "AGL General Laos ປະກັນໄພ",
+        "name:th": "ปะกันไพ Alianz Lao",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "phone": "02022262222",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8060778,
+          15.1150104
+        ]
+      },
+      "id": "node/4438494391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4466195589",
+        "addr:street": "Road No.24 Rd, Pakse, Laos",
+        "name": "Green Paradise Travel",
+        "name:en": "Green Paradise Travel",
+        "phone": "+856 20 97 576 669",
+        "shop": "travel_agency",
+        "website": "https://greenparadisetravellaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8017839,
+          15.1224279
+        ]
+      },
+      "id": "node/4466195589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4523226396",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1327141,
+          19.890203
+        ]
+      },
+      "id": "node/4523226396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4573129205",
+        "name:ko": "폰트레블",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1375288,
+          19.8923105
+        ]
+      },
+      "id": "node/4573129205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4573130135",
+        "name:ko": "원더풀 투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4478523,
+          18.9260567
+        ]
+      },
+      "id": "node/4573130135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4575144091",
+        "name:ko": "원더풀투어",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9137778,
+          13.9866646
+        ]
+      },
+      "id": "node/4575144091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4581072691",
+        "email": "tckamazingtour@gmail.com",
+        "name:en": "T.C.K Amazing Tours",
+        "phone": "+856 23 511691",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4466482,
+          18.9247989
+        ]
+      },
+      "id": "node/4581072691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4658724542",
+        "name": "Luangchith Ticketing & Tour",
+        "phone": "071-254 344",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1381315,
+          19.8939921
+        ]
+      },
+      "id": "node/4658724542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4684712989",
+        "addr:housenumber": "002",
+        "addr:postcode": "0031",
+        "addr:street": "Lao-Nippon-Bridge",
+        "email": "kmk_travel.champasack@hotmail.com",
+        "name:en": "kmk travel pakse branch",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa 08:30-17:00",
+        "phone": "+85631215518",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8191754,
+          15.1131726
+        ]
+      },
+      "id": "node/4684712989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4711354390",
+        "name:en": "white elephant adventures",
+        "opening_hours": "Mo-Su 08:30-21:30",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1375691,
+          19.8923384
+        ]
+      },
+      "id": "node/4711354390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4739136721",
+        "addr:street": "Sisavangvong Road",
+        "email": "info.mandalao@gmail.com",
+        "name:en": "MandaLao Sanctuary & Resort - Co. Ltd.",
+        "phone": "+856305664014",
+        "shop": "travel_agency",
+        "website": "https://www.mandalaotours.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1374246,
+          19.8922135
+        ]
+      },
+      "id": "node/4739136721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4755785124",
+        "internet_access": "wlan",
+        "name": "Pakse Green Adventure Travel",
+        "name:en": "Pakse Green Adventure Travel",
+        "opening_hours": "Mo-Su 07:00-19:30",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7993816,
+          15.1226119
+        ]
+      },
+      "id": "node/4755785124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4819736138",
+        "name:en": "Kent Dondet",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9145947,
+          13.9860118
+        ]
+      },
+      "id": "node/4819736138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4948015722",
+        "email": "laowonderland@gmail.com",
+        "name": "ບໍລິສັດ ທ່ອງທ່ຽວ ວອນເດີແລນ",
+        "name:en": "Wonderland Tour",
+        "name:lo": "ບໍລິສັດ ທ່ອງທ່ຽວ ວອນເດີແລນ",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "phone": "+856 20 28828882",
+        "shop": "travel_agency",
+        "website": "http://www.laowonderland.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6181263,
+          17.979493
+        ]
+      },
+      "id": "node/4948015722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4950796776",
+        "name": "Ethnic Travel Laos",
+        "phone": "020 55395531",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4094609,
+          21.001954
+        ]
+      },
+      "id": "node/4950796776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5081101687",
+        "name": "Remote Asia Travel",
+        "shop": "travel_agency",
+        "source": "http://www.remoteasia.com",
+        "website": "http://www.remoteasia.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6163387,
+          17.9210586
+        ]
+      },
+      "id": "node/5081101687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5119484121",
+        "email": "phimmapunh@yahoo.com",
+        "name:en": "Douangsa Ychai Travel and Mini Bus Company",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "2022941044",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.2192418,
+          19.4503363
+        ]
+      },
+      "id": "node/5119484121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5224458921",
+        "addr:housenumber": "78",
+        "addr:postcode": "856",
+        "addr:street": "Mekong riverside",
+        "email": "travelaos2teach@yahoo.com",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "0304448456",
+        "shop": "travel_agency",
+        "website": "http://www.bambooschoolprojectlaos.wordpress.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.853603,
+          14.1087881
+        ]
+      },
+      "id": "node/5224458921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5274569024",
+        "name:en": "ggotmongnae",
+        "name:ko": "꽃몽네",
+        "phone": "+856 20 54 720 285",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.60361,
+          17.9651779
+        ]
+      },
+      "id": "node/5274569024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5290810321",
+        "name:en": "Hill Tribe Discovery Laos Agency",
+        "name:he": "איציק  המקורי",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4093157,
+          21.0029789
+        ]
+      },
+      "id": "node/5290810321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5297129021",
+        "name:en": "Luang Prabang Holiday Travel Co.",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1343336,
+          19.8879505
+        ]
+      },
+      "id": "node/5297129021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5377887221",
+        "email": "keomoungkhoun_kmk@hotmail.com",
+        "name": "ບໍລິສັດ ແກ້ວມຸງຄຸນ ທ່ອງທ່ຽວ ຈຳກັດຜູ້ດຽວ",
+        "name:lo": "ບໍລິສັດ ແກ້ວມຸງຄຸນ ທ່ອງທ່ຽວ ຈຳກັດຜູ້ດຽວ",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa 09:00-12:00",
+        "phone": "+856 21 255518",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6149815,
+          17.9782192
+        ]
+      },
+      "id": "node/5377887221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5403093624",
+        "email": "info@luangprabang-cruise.com",
+        "name:en": "Luang Prabang Cruise",
+        "phone": "+856 20 56110220",
+        "shop": "travel_agency",
+        "website": "http://luangprabang-cruise.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1400249,
+          19.8961401
+        ]
+      },
+      "id": "node/5403093624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5413422721",
+        "name:en": "Soutchai Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.447028,
+          18.9214232
+        ]
+      },
+      "id": "node/5413422721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5426041322",
+        "email": "namtha@greendiscoverylaos.com",
+        "name": "Green Discovery",
+        "name:en": "Green Discovery Adventure & Eco-Tourism",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+85686211484",
+        "shop": "travel_agency",
+        "website": "https://greendiscoverylaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4095526,
+          21.001282
+        ]
+      },
+      "id": "node/5426041322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5445307428",
+        "name:en": "Explore-Asia Tour Vangvieng",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4472387,
+          18.9259245
+        ]
+      },
+      "id": "node/5445307428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5487603222",
+        "name": "Soutchai Travel",
+        "name:en": "soutchai travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4480386,
+          18.9214084
+        ]
+      },
+      "id": "node/5487603222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5556230031",
+        "name:ko": "한인쉼터",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.5889198,
+          17.9685764
+        ]
+      },
+      "id": "node/5556230031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5576116423",
+        "addr:housenumber": "188",
+        "addr:postcode": "01000",
+        "addr:street": "Hengboun Road",
+        "email": "bounthavy@mekong-cruises.com",
+        "name:en": "Vat Phou Cruises / Luang Say Cruises ( Mekong Cruises )",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00; Sa 08:00-12:00",
+        "phone": "+85621215958",
+        "shop": "travel_agency",
+        "website": "http://www.mekong-cruises.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6048508,
+          17.9672688
+        ]
+      },
+      "id": "node/5576116423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5971433085",
+        "name:en": "Hmong Asia",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.138163,
+          19.8893587
+        ]
+      },
+      "id": "node/5971433085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5985218086",
+        "name:en": "Ssen Mekong",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1392677,
+          19.8954974
+        ]
+      },
+      "id": "node/5985218086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6053959800",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6293649,
+          17.9746604
+        ]
+      },
+      "id": "node/6053959800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6053968585",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6064527,
+          17.9740265
+        ]
+      },
+      "id": "node/6053968585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054003429",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.137059,
+          19.8920148
+        ]
+      },
+      "id": "node/6054003429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054003437",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1325907,
+          19.8884707
+        ]
+      },
+      "id": "node/6054003437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054005608",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1430407,
+          19.8961005
+        ]
+      },
+      "id": "node/6054005608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6192397646",
+        "name": "Phouphieng Bolaven",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7976995,
+          15.1200585
+        ]
+      },
+      "id": "node/6192397646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6192442332",
+        "operator": "Lao Skyway Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7971299,
+          15.1189558
+        ]
+      },
+      "id": "node/6192442332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6213752985",
+        "int_name": "Phant Phong Tours",
+        "name": "Phant Phong Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6069767,
+          17.9654061
+        ]
+      },
+      "id": "node/6213752985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6231762042",
+        "name": "Thanongxay Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8054368,
+          15.1188224
+        ]
+      },
+      "id": "node/6231762042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6244147085",
+        "name:en": "Lao Airlines",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1355507,
+          19.8840524
+        ]
+      },
+      "id": "node/6244147085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6271078689",
+        "name": "Malany Transport Co.,Ltd",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4491545,
+          18.9251849
+        ]
+      },
+      "id": "node/6271078689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6273713485",
+        "name": "Pakse Travel & Air Service",
+        "name:en": "Pakse Travel & Air Service",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7990755,
+          15.1211632
+        ]
+      },
+      "id": "node/6273713485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6334567485",
+        "addr:city": "Vientiane",
+        "addr:postcode": "01030",
+        "addr:street": "ສີເມືອງ ຮ່ອມ 1",
+        "name": "BiiG Travel",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "operator": "BiiG Travel",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+8562096572538",
+        "shop": "travel_agency",
+        "website": "https://biig-travel.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6193016,
+          17.9571463
+        ]
+      },
+      "id": "node/6334567485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6334703185",
+        "name:en": "Thai's express",
+        "opening_hours": "Mo-Sa 07:30-17:00",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6091996,
+          17.9657435
+        ]
+      },
+      "id": "node/6334703185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6369643885",
+        "addr:housenumber": "99",
+        "addr:postcode": "06000",
+        "addr:street": "Khemkhong",
+        "email": "contact@khopfa-mekong-cruise.com",
+        "name:en": "Khopfa Mekong Cruise",
+        "opening_hours": "Mo-Su 08:30-20:00",
+        "phone": "+856 20 92100012",
+        "shop": "travel_agency",
+        "website": "http://www.khopfa-mekong-cruise.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1400091,
+          19.8963386
+        ]
+      },
+      "id": "node/6369643885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6387066087",
+        "name:en": "Sousath Travel",
+        "name:es": "Sousath Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.2187457,
+          19.4503559
+        ]
+      },
+      "id": "node/6387066087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6432738385",
+        "name": "Vang Vieng Hot Air Balloons",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4492003,
+          18.9248965
+        ]
+      },
+      "id": "node/6432738385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6474561585",
+        "name:en": "travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9610415,
+          13.9366318
+        ]
+      },
+      "id": "node/6474561585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6630487285",
+        "email": "chanthaphoneinsarn@Hotmail.com",
+        "name:en": "Top travel and tours",
+        "name:th": "ท๋อบทราเววแอนท์ว",
+        "phone": "+856 30 5903278",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4469489,
+          18.9270329
+        ]
+      },
+      "id": "node/6630487285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649157430",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.920643,
+          14.0016028
+        ]
+      },
+      "id": "node/6649157430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649636188",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9148512,
+          13.983343
+        ]
+      },
+      "id": "node/6649636188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649680385",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9150738,
+          13.9823278
+        ]
+      },
+      "id": "node/6649680385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649680687",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9177293,
+          13.9847027
+        ]
+      },
+      "id": "node/6649680687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649680688",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9157267,
+          13.9855073
+        ]
+      },
+      "id": "node/6649680688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649711885",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9216093,
+          13.983401
+        ]
+      },
+      "id": "node/6649711885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6649711888",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9162184,
+          13.9851813
+        ]
+      },
+      "id": "node/6649711888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6652719887",
+        "name:en": "Boat trips",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9475357,
+          13.9378892
+        ]
+      },
+      "id": "node/6652719887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6652798485",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9152468,
+          13.9857673
+        ]
+      },
+      "id": "node/6652798485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6654564085",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9134611,
+          13.9865534
+        ]
+      },
+      "id": "node/6654564085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6654848985",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7993837,
+          15.1200313
+        ]
+      },
+      "id": "node/6654848985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6654849085",
+        "name:en": "Watphou Travels",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7989571,
+          15.1200594
+        ]
+      },
+      "id": "node/6654849085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6786953785",
+        "name": "Luangchit Travel",
+        "name:en": "Luangchit Travel",
+        "shop": "travel_agency",
+        "short_name": "LC Travel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1390023,
+          19.8877984
+        ]
+      },
+      "id": "node/6786953785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6877186586",
+        "name:en": "White Rabbit Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6170597,
+          20.5698495
+        ]
+      },
+      "id": "node/6877186586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6892964790",
+        "name": "Vang Vieng Central Adventure",
+        "shop": "travel_agency",
+        "survey:date": "2019-10-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4495222,
+          18.9269394
+        ]
+      },
+      "id": "node/6892964790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6892976591",
+        "name": "Green morning",
+        "shop": "travel_agency",
+        "survey:date": "2019-10-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4494827,
+          18.9264763
+        ]
+      },
+      "id": "node/6892976591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6892977286",
+        "name": "Vang vieng discovery tour",
+        "shop": "travel_agency",
+        "survey:date": "2019-10-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4492885,
+          18.9268259
+        ]
+      },
+      "id": "node/6892977286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6907858085",
+        "name:en": "Namou Adventure Tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6173665,
+          20.5694943
+        ]
+      },
+      "id": "node/6907858085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7059080985",
+        "name": "Green Discovery Laos",
+        "name:en": "Green Discovery Laos",
+        "shop": "travel_agency",
+        "website": "https://greendiscoverylaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4462104,
+          18.9233656
+        ]
+      },
+      "id": "node/7059080985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7106360686",
+        "addr:street": "Sakkaline Road",
+        "email": "Galaxydid@gmail.com",
+        "name:en": "Galaxy Tour Airticketing",
+        "opening_hours": "Mo-Su 07:00-09:00",
+        "phone": "+856 20 56244266",
+        "shop": "travel_agency",
+        "website": "http://www.luangprabanggalaxytours.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1417404,
+          19.8951626
+        ]
+      },
+      "id": "node/7106360686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7114630308",
+        "addr:city": "Savannakhet",
+        "addr:housenumber": "12/094",
+        "addr:postcode": "13000",
+        "addr:street": "Latsaphanith",
+        "capacity": "10",
+        "email": "info@marvelaos.com",
+        "name": "Marvelaos Travel and Tour",
+        "name:lo": "ບໍລິສັດທ່ອງທ່ຽວ ມາແວ່ລາວ",
+        "network": "Marvelaos Travel and Tour",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "operator": "Marvelaos Travel and Tour",
+        "operator:type": "business",
+        "phone": "+8562055552927",
+        "shop": "travel_agency",
+        "website": "https://www.marvelaos.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7466398,
+          16.5580014
+        ]
+      },
+      "id": "node/7114630308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7190404686",
+        "name:en": "Marvelaos",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7465652,
+          16.5580557
+        ]
+      },
+      "id": "node/7190404686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7192379085",
+        "name:en": "Écho trekking",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4093691,
+          21.0031494
+        ]
+      },
+      "id": "node/7192379085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7216801029",
+        "name": "Thai Airways",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.591681,
+          17.9689453
+        ]
+      },
+      "id": "node/7216801029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7856313687",
+        "addr:street": "Sibounheuang Road",
+        "name:en": "Xaymungkhoune Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6223852,
+          17.9858717
+        ]
+      },
+      "id": "node/7856313687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10288659965",
+        "email": "xay100@hotmail.com",
+        "name": "Explore-Asia Lao in Vang Vieng",
+        "phone": "+856 23 511 482;+856 30 50 98 133;+856 209776251",
+        "shop": "travel_agency",
+        "website": "https://www.facebook.com/profile.php?id=100057232398026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4487947,
+          18.9229107
+        ]
+      },
+      "id": "node/10288659965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10968740906",
+        "name:en": "Nam Ou Adventure Tours",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6148581,
+          20.5717456
+        ]
+      },
+      "id": "node/10968740906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11245594538",
+        "name:fr": "Green Paradise Travel Agency",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9146199,
+          13.9861787
+        ]
+      },
+      "id": "node/11245594538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11246303237",
+        "name:fr": "Green Paradise Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8017772,
+          15.1223196
+        ]
+      },
+      "id": "node/11246303237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11464784479",
+        "name": "Discovering Laos",
+        "name:en": "Discovering Laos",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+856 20 22 990 344",
+        "shop": "travel_agency",
+        "website": "http://discoveringlaos.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4090989,
+          21.0029151
+        ]
+      },
+      "id": "node/11464784479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11645117669",
+        "name:en": "Green Paradise Travel",
+        "name:fr": "Green Paradise Travel",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9207178,
+          14.0018742
+        ]
+      },
+      "id": "node/11645117669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11971783469",
+        "name": "Nong Khiaw World tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6111721,
+          20.5694928
+        ]
+      },
+      "id": "node/11971783469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12147155603",
+        "addr:city": "Thakhek",
+        "addr:street": "Setthathilat Road",
+        "name": "BL Travel And Tours",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+856 209444 0050",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8041713,
+          17.3956583
+        ]
+      },
+      "id": "node/12147155603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347031240",
+        "name": "All Lao Service Co. Ltd.",
+        "name:en": "All Lao Service Co. Ltd.",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1373199,
+          19.8921417
+        ]
+      },
+      "id": "node/12347031240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347031248",
+        "name": "White Elephant Tours",
+        "phone": "+856 71 254846",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1380575,
+          19.8924744
+        ]
+      },
+      "id": "node/12347031248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347031251",
+        "email": "info@treasuretravellaos.com",
+        "fax": "+856 71 254683",
+        "name": "Treasure Travel Laos",
+        "name:en": "Treasure Travel Laos",
+        "phone": "+856 71 254403",
+        "shop": "travel_agency",
+        "website": "www.treasuretravellaos.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1377091,
+          19.8922303
+        ]
+      },
+      "id": "node/12347031251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347031252",
+        "email": "info@jeweltravellaos.com",
+        "fax": "+856 71 253910",
+        "name": "Jewel Travel Laos",
+        "name:en": "Jewel Travel Laos",
+        "phone": "+856 71 253910",
+        "shop": "travel_agency",
+        "website": "https://www.jeweltravellaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1376767,
+          19.8922094
+        ]
+      },
+      "id": "node/12347031252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347031257",
+        "email": "laodiscoverytours@yahoo.com",
+        "fax": "+856 71 253745",
+        "name": "Lao Discovery Tours",
+        "phone": "+856 71 212698",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1378751,
+          19.8925462
+        ]
+      },
+      "id": "node/12347031257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347031259",
+        "name": "All Lao Travel Co",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1376572,
+          19.8923944
+        ]
+      },
+      "id": "node/12347031259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347031260",
+        "fax": "+856 71 212093",
+        "name": "Green Discovery",
+        "name:en": "Green Discovery",
+        "phone": "+856 71 212093",
+        "shop": "travel_agency",
+        "website": "https://greendiscoverylaos.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1376318,
+          19.8923781
+        ]
+      },
+      "id": "node/12347031260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12347031261",
+        "fax": "+856 71 253745",
+        "name": "Lao Discovery Tours",
+        "phone": "+856 71 212698",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1380691,
+          19.8926837
+        ]
+      },
+      "id": "node/12347031261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12355195986",
+        "name": "Siriphong Airticketing Services Co. Ltd",
+        "name:en": "Siriphong Airticketing Services Co. Ltd",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1375582,
+          19.8921408
+        ]
+      },
+      "id": "node/12355195986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12355195989",
+        "fax": "+856 71 253523",
+        "name": "All Lao Travel Co. Ltd.",
+        "name:en": "All Lao Travel Co. Ltd.",
+        "phone": "+856 71 253522",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1372128,
+          19.8920685
+        ]
+      },
+      "id": "node/12355195989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12355195990",
+        "branch": "Luang Prabang Branch",
+        "name": "Phone Travel Co. Ltd.",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1371421,
+          19.8920205
+        ]
+      },
+      "id": "node/12355195990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12355195991",
+        "fax": "+856 71 252 360",
+        "name": "Grace Air Ticketing",
+        "phone": "+856 71 252 360",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.137106,
+          19.8919991
+        ]
+      },
+      "id": "node/12355195991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12355195994",
+        "name": "Tiger Trail",
+        "name:en": "Tiger Trail",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1368904,
+          19.8918547
+        ]
+      },
+      "id": "node/12355195994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12355195995",
+        "name": "Lao-American",
+        "name:en": "Lao-American",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1368674,
+          19.8918346
+        ]
+      },
+      "id": "node/12355195995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12446941001",
+        "name:en": "ສວນສິງແວດລ້ອມທຳມະຊາດ/Natural Environment Garden",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6681577,
+          20.5353847
+        ]
+      },
+      "id": "node/12446941001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12528972202",
+        "name:en": "Backpacker Adventure Tour",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6169613,
+          20.5698419
+        ]
+      },
+      "id": "node/12528972202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12801730701",
+        "name": "Two Wheels in vang vieng",
+        "name:fr": "two wheels in vang vieng",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "phone": "+8562056192497",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4470449,
+          18.9268729
+        ]
+      },
+      "id": "node/12801730701"
+    }
+  ]
+}

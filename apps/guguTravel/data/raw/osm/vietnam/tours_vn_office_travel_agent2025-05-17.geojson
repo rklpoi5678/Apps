@@ -1,0 +1,901 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-05-16T14:59:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2859940473",
+        "addr:city": "Hà Nội",
+        "addr:country": "VN",
+        "addr:housenumber": "66",
+        "addr:street": "Đào Duy Từ",
+        "email": "info@flamingotravel.vn",
+        "name": "cửa hàng Flamingo Motorbike Tours / Rentals",
+        "name:zh": "佛拉明哥酒店",
+        "office": "travel_agent",
+        "phone": "+84 912214554",
+        "shop": "motorcycle",
+        "website": "https://flamingotravel.com.vn/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8530238,
+          21.0349695
+        ]
+      },
+      "id": "node/2859940473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2941536601",
+        "name": "Hoa Mai",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.117104,
+          10.399639
+        ]
+      },
+      "id": "node/2941536601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2955448033",
+        "name": "Du Lịch US Travel",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.700896,
+          10.78217
+        ]
+      },
+      "id": "node/2955448033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2956725633",
+        "name": "Hãng Hàng Không China Southern Airlines",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6996471,
+          10.7842941
+        ]
+      },
+      "id": "node/2956725633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2985540533",
+        "addr:housenumber": "48",
+        "addr:street": "Nguyễn Tri Phương",
+        "name": "TheSinh Tourist",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.593295,
+          16.465295
+        ]
+      },
+      "id": "node/2985540533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2987216035",
+        "addr:city": "Hoi An",
+        "addr:housenumber": "24",
+        "addr:street": "Nguyen Hue",
+        "internet_access": "wlan",
+        "name": "Le Travel",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.33123,
+          15.877686
+        ]
+      },
+      "id": "node/2987216035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2991927433",
+        "name": "Công Ty Du Lịch Vietravel",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.663816,
+          10.815832
+        ]
+      },
+      "id": "node/2991927433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3477864793",
+        "name": "Thiên Đường Du Lịch - Đại lý vé máy bay",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8118817,
+          21.0083413
+        ]
+      },
+      "id": "node/3477864793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3492630998",
+        "highway": "bus_stop",
+        "name": "Thien Phu Bus Stop",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0782846,
+          10.3406247
+        ]
+      },
+      "id": "node/3492630998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3913704619",
+        "name": "Mekong Tours",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1180471,
+          10.7096463
+        ]
+      },
+      "id": "node/3913704619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4105357399",
+        "addr:street": "Trưng Trắc",
+        "highway": "bus_stop",
+        "name": "Toàn Thắng",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0758004,
+          10.3481984
+        ]
+      },
+      "id": "node/4105357399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4501677192",
+        "highway": "bus_stop",
+        "name": "Hoi An Express (Bus)",
+        "name:en": "Hoi An Express",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3308629,
+          15.8783883
+        ]
+      },
+      "id": "node/4501677192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4531838291",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "name": "Go Travel (Shuttle Bus)",
+        "office": "travel_agent",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3258805,
+          15.8785488
+        ]
+      },
+      "id": "node/4531838291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4844794746",
+        "addr:street": "Đường số 5",
+        "name": "Marina",
+        "name:en": "Marina tourism point",
+        "name:vi": "Marina",
+        "office": "travel_agent",
+        "opening_hours": "Mo-Su 06:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1060293,
+          10.4039812
+        ]
+      },
+      "id": "node/4844794746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5354719721",
+        "name:en": "The Sinh Tourist",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1954403,
+          12.2353449
+        ]
+      },
+      "id": "node/5354719721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5424792483",
+        "name": "Tours and transportation",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9659684,
+          10.1951843
+        ]
+      },
+      "id": "node/5424792483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5424811049",
+        "name": "John's Tours",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9674837,
+          10.1942845
+        ]
+      },
+      "id": "node/5424811049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5625932223",
+        "addr:housenumber": "176/15",
+        "addr:postcode": "650000",
+        "addr:street": "Hùng Vương",
+        "email": "marko-tour@mail.ru",
+        "name": "Marko Tour",
+        "name:ru": "Марко Тур",
+        "office": "travel_agent",
+        "opening_hours": "Mo-Su 14:00-20:00",
+        "phone": "+84944983330",
+        "website": "http://vk.com/markotour"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1955115,
+          12.2342796
+        ]
+      },
+      "id": "node/5625932223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5756198421",
+        "name": "ONT Travel (Bus)",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3314104,
+          15.8811945
+        ]
+      },
+      "id": "node/5756198421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5980916092",
+        "addr:housenumber": "52",
+        "addr:street": "Lương Ngọc Quyến",
+        "name": "The Sinh Tourist",
+        "name:en": "The Sinh Tourist (since 1993)",
+        "office": "travel_agent",
+        "phone": "+841656208056",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8517757,
+          21.0347675
+        ]
+      },
+      "id": "node/5980916092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6069838267",
+        "addr:housenumber": "10",
+        "addr:street": "Trần Hưng Đạo",
+        "name": "Hoi An Travel",
+        "office": "travel_agent",
+        "website": "https://hoiantravel.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3309306,
+          15.8799478
+        ]
+      },
+      "id": "node/6069838267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6195864585",
+        "name": "The Sinh Tourist (Bus)",
+        "name:en": "The Sinh Tourist",
+        "office": "travel_agent",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.325729,
+          15.8817396
+        ]
+      },
+      "id": "node/6195864585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6210143887",
+        "addr:housenumber": "5",
+        "addr:street": "Trung Dinh",
+        "description": "more: Nui Ngoc 35, Cat Ba Tran Hung Dao, Ninh Binh  +84 988 558 392",
+        "email": "catbadiscoverytravel@gmail.com",
+        "name": "Cat Ba Discovery Travel",
+        "office": "travel_agent",
+        "phone": "84 347 232 345",
+        "website": "https://www.catbadiscovery.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0462679,
+          20.7276844
+        ]
+      },
+      "id": "node/6210143887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6276738285",
+        "name": "Hoang Long",
+        "name:ru": "Hoang Long Asia",
+        "office": "travel_agent",
+        "phone": "02253920920",
+        "website": "https://hoanglongasia.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1737653,
+          16.056977
+        ]
+      },
+      "id": "node/6276738285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6319111454",
+        "description": "Cambodia (via Bavet): 5, 7, 8, 9, 10, 11:30, 12:30, 13:30, 15:30 (530k)",
+        "highway": "bus_stop",
+        "name": "Du Lịch Danh Danh",
+        "office": "travel_agent",
+        "shop": "travel_agency"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6912882,
+          10.7677332
+        ]
+      },
+      "id": "node/6319111454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6968992885",
+        "addr:housenumber": "69",
+        "addr:postcode": "560000",
+        "addr:street": "Nguyễn Tất Thành",
+        "email": "hoianbusbooking@gmail.com",
+        "internet_access": "wlan",
+        "name": "Phòng vé xe giường nằm Limousine Hội An",
+        "name:en": "Hoi An Limousine Sleeper Bus Booking Office",
+        "office": "travel_agent",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "operator": "HoiAnBus",
+        "phone": "+84905974343",
+        "website": "https://hoianbus.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3210965,
+          15.886068
+        ]
+      },
+      "id": "node/6968992885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6968993085",
+        "addr:housenumber": "01",
+        "addr:postcode": "550000",
+        "addr:street": "Đường Nguyễn Tất Thành",
+        "email": "dnbackpackers@gmail.com",
+        "internet_access": "wlan",
+        "name": "Phòng vé xe giường nằm Đà Nẵng",
+        "name:en": "Da Nang Sleeper Buses Booking Office",
+        "office": "travel_agent",
+        "opening_hours": "Mo-Su 06:30-19:00",
+        "operator": "Danangbus",
+        "phone": "0905974343",
+        "website": "https://www.facebook.com/DanangBusBooking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2152054,
+          16.0873571
+        ]
+      },
+      "id": "node/6968993085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7108799707",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Phương Trang (Bến xe khách)",
+        "office": "travel_agent",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1108345,
+          10.9311835
+        ]
+      },
+      "id": "node/7108799707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7108799708",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tâm Hạnh (Bến xe khách)",
+        "office": "travel_agent",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.1109463,
+          10.9321276
+        ]
+      },
+      "id": "node/7108799708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7158928692",
+        "name": "Hue Attract on Travel",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5950654,
+          16.4684942
+        ]
+      },
+      "id": "node/7158928692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7170660712",
+        "addr:housenumber": "11",
+        "addr:street": "Đường Fan Si Pan",
+        "name": "Sapa Sisters",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8408732,
+          22.3344099
+        ]
+      },
+      "id": "node/7170660712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176657653",
+        "name": "Du Lịch Crossing Vietnam",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8495444,
+          21.0290973
+        ]
+      },
+      "id": "node/7176657653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176678098",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8495107,
+          21.0291801
+        ]
+      },
+      "id": "node/7176678098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176682313",
+        "name": "Tour Information",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8493174,
+          21.0291885
+        ]
+      },
+      "id": "node/7176682313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7176889510",
+        "addr:housenumber": "19",
+        "name": "Sinh Cafe Travel",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8511058,
+          21.0354584
+        ]
+      },
+      "id": "node/7176889510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7215749385",
+        "highway": "bus_stop",
+        "name:en": "Queen bus - from Hue",
+        "name:fr": "Queen bus - depuis Hue",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2186626,
+          16.0857533
+        ]
+      },
+      "id": "node/7215749385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7745698686",
+        "name": "Hành Cafe (Nha Trang Bus)",
+        "office": "travel_agent",
+        "operator": "Hành Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.3232509,
+          15.8854871
+        ]
+      },
+      "id": "node/7745698686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9931534609",
+        "name": "Thanh Travel",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8531457,
+          21.035022
+        ]
+      },
+      "id": "node/9931534609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11405198269",
+        "addr:housenumber": "LKUD 8",
+        "addr:street": "Đường 2D",
+        "email": "jeepinvn@gmail.com",
+        "name": "JeepVN - джип туры, экскурсии в Нячанге",
+        "name:en": "Nha Trang jeep tours",
+        "name:ru": "JeepVN - джип туры, экскурсии в Нячанге",
+        "office": "travel_agent",
+        "opening_hours": "24/7",
+        "phone": "+84706118494",
+        "tourism": "attraction",
+        "website": "https://wa.me/qr/N5YRGBQNNJCCJ1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2066382,
+          12.1972682
+        ]
+      },
+      "id": "node/11405198269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11430345650",
+        "description": "Cambodia (via Bavet): 7 (600k), 8:30 (600k), 11 (530k), 13:30 (600k) as of Dec 2023",
+        "highway": "bus_stop",
+        "name": "Kumho Samco Buslines",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6916462,
+          10.7678614
+        ]
+      },
+      "id": "node/11430345650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11430469505",
+        "description": "Cambodia (via Bavet): 7, 9:30, 11 (600k) as of Dec 2023",
+        "highway": "bus_stop",
+        "name": "Hahn Café",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6921517,
+          10.7680298
+        ]
+      },
+      "id": "node/11430469505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11652709842",
+        "addr:housenumber": "24",
+        "name": "Get up and Go Vietnam",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8521793,
+          21.0360748
+        ]
+      },
+      "id": "node/11652709842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11656096052",
+        "name": "The Sinh Tourist",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529044,
+          21.036077
+        ]
+      },
+      "id": "node/11656096052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11656103602",
+        "addr:housenumber": "6",
+        "name": "Adventure Indochina Travel",
+        "office": "travel_agent",
+        "phone": "0903299389"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8529603,
+          21.0360092
+        ]
+      },
+      "id": "node/11656103602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11670883822",
+        "addr:housenumber": "39",
+        "name": "Any Vietnam Tour",
+        "office": "travel_agent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8530336,
+          21.0354023
+        ]
+      },
+      "id": "node/11670883822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12050812491",
+        "addr:housenumber": "14",
+        "addr:street": "Mac Cuu",
+        "name": "Lynn Visa",
+        "office": "travel_agent",
+        "phone": "+84905585025",
+        "website": "https://www.facebook.com/visatoliveinvietnam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2406182,
+          16.0257425
+        ]
+      },
+      "id": "node/12050812491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12309017553",
+        "addr:housenumber": "120",
+        "addr:street": "Núi Ngọc",
+        "laundry_service": "yes",
+        "level": "0",
+        "name": "CatBa Climbing",
+        "office": "travel_agent",
+        "opening_hours": "07:40-09:00",
+        "phone": "+84 347 645 000",
+        "website": "https://www.catbaclimbing.com",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.0533312,
+          20.7258995
+        ]
+      },
+      "id": "node/12309017553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12429380098",
+        "addr:city": "Nha Trang",
+        "addr:housenumber": "130",
+        "addr:street": "Hùng Vương",
+        "contact:phone": "+84 28 3838 9597",
+        "name": "TheSinh Tourist",
+        "office": "travel_agent",
+        "opening_hours": "Mo-Su 08:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1954588,
+          12.2358406
+        ]
+      },
+      "id": "node/12429380098"
+    }
+  ]
+}
