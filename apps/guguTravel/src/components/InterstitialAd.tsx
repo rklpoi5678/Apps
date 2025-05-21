@@ -1,77 +1,75 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { View, Text } from 'react-native';
+// src/ads/interstitial.ts
 import { InterstitialAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
-import { useRouter } from 'expo-router';
+import { Platform } from 'react-native';
 
-const adUnitId = __DEV__ ? TestIds.INTERSTITIAL : 'ca-app-pub-5223844528723811/2204174667';
+/* 실제 Unit ID는 .env 로부터 */
+const adUnitId = __DEV__
+  ? TestIds.INTERSTITIAL
+  : Platform.select({
+      ios: process.env.EXPO_PUBLIC_ADMOB_INTERSTITIAL_IOS_ID,
+      android: process.env.EXPO_PUBLIC_ADMOB_INTERSTITIAL_ANDROID_ID,
+    })!;
 
-export default function InterstitialSplashScreen() {
-  const router = useRouter();
-  const [adLoaded, setAdLoaded] = useState(false);
-  const [fallbackTriggered, setFallbackTriggered] = useState(false);
-  
-  const interstitial = useRef(
-    InterstitialAd.createForAdRequest(adUnitId, {
+/** 싱글턴 인스턴스  */
+let ad = InterstitialAd.createForAdRequest(adUnitId, {
+  requestNonPersonalizedAdsOnly: true,
+});
+
+/** 마지막으로 **성공적으로 화면에 노출** 된 시각 (epoch-ms) */
+let lastShown = 0;
+
+/** 다음 광고 미리 로드 */
+export const preloadInterstitial = () => {
+  if (!ad.loaded) ad.load();
+};
+
+/**
+ * 전면 광고를 요청한다.
+ *
+ * - `minIntervalMs` 이내에 이미 한 번 노출되었다면 *바로 리턴* 하며,
+ *   대신 **다음 광고만** 백그라운드 로드한다.
+ * - 광고가 실제로 보여지면 `true`, 쿨다운으로 스킵되면 `false` 를 반환한다.
+ */
+export function showInterstitial(
+  onClose?: () => void,
+  minIntervalMs: number = 120_000, // 기본 2분
+): boolean {
+  const now = Date.now();
+
+  /* ───── 쿨-다운: 아직 간격이 안 지났으면 Skip ───── */
+  if (now - lastShown < minIntervalMs) {
+    preloadInterstitial();
+    return false;
+  }
+
+  /* ───── ‘닫힘’ & ‘에러’ 공통 후처리 ───── */
+  const prepareNext = () => {
+    lastShown = Date.now();          // 실제 노출(or 시도) 시각 기록
+    onClose?.();
+
+    // 새 인스턴스로 교체하여 다음 광고 선 로드
+    ad = InterstitialAd.createForAdRequest(adUnitId, {
       requestNonPersonalizedAdsOnly: true,
-    })
-  ).current;
-
-  useEffect(() => {
-    const loadedListener = interstitial.addAdEventListener(AdEventType.LOADED, () => {
-      console.log("✅ 광고 로드 완료");
-      setAdLoaded(true);
     });
+    preloadInterstitial();
+  };
 
-    const closedListener = interstitial.addAdEventListener(AdEventType.CLOSED, () => {
-      console.log("✅ 광고 -> 이동");
-      router.replace('/(tabs)');
+  /* ───── 광고 노출 로직 ───── */
+  const doShow = () => {
+    ad.addAdEventListener(AdEventType.CLOSED, prepareNext);
+    ad.addAdEventListener(AdEventType.ERROR, prepareNext);
+    ad.show();
+  };
+
+  if (ad.loaded) {
+    doShow();
+  } else {
+    const loadedSub = ad.addAdEventListener(AdEventType.LOADED, () => {
+      loadedSub();        // once
+      doShow();
     });
+    ad.load();
+  }
 
-    const errorListener = interstitial.addAdEventListener(AdEventType.ERROR, (error) => {
-      console.warn("❌ AdEventType.ERROR", error);
-      setTimeout(() => router.replace('/(tabs)'), 1000);
-    });
-
-    interstitial.load();
-
-    const fallbackTimeout = setTimeout(() => {
-      if (!adLoaded) {
-        setFallbackTriggered(true); // fallback 트리거
-      }
-    }, 4000);
-
-    return () => {
-      loadedListener();
-      closedListener();
-      errorListener();
-      clearTimeout(fallbackTimeout);
-    };
-  }, []);
-
-  // 광고 로딩 후 show
-  useEffect(() => {
-    if (adLoaded) {
-      console.log("✅ 광고 준비됨, show 시도");
-      try {
-        interstitial.show();
-      } catch (error) {
-        console.warn('Interstitial show failed', error);
-        router.replace('/(tabs)');
-      }
-    }
-  }, [adLoaded]);
-  
-
-  // fallback 시간 초과 시 이동
-  useEffect(() => {
-    if (fallbackTriggered) {
-      router.replace('/(tabs)');
-    }
-  }, [fallbackTriggered]);
-
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>로딩 중... 광고 준비 중</Text>
-    </View>
-  );
+  return true;
 }
