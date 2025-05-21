@@ -23,6 +23,10 @@
     },
     "production": {
       "autoIncrement": true,
+      "autoSubmit": true,
+      "android":{
+        "releaseChannel": "production"
+      },
       "env":{
         "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
         "EXPO_PUBLIC_GOOGLE_IOS_ADS_APP_ID":"ca-app-pub-5223844528723811~4155309336",
@@ -31,6 +35,11 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android":{
+        "serviceAccountKey": "./pythonrobot-452812-0984a731ef6c.json",
+        "track": "internal"
+      }
+    }
   }
 }

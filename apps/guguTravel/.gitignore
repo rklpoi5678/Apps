@@ -40,3 +40,6 @@ yarn-error.*
 .cusor
 *.apk
 *.aab
+
+# google Admin
+pythonrobot-452812-0984a731ef6c.json
