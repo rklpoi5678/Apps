@@ -9,6 +9,7 @@ export default function InterstitialSplashScreen() {
   const router = useRouter();
   const [adLoaded, setAdLoaded] = useState(false);
   const [fallbackTriggered, setFallbackTriggered] = useState(false);
+  
   const interstitial = useRef(
     InterstitialAd.createForAdRequest(adUnitId, {
       requestNonPersonalizedAdsOnly: true,
@@ -17,14 +18,17 @@ export default function InterstitialSplashScreen() {
 
   useEffect(() => {
     const loadedListener = interstitial.addAdEventListener(AdEventType.LOADED, () => {
+      console.log("✅ 광고 로드 완료");
       setAdLoaded(true);
     });
 
     const closedListener = interstitial.addAdEventListener(AdEventType.CLOSED, () => {
+      console.log("✅ 광고 -> 이동");
       router.replace('/(tabs)');
     });
 
-    const errorListener = interstitial.addAdEventListener(AdEventType.ERROR, () => {
+    const errorListener = interstitial.addAdEventListener(AdEventType.ERROR, (error) => {
+      console.warn("❌ AdEventType.ERROR", error);
       setTimeout(() => router.replace('/(tabs)'), 1000);
     });
 
@@ -47,9 +51,16 @@ export default function InterstitialSplashScreen() {
   // 광고 로딩 후 show
   useEffect(() => {
     if (adLoaded) {
-      interstitial.show();
+      console.log("✅ 광고 준비됨, show 시도");
+      try {
+        interstitial.show();
+      } catch (error) {
+        console.warn('Interstitial show failed', error);
+        router.replace('/(tabs)');
+      }
     }
   }, [adLoaded]);
+  
 
   // fallback 시간 초과 시 이동
   useEffect(() => {
@@ -59,7 +70,7 @@ export default function InterstitialSplashScreen() {
   }, [fallbackTriggered]);
 
   return (
-    <View>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>로딩 중... 광고 준비 중</Text>
     </View>
   );

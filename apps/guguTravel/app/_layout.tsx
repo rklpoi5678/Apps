@@ -6,6 +6,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
 import { useRouter } from 'expo-router';
+import { InteractionManager } from 'react-native';
 
 import { useColorScheme } from '@/components/useColorScheme';
 
@@ -36,15 +37,19 @@ export default function RootLayout() {
   }, [error]);
 
   useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
+    if (error) {
+      console.error("❌ 폰트 로딩 에러:", error);
+      throw error;
     }
-  }, [loaded]);
+  }, [error]);
 
   useEffect(() => {
-    // 앱 시작 시 스플래시 화면으로 이동
-    router.replace('/splash');
-  }, []);
+    console.log("✅ 폰트 로딩 완료 여부:", loaded);
+    if (loaded) {
+      SplashScreen.hideAsync();
+      router.replace('/splash');
+    }
+  }, [loaded]);
 
   if (!loaded) {
     return null;
