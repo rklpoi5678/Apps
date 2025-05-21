@@ -11,7 +11,7 @@ export default {
   expo: {
     name: 'guguTravel',
     slug: 'guguTravel',
-    version: '1.0.0',
+    version: '1.0.1',
     orientation: 'portrait',
     icon: './assets/images/guguTravel_app_icon.png',
     scheme: 'gugutravel',
