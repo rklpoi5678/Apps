@@ -7,9 +7,10 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useRef } from 'react';
 import { AppOpenAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
 import 'react-native-reanimated';
-
+import { LogBox } from 'react-native';
 import { useColorScheme } from '@/components/useColorScheme';
 
+LogBox.ignoreAllLogs();
 /* ────── 전역 Splash 제어 ────── */
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
@@ -92,9 +93,11 @@ export default function RootLayout() {
   /* ────────── 렌더링 ────────── */
   if (!fontsLoaded) return null; // 폰트 준비 전엔 아무것도 그리지 않음
 
-  return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack initialRouteName="(tabs)">
+  try {
+    console.log('RootLayout 렌더링');
+    return (
+      <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+        <Stack initialRouteName="(tabs)">
         <Stack.Screen
           name="(tabs)"
           options={{ headerShown: false, animation: 'none' }}
@@ -102,4 +105,8 @@ export default function RootLayout() {
       </Stack>
     </ThemeProvider>
   );
+  }
+  catch (error) {
+    console.error('RootLayout 렌더링 오류:', error);
+  }
 }

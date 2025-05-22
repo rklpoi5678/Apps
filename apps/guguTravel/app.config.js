@@ -1,9 +1,14 @@
 import 'dotenv/config';
 
 const GOOGLE_ADS_ANDROID_ID = process.env.EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID;
+const GOOGLE_MAPS_KEY = process.env.GOOGLE_ANDROID_GEO_API_KEY;
 
 if (!GOOGLE_ADS_ANDROID_ID) {
   throw new Error("❌ Google Ads App ID가 .env에 정의되어 있지 않습니다.");
+}
+
+if (!GOOGLE_MAPS_KEY) {
+  throw new Error('❌ GOOGLE_ANDROID_GEO_API_KEY가 정의되지 않았습니다.');
 }
 
 export default {
@@ -45,7 +50,7 @@ export default {
         'android.permission.ACCESS_COARSE_LOCATION',
       ],
       config:{
-        googleMaps: { apiKey: process.env.GOOGLE_ANDROID_GEO_API_KEY },
+        googleMaps: { apiKey: GOOGLE_MAPS_KEY },
       },
       package: 'com.anonymous.guguTravel',
       
@@ -84,7 +89,7 @@ export default {
         android: GOOGLE_ADS_ANDROID_ID,
       },
       maps: {
-        android: process.env.GOOGLE_ANDROID_GEO_API_KEY,
+        android: GOOGLE_MAPS_KEY,
       }
     }
   },
