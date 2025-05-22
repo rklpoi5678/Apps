@@ -82,6 +82,8 @@ export default {
       eas:{
         projectId:"24a832d5-a4ca-453d-a500-da18b15b6f1d"
       },
+      supabaseUrl: process.env.EXPO_PUBLIC_SUPABASE_URL,
+      supabaseAnonKey: process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY,
       googleAds: {
         android: GOOGLE_ADS_ANDROID_ID,
       },

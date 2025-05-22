@@ -2,9 +2,10 @@ import 'react-native-url-polyfill/auto'
 import 'react-native-get-random-values'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { createClient } from '@supabase/supabase-js'
+import Constants from 'expo-constants'
 
-const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL!
-const supabaseKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY!
+const supabaseUrl = Constants.expoConfig?.extra?.supabaseUrl ?? ''
+const supabaseKey = Constants.expoConfig?.extra?.supabaseAnonKey ?? ''
 
 export const supabase = createClient(supabaseUrl, supabaseKey, {
     auth: {
