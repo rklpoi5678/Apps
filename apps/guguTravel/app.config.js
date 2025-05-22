@@ -7,10 +7,6 @@ if (!GOOGLE_ADS_ANDROID_ID) {
   throw new Error("❌ Google Ads App ID가 .env에 정의되어 있지 않습니다.");
 }
 
-if (!GOOGLE_MAPS_KEY) {
-  throw new Error('❌ GOOGLE_ANDROID_GEO_API_KEY가 정의되지 않았습니다.');
-}
-
 export default {
   expo: {
     name: 'guguTravel',
