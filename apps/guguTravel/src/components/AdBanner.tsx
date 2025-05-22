@@ -5,8 +5,8 @@ import { BannerAd, BannerAdSize, TestIds } from 'react-native-google-mobile-ads'
 const BANNER_ID = __DEV__ 
   ? TestIds.BANNER // 개발 환경에서는 테스트 ID 사용
   : Platform.OS === 'android'
-    ? 'ca-app-pub-5223844528723811/4957255119' // 실제 Android 광고 ID
-    : 'ca-app-pub-5223844528723811/4957255119'; // 실제 iOS 광고 ID
+    ? 'ca-app-pub-5223844528723811/4957255119'// 실제 Android 광고 ID
+    : 'ca-app-pub-5223844528723811/4957255119';// 실제 iOS 광고 ID
 
 export default function AdBanner() {
   return (

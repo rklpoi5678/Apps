@@ -8,36 +8,29 @@
       "developmentClient": true,
       "distribution": "internal",
       "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
-        "EXPO_PUBLIC_GOOGLE_IOS_ADS_APP_ID":"ca-app-pub-5223844528723811~4155309336",
-        "EXPO_PUBLIC_GOOGLE_ANDROID_GEO_API_KEY": "$EXPO_PUBLIC_GOOGLE_ANDROID_GEO_API_KEY"
+        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336"
       }
     },
     "preview": {
       "distribution": "internal",
       "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
-        "EXPO_PUBLIC_GOOGLE_IOS_ADS_APP_ID":"ca-app-pub-5223844528723811~4155309336",
-        "EXPO_PUBLIC_GOOGLE_ANDROID_GEO_API_KEY": "$EXPO_PUBLIC_GOOGLE_ANDROID_GEO_API_KEY"
+        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336"
       }
     },
     "production": {
       "autoIncrement": true,
-      "autoSubmit": true,
       "android":{
-        "releaseChannel": "production"
+        "buildType": "app-bundle"
       },
       "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
-        "EXPO_PUBLIC_GOOGLE_IOS_ADS_APP_ID":"ca-app-pub-5223844528723811~4155309336",
-        "EXPO_PUBLIC_GOOGLE_ANDROID_GEO_API_KEY": "$EXPO_PUBLIC_GOOGLE_ANDROID_GEO_API_KEY"
+        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336"
       }
     }
   },
   "submit": {
     "production": {
       "android":{
-        "serviceAccountKey": "./pythonrobot-452812-0984a731ef6c.json",
+        "serviceAccountKeyPath": "./pythonrobot-452812-0984a731ef6c.json",
         "track": "internal"
       }
     }

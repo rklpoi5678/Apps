@@ -1,9 +1,8 @@
 import 'dotenv/config';
 
 const GOOGLE_ADS_ANDROID_ID = process.env.EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID;
-const GOOGLE_ADS_IOS_ID = process.env.EXPO_PUBLIC_GOOGLE_IOS_ADS_APP_ID;
 
-if (!GOOGLE_ADS_ANDROID_ID || !GOOGLE_ADS_IOS_ID) {
+if (!GOOGLE_ADS_ANDROID_ID) {
   throw new Error("❌ Google Ads App ID가 .env에 정의되어 있지 않습니다.");
 }
 
@@ -34,9 +33,6 @@ export default {
           },
         ],
       },
-      config:{
-        googleMobileAdsAppId: GOOGLE_ADS_IOS_ID,
-      },
     },
     android: {
       adaptiveIcon: {
@@ -49,7 +45,7 @@ export default {
         'android.permission.ACCESS_COARSE_LOCATION',
       ],
       config:{
-        googleMaps: { apiKey: process.env.EXPO_PUBLIC_GOOGLE_ANDROID_GEO_API_KEY },
+        googleMaps: { apiKey: process.env.GOOGLE_ANDROID_GEO_API_KEY },
         googleMobileAdsAppId: GOOGLE_ADS_ANDROID_ID,
       },
       package: 'com.anonymous.guguTravel',
@@ -66,7 +62,6 @@ export default {
         'react-native-google-mobile-ads',
         {
           androidAppId: GOOGLE_ADS_ANDROID_ID,
-          iosAppId: GOOGLE_ADS_IOS_ID,
         },
       ],
       [
@@ -88,10 +83,9 @@ export default {
       },
       googleAds: {
         android: GOOGLE_ADS_ANDROID_ID,
-        ios: GOOGLE_ADS_IOS_ID
       },
       maps: {
-        android: process.env.EXPO_PUBLIC_GOOGLE_ANDROID_GEO_API_KEY,
+        android: process.env.GOOGLE_ANDROID_GEO_API_KEY,
       }
     }
   },

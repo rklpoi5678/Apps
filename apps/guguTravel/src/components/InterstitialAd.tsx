@@ -6,7 +6,6 @@ import { Platform } from 'react-native';
 const adUnitId = __DEV__
   ? TestIds.INTERSTITIAL
   : Platform.select({
-      ios: process.env.EXPO_PUBLIC_GOOGLE_IOS_ADS_APP_ID,
       android: process.env.EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID,
     })!;
 
