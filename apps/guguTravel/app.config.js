@@ -77,6 +77,7 @@ export default {
           },
         },
       ],
+
     ],
     experiments: {
       typedRoutes: true,
@@ -90,7 +91,7 @@ export default {
       },
       maps: {
         android: GOOGLE_MAPS_KEY,
-      }
+      },
     }
   },
 };

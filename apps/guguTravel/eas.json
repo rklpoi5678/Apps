@@ -8,13 +8,17 @@
       "developmentClient": true,
       "distribution": "internal",
       "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336"
+        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
+        "SENTRY_DSN": "https://836c76c37eae48ccd70e17b9bdfe23c6@o4509365761867776.ingest.us.sentry.io/4509365764751360",
+        "SENTRY_AUTH_TOKEN": "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"
       }
     },
     "preview": {
       "distribution": "internal",
       "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336"
+        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
+        "SENTRY_DSN": "https://836c76c37eae48ccd70e17b9bdfe23c6@o4509365761867776.ingest.us.sentry.io/4509365764751360",
+        "SENTRY_AUTH_TOKEN": "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"
       }
     },
     "production": {
@@ -23,7 +27,9 @@
         "buildType": "app-bundle"
       },
       "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336"
+        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
+        "SENTRY_DSN": "https://836c76c37eae48ccd70e17b9bdfe23c6@o4509365761867776.ingest.us.sentry.io/4509365764751360",
+        "SENTRY_AUTH_TOKEN": "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"
       }
     }
   },
