@@ -9,10 +9,6 @@ dist/
 web-build/
 expo-env.d.ts
 
-# ExpoCNG
-/android
-/ios
-
 # Native
 .kotlin/
 *.orig.*
