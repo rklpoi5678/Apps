@@ -3,11 +3,11 @@ import { InterstitialAd, AdEventType, TestIds } from 'react-native-google-mobile
 import { Platform } from 'react-native';
 
 /* 실제 Unit ID는 .env 로부터 */
-const adUnitId = __DEV__
-  ? TestIds.INTERSTITIAL
-  : Platform.select({
-      android: process.env.EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID,
-    })!;
+const adUnitId = __DEV__ 
+  ? TestIds.INTERSTITIAL // 개발 환경에서는 테스트 ID 사용
+  : Platform.OS === 'android'
+    ? 'ca-app-pub-5223844528723811/2204174667'// 실제 Android 광고 ID
+    : 'ca-app-pub-5223844528723811/2204174667';// 실제 iOS 광고 ID
 
 /** 싱글턴 인스턴스  */
 let ad = InterstitialAd.createForAdRequest(adUnitId, {

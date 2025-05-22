@@ -7,11 +7,9 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useRef } from 'react';
 import { AppOpenAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
 import 'react-native-reanimated';
-import { LogBox, Platform } from 'react-native';
+import { Platform } from 'react-native';
 import { useColorScheme } from '@/components/useColorScheme';
 
-
-LogBox.ignoreAllLogs();
 /* ────── 전역 Splash 제어 ────── */
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
