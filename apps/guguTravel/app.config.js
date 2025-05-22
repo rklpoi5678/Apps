@@ -46,7 +46,6 @@ export default {
       ],
       config:{
         googleMaps: { apiKey: process.env.GOOGLE_ANDROID_GEO_API_KEY },
-        googleMobileAdsAppId: GOOGLE_ADS_ANDROID_ID,
       },
       package: 'com.anonymous.guguTravel',
       
