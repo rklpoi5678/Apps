@@ -5,7 +5,6 @@ import { View, Text, StyleSheet, Dimensions, Animated, PanResponder, Button, Tou
 import { Accelerometer } from "expo-sensors"
 import { LinearGradient } from "expo-linear-gradient"
 import type { SoundManager } from "../utils/SoundManager"
-import BannerAd from "./BannerAd"
 import ParticleSystem from "./ParticleSystem"
 
 // 화면 크기 및 게임 상수 정의
@@ -350,8 +349,6 @@ export default function GameScreen({
             <Text style={styles.instructionText}>📱 Shake your phone or swipe to propel the monkey!</Text>
           </View>
 
-          {/* 광고 배너 */}
-          <BannerAd />
 
           <View style={styles.difficultyInfo}>
             <Text style={styles.difficultyText}>
@@ -370,7 +367,7 @@ export default function GameScreen({
       >
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
-            <Text style={styles.modalTitle}>게임 메뉴</Text>
+            <Text style={styles.modalTitle}>Game Menu</Text>
             
             <TouchableOpacity 
               style={styles.modalButton}
@@ -379,7 +376,7 @@ export default function GameScreen({
                 onReturnToMenu();
               }}
             >
-              <Text style={styles.modalButtonText}>메인 화면으로</Text>
+              <Text style={styles.modalButtonText}>Main Menu</Text>
             </TouchableOpacity>
 
             <TouchableOpacity 
@@ -393,7 +390,7 @@ export default function GameScreen({
               }}
             >
               <Text style={styles.modalButtonText}>
-                {soundEnabled ? "음성 끄기" : "음성 켜기"}
+                {soundEnabled ? "Sound Off" : "Sound On"}
               </Text>
             </TouchableOpacity>
 
@@ -401,7 +398,7 @@ export default function GameScreen({
               style={[styles.modalButton, styles.closeButton]}
               onPress={() => setShowMenuModal(false)}
             >
-              <Text style={styles.modalButtonText}>닫기</Text>
+              <Text style={styles.modalButtonText}>Close</Text>
             </TouchableOpacity>
           </View>
         </View>

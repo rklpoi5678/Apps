@@ -157,10 +157,10 @@ export default function App() {
       {/* 상태바 설정 - 밝은 테마로 설정 */}
       <StatusBar barStyle="light-content" backgroundColor="#4A90E2" />
 
-      {/* 오프닝 광고 컴포넌트 - 앱 시작 시 표시 */}
+      {/* 오프닝 광고 컴포넌트 - 앱 시작 시 표시
       {showOpeningAd && <AdManager type="opening" onClose={() => setShowOpeningAd(false)} />}
 
-      {/* 게임오버 광고 컴포넌트 - 게임 종료 시 표시 */}
+      {/* 게임오버 광고 컴포넌트 - 게임 종료 시 표시 
       {showGameOverAd && <AdManager type="fullscreen" onClose={() => setShowGameOverAd(false)} />}
 
       {/* 메뉴 화면 컴포넌트 - 게임 상태가 'menu'일 때 표시 */}
