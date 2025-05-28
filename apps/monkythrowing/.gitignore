@@ -1,0 +1,57 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# android
+android/
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+# gmapi-427309-2a82400ad28c.json
+gmapi-427309-2a82400ad28c.json
+
+# Expo Release It
+
+expo-release-it/.temp
+android/vendor/bundle
+ios/vendor/bundle
+# if you excluded android, ios for using CNG
+!expo-release-it/metadata/*
+# if you aren't sure about security issues, feel free to exclude these files from the VCS.
+!expo-release-it/key/*.p8
+!expo-release-it/key/*.keystore
+expo-release-it/
