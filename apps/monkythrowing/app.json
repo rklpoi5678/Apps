@@ -5,6 +5,11 @@
     "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4A90E2"
+    },
     "scheme": "com.youngikim.monkypropergame",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,

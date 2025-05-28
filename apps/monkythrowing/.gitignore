@@ -55,3 +55,4 @@ ios/vendor/bundle
 !expo-release-it/key/*.p8
 !expo-release-it/key/*.keystore
 expo-release-it/
+build*
