@@ -11,7 +11,7 @@ export default {
   expo: {
     name: 'guguTravel',
     slug: 'guguTravel',
-    version: '1.0.1',
+    version: '1.0.2',
     orientation: 'portrait',
     icon: './assets/images/guguTravel_app_icon.png',
     scheme: 'gugutravel',
@@ -19,7 +19,7 @@ export default {
     newArchEnabled: true,
     splash: {
       image: './assets/images/guguTravel_splash.png',
-      resizeMode: 'cover',
+      resizeMode: 'contain',
       backgroundColor: '#ffffff',
     },
     assetBundlePatterns: ['**/*'],
