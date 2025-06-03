@@ -2,7 +2,7 @@
   "expo": {
     "name": "구구트래블",
     "slug": "guguTravel",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "gugutravel",
@@ -48,6 +48,14 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "useCleartextTraffic": true
+          }
+        }
       ]
     ],
     "extra": {
@@ -59,7 +67,6 @@
       "googleAds": {
         "android_app_id": ""
       }
-
     },
     "experiments": {
       "typedRoutes": true
