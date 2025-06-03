@@ -1,47 +1,21 @@
 {
   "cli": {
-    "version": ">= 16.6.1",
+    "version": ">= 16.7.1",
     "appVersionSource": "remote"
   },
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
-        "SENTRY_DSN": "${SENTRY_DSN}",
-        "SENTRY_AUTH_TOKEN": "${SENTRY_AUTH_TOKEN}"
-      }
+      "distribution": "internal"
     },
     "preview": {
-      "autoIncrement": true,
-      "android":{
-        "buildType": "app-bundle"
-      },
-      "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
-        "SENTRY_DSN": "${SENTRY_DSN}",
-        "SENTRY_AUTH_TOKEN": "${SENTRY_AUTH_TOKEN}"
-      }
+      "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true,
-      "android":{
-        "buildType": "app-bundle"
-      },
-      "env":{
-        "EXPO_PUBLIC_GOOGLE_MOBILE_ADS_APP_ID": "ca-app-pub-5223844528723811~4155309336",
-        "SENTRY_DSN": "${SENTRY_DSN}",
-        "SENTRY_AUTH_TOKEN": "${SENTRY_AUTH_TOKEN}"
-      }
+      "autoIncrement": true
     }
   },
   "submit": {
-    "production": {
-      "android":{
-        "serviceAccountKeyPath": "./pythonrobot-452812-0984a731ef6c.json",
-        "track": "internal"
-      }
-    }
+    "production": {}
   }
 }

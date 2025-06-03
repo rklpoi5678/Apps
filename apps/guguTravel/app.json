@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "@apps/guguTravel",
+    "slug": "guguTravel",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "gugutravel",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.youngikim.guguTravel",
+      "icon": "./assets/images/icon.png",
+      "buildNumber": "1000001"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": ""
+        }
+      },
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ],
+      "edgeToEdgeEnabled": true,
+      "package": "",
+      "versionCode": 1000001
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/guguTravel_splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": ""
+      },
+      "supabaseUrl": "",
+      "supabaseAnonKey": "",
+      "googleAds": {
+        "android_app_id": ""
+      }
+
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  },
+  "react-native-google-mobile-ads":
+  {
+    "android_app_id": "ca-app-pub-5223844528723811~4155309336"
+  }
+}

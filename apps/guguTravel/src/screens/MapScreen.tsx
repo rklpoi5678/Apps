@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
-import { useTourStore } from '../store/useTourStore';
+import { useTourStore } from '@/src/store/useTourStore';
 
 export default function MapScreen() {
   const tours = useTourStore((state) => state.tours);

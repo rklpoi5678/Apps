@@ -7,18 +7,16 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useRef } from 'react';
 import { AppOpenAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
 import 'react-native-reanimated';
-import { Platform } from 'react-native';
-import { useColorScheme } from '@/components/useColorScheme';
+import { useColorScheme } from 'react-native';
 
+console.log("start")
 /* ────── 전역 Splash 제어 ────── */
 SplashScreen.preventAutoHideAsync().catch(() => {});
 
 /* ────── 광고 Unit ID ────── */
   const adUnitId = __DEV__ 
   ? TestIds.APP_OPEN // 개발 환경에서는 테스트 ID 사용
-  : Platform.OS === 'android'
-    ? 'ca-app-pub-5223844528723811/2644353905'// 실제 Android 광고 ID
-    : 'ca-app-pub-5223844528723811/2644353905';// 실제 iOS 광고 ID
+    : 'ca-app-pub-5223844528723811/2644353905'// 실제 Android 광고 ID
 
 export {
   ErrorBoundary,

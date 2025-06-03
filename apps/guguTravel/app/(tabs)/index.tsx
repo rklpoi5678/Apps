@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 import { useEffect, useState, useRef, useCallback } from 'react';
 import * as Location from 'expo-location';
-import { getNearbyOsmData } from '@src/lib/supabase';
+import { getNearbyOsmData } from '@/src/lib/supabase';
 import { useLocationStore } from '@/src/store/locationStore';
 import CustomMapView from '@/components/map/MapContainer';
 import LocationButton from '@/components/ui/LocationButton';

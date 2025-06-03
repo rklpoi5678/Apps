@@ -18,9 +18,6 @@ expo-env.d.ts
 *.key
 *.mobileprovision
 
-# android
-android/
-
 # Metro
 .metro-health-check*
 
@@ -35,14 +32,23 @@ yarn-error.*
 
 # local env files
 .env*.local
-.env*.production
+app.config.js
+
 # typescript
 *.tsbuildinfo
 
-# other
-.cusor
-*.apk
-*.aab
+#android
+android/
 
-# google Admin
-pythonrobot-452812-0984a731ef6c.json
+# Expo Release It
+expo-release-it/
+expo-release-it/.temp
+android/vendor/bundle
+ios/vendor/bundle
+# if you excluded android, ios for using CNG
+!expo-release-it/metadata/*
+# if you aren't sure about security issues, feel free to exclude these files from the VCS.
+!expo-release-it/key/*.p8
+!expo-release-it/key/*.keystore
+
+app-example
