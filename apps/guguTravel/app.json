@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "@apps/guguTravel",
+    "name": "구구트래블",
     "slug": "guguTravel",
     "version": "1.0.1",
     "orientation": "portrait",
@@ -11,7 +11,7 @@
     "jsEngine": "hermes",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.youngikim.guguTravel",
+      "bundleIdentifier": "",
       "icon": "./assets/images/icon.png",
       "buildNumber": "1000001"
     },

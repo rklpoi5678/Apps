@@ -9,18 +9,19 @@
     "android:gugutravel": "cross-env EXPO_TARGET_PROJECT_ROOT=apps/guguTravel expo run:android",
     "run:gugutravel": "pnpm --filter gugutravel run android",
     "android": "expo run:android",
-    "ios": "expo run:ios"
+    "ios": "expo run:ios",
+    "start:1": "bun run --filter @apps/gugutravel",
+    "start:2": "bun run --filter @apps/monkythrowing"
   },
   "version": "1.0.0",
   "devDependencies": {
-    "@testing-library/jest-native": "^5.4.3",
-    "@testing-library/react-native": "^13.2.0",
+    "babel-preset-expo": "^13.1.11",
     "cross-env": "^7.0.3",
     "lerna": "^8.2.2"
   },
   "dependencies": {
     "expo": "~53.0.9",
-    "react": "19.0.0",
-    "react-native": "0.79.2"
-  }
+    "react": "19.1.0"
+  },
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
 }
