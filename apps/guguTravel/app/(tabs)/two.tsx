@@ -72,98 +72,107 @@ export default function TwoScreen() {
            longitude >= -180 && longitude <= 180;
   };
 
+  const fetchDataFromSupabase = async (page: number, isSearch: boolean) => {
+    try {
+      const query = supabase
+        .from('raw_osm')
+        .select('name, wkb_geometry')
+        .not('name', 'is', null);
+
+        
+      // 현재 위치가 있을 경우 거리 기준 정렬 추가
+      if (userLocation) {
+        supabase.rpc(`ST_DistanceSphere(wkb_geometry, ST_MakePoint(${userLocation.longitude}, ${userLocation.latitude})::geography`, { ascending: true });
+      }
+        
+
+
+      if (isSearch) {
+        query.ilike('name', `%${searchQuery}%`);
+      } else {
+        query.range(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE - 1);
+      }
+
+      const { data, error } = await query;
+      if (error) throw error;
+      return data;
+    } catch (err) {
+      console.error('Error fetching data from Supabase:', err);
+      return null;
+    }
+  };
   // 투어사 데이터 가져오기
   const fetchOsmPlaces = async (page = 0, isSearch = false) => {
     try {
-      if (isSearch) {
-        setLoading(true);
-        setError(null);
-        
-        const { data, error } = await supabase
-          .from('raw_osm')
-          .select('name, wkb_geometry')
-          .ilike('name', `%${searchQuery}%`)
-          .not('name', 'is', null);
+      setLoading(true);
+      setError(null);
 
-        if (error) throw error;
-        
-        if (!data || data.length === 0) {
-          setError('검색 결과가 없습니다.');
-          return;
-        }
-
-        //검색 시
-        const placesWithDistance = data.map(place => {
-          const [longitude, latitude] = place.wkb_geometry.coordinates;
-          if (!isValidCoordinates(latitude, longitude)) {
-            return { ...place, distance: null };
-          }
-          const distance = userLocation ? calculateDistance(
-            userLocation.latitude,
-            userLocation.longitude,
-            latitude,
-            longitude
-          ) : 0;
-          return { ...place, distance };
-        })
-        .filter(place => place.distance !== null && place.distance !== undefined)
-        .sort((a, b) => (a.distance || 0) - (b.distance || 0));
-
-        setPlaces(placesWithDistance);
-        setFilteredPlaces(placesWithDistance);
-        setHasMore(false);
-      } else {
-        if (!userLocation) return;
-        
-        const { data, error } = await supabase
-          .from('raw_osm')
-          .select('name, wkb_geometry')
-          .not('name', 'is', null)
-          .range(page * ITEMS_PER_PAGE, (page + 1) * ITEMS_PER_PAGE - 1);
-
-        if (error) throw error;
-
-        if (!data || data.length === 0) {
-          setHasMore(false);
-          return;
-        }
-
-        // 일반 로드 시
-        const placesWithDistance = data.map(place => {
-          const [longitude, latitude] = place.wkb_geometry.coordinates;
-          if (!isValidCoordinates(latitude, longitude)) {
-            return { ...place, distance: null };
-          }
-          const distance = calculateDistance(
-            userLocation.latitude,
-            userLocation.longitude,
-            latitude,
-            longitude
-          );
-          return { ...place, distance };
-        })
-        .filter(place => place.distance !== null && place.distance !== undefined)
-        .sort((a, b) => (a.distance || 0) - (b.distance || 0));
-
-        if (page === 0) {
-          setPlaces(placesWithDistance);
-          setFilteredPlaces(placesWithDistance);
-        } else {
-          const updatedPlaces = [...Places, ...placesWithDistance]
-            .sort((a, b) => (a.distance || 0) - (b.distance || 0));
-          setPlaces(updatedPlaces);
-          setFilteredPlaces(updatedPlaces);
-        }
-
-        setHasMore(placesWithDistance.length === ITEMS_PER_PAGE && 
-                  (page + 1) * ITEMS_PER_PAGE < MAX_ITEMS);
+      const data = await fetchDataFromSupabase(page, isSearch);
+      if (!data || data.length === 0) {
+        handleEmptyData(isSearch);
+        return;
       }
+
+      const placesWithDistance = data
+        .map(addDistanceToPlace)
+        .sort(sortByDistance)
+        .filter(isValidPlace);
+
+      updatePlacesState(placesWithDistance, page, isSearch);
+      setHasMore(shouldLoadMore(placesWithDistance.length, page));
     } catch (err) {
-      console.error('Error:', err);
-      setError('데이터를 가져오는 중 오류가 발생했습니다.');
+      handleError(err);
     } finally {
       setLoading(false);
     }
+  };
+
+
+  const handleEmptyData = (isSearch: boolean) => {
+    if (isSearch) {
+      setError('검색 결과가 없습니다.');
+    } else {
+      setHasMore(false);
+    }
+  };
+
+  const addDistanceToPlace = (place: { name: string; wkb_geometry: { coordinates: [number, number] } }) => {
+    const [longitude, latitude] = place.wkb_geometry.coordinates;
+    if (!isValidCoordinates(latitude, longitude)) {
+      return { ...place, distance: null };
+    }
+    const distance = userLocation
+      ? calculateDistance(
+          userLocation.latitude,
+          userLocation.longitude,
+          latitude,
+          longitude
+        )
+      : 0;
+    return { ...place, distance };
+  };
+
+  const isValidPlace = (place: OsmPlace) => place.distance !== null && place.distance !== undefined;
+
+  const sortByDistance = (a: OsmPlace, b: OsmPlace) => (a.distance || 0) - (b.distance || 0);
+
+  const updatePlacesState = (places: OsmPlace[], page: number, isSearch: boolean) => {
+    if (page === 0) {
+      setPlaces(places);
+      setFilteredPlaces(places);
+    } else {
+      const updatedPlaces = [...Places, ...places].sort(sortByDistance);
+      setPlaces(updatedPlaces);
+      setFilteredPlaces(updatedPlaces);
+    }
+  };
+
+  const shouldLoadMore = (length: number, page: number) =>
+    length === ITEMS_PER_PAGE && (page + 1) * ITEMS_PER_PAGE < MAX_ITEMS;
+
+  const handleError = (err: any) => {
+    console.error('Error:', err);
+    setError('데이터를 가져오는 중 오류가 발생했습니다.');
   };
 
   // 초기 데이터 로드
@@ -198,7 +207,7 @@ export default function TwoScreen() {
   const handlePlacePress = async (item: OsmPlace) => {
     let latitude = 0;
     let longitude = 0;
-
+    console.log("handlePlacePress 작동")
     try {
       if (item.wkb_geometry && Array.isArray(item.wkb_geometry.coordinates)) {
         longitude = Number(item.wkb_geometry.coordinates[0]) || 0;

@@ -3,8 +3,8 @@ import 'react-native-get-random-values'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { createClient } from '@supabase/supabase-js'
 
-const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL
-const supabaseKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY
+const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL || ""
+const supabaseKey = process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY || ""
 
 export const supabase = createClient(supabaseUrl, supabaseKey, {
     auth: {
@@ -24,7 +24,7 @@ export async function getOsmData() {
     .from('raw_osm')
     .select('name, wkb_geometry')
     .not('name', 'is', null)  // name이 null이 아닌 데이터만
-
+  
   if (error) {
     console.error('Error fetching OSM data:', error)
     return null

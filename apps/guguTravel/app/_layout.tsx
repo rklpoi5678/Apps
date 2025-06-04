@@ -2,7 +2,7 @@
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
-import { Stack, useRouter, usePathname } from 'expo-router';
+import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useRef } from 'react';
 import { AppOpenAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
@@ -26,8 +26,6 @@ export const unstable_settings = { initialRouteName: '(tabs)' };
 
 export default function RootLayout() {
   const colorScheme                  = useColorScheme();
-  const router                       = useRouter();
-  const pathname                     = usePathname();
   const adHasShownRef                = useRef(false);
   const [fontsLoaded, fontsError]    = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
@@ -71,19 +69,6 @@ export default function RootLayout() {
     };
   }, [fontsLoaded]);
 
-  /* ────────── 5 초 뒤 지도 탭으로 자동 이동 ────────── */
-  useEffect(() => {
-    if (!fontsLoaded) return;
-
-    const timer = setTimeout(() => {
-      // 이미 /map 에 있으면 패스
-      if (!router.canGoBack() || !pathname?.includes('/index')) {
-        router.push('/(tabs)');
-      }
-    }, 5000);
-
-    return () => clearTimeout(timer);
-  }, [fontsLoaded, pathname]);
 
   /* ────────── 에러 전파 ────────── */
   useEffect(() => {
@@ -95,7 +80,7 @@ export default function RootLayout() {
   }, [fontsError]);
 
   /* ────────── 렌더링 ────────── */
-  if (!fontsLoaded) return null; // 폰트 준비 전엔 아무것도 그리지 않음
+  // if (!fontsLoaded) return null; // 폰트 준비 전엔 아무것도 그리지 않음
 
     return (
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>

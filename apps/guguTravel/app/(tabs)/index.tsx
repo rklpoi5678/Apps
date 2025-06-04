@@ -13,6 +13,7 @@ import { getNearbyOsmData } from '@/src/lib/supabase';
 import { useLocationStore } from '@/src/store/locationStore';
 import CustomMapView from '@/components/map/MapContainer';
 import LocationButton from '@/components/ui/LocationButton';
+import LoadingScreen from '@/src/components/LoadingScreen'; // Import LoadingScreen component
 import { LocationCoordinates, OsmPlace } from '@/types/map';
 import MapView from 'react-native-maps';
 import {
@@ -34,7 +35,7 @@ export default function MapScreen() {
     useState<LocationCoordinates | null>(null);
   const [nearbyPlaces, setNearbyPlaces] = useState<OsmPlace[]>([]);
   const selectedLocation = useLocationStore((s) => s.selectedLocation);
-
+  const [isLoaded, setIsLoaded] = useState(false)
   /* ───────── Interstitial 관리 ───────── */
   const navigation = useNavigation();
   /** 최근 광고가 실제로 화면에 표시된 시각  */
@@ -46,6 +47,7 @@ export default function MapScreen() {
     if (now - lastAdShownRef.current < INTERSTITIAL_COOLDOWN) {
       // 아직 쿨다운 중 → 다음 광고만 미리 로드
       preloadInterstitial();
+      console.log("아직 쿨다운")
       return;
     }
 
@@ -79,8 +81,12 @@ export default function MapScreen() {
   useEffect(() => {
     (async () => {
       const { status } = await Location.requestForegroundPermissionsAsync();
-      if (status !== 'granted') return;
+      if (status !== 'granted') {
+        console.log('위치 권한 거부됨')
+        return;
+      }
       const loc = await Location.getCurrentPositionAsync({});
+      console.log('위치확인됨', loc.coords)
       setCurrentLocation({
         latitude: loc.coords.latitude,
         longitude: loc.coords.longitude,
@@ -120,14 +126,11 @@ export default function MapScreen() {
         <Text>Android 기기에서만 지도가 지원됩니다.</Text>
       </Centered>
     );
-
+  
+    
   if (!currentLocation)
-    return (
-      <Centered>
-        <Text>위치 정보를 불러오는 중...</Text>
-      </Centered>
-    );
-
+    return <LoadingScreen />; // Show LoadingScreen if currentLocation is not available or isLoaded is false
+  
   return (
     <View style={styles.container}>
       <CustomMapView
@@ -136,13 +139,17 @@ export default function MapScreen() {
         nearbyPlaces={nearbyPlaces}
         selectedLocation={selectedLocation}
         onMarkerPress={(p) => console.log('Marker pressed:', p.name)}
+        onMapReady={() => {
+          console.log('지도확인됨');
+          setIsLoaded(true);
+        }}
       />
       <LocationButton
         onPress={() =>
           mapRef.current?.animateToRegion({
             ...currentLocation,
-            latitudeDelta: 0.05,
-            longitudeDelta: 0.05,
+            latitudeDelta: 0.1,
+            longitudeDelta: 0.1,
           })
         }
       />

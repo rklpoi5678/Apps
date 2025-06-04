@@ -9,5 +9,5 @@ export interface OsmPlace {
   wkb_geometry: {
     coordinates: [number, number];
   };
-  distance: number;
+  distance: number | null;
 }

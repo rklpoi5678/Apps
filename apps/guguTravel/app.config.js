@@ -1,6 +1,6 @@
 import type { ExpoConfig, ConfigContext } from 'expo/config';
 
-const VERSION_NAME = '1.0.1';
+const VERSION_NAME = '1.0.3';
 const VERSION_CODE = 1000001;
 
 const AND_PACKAGE = "com.youngikim.appsgugutravel"
@@ -19,6 +19,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
   version: VERSION_NAME,
 
   android:{
+    ...config.android,
     package: AND_PACKAGE,
     versionCode: VERSION_CODE,
     config: {
@@ -26,6 +27,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
   },
   },
   ios:{
+    ...config.ios,
     bundleIdentifier: IOS_PACKAGE,
     buildNumber: VERSION_CODE + '',
   },

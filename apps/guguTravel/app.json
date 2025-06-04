@@ -2,7 +2,7 @@
   "expo": {
     "name": "구구트래블",
     "slug": "guguTravel",
-    "version": "1.0.0",
+    "version": "",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "gugutravel",
@@ -29,7 +29,7 @@
         "android.permission.ACCESS_FINE_LOCATION",
         "android.permission.ACCESS_COARSE_LOCATION"
       ],
-      "edgeToEdgeEnabled": true,
+      "edgeToEdgeEnabled": false,
       "package": "",
       "versionCode": 1000001
     },
@@ -43,9 +43,8 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/guguTravel_splash.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
+          "image": "./assets/images/splash.png",
+          "resizeMode": "cover",
           "backgroundColor": "#ffffff"
         }
       ],

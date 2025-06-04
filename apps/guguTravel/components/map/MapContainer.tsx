@@ -8,6 +8,7 @@ interface CustomMapViewProps {
   nearbyPlaces: OsmPlace[];
   selectedLocation: LocationCoordinates | null;
   onMarkerPress?: (place: OsmPlace) => void;
+  onMapReady?: () => void;
 }
 
 export default function CustomMapView({ 
@@ -15,15 +16,17 @@ export default function CustomMapView({
   currentLocation, 
   nearbyPlaces, 
   selectedLocation,
-  onMarkerPress 
+  onMarkerPress,
+  onMapReady
 }: CustomMapViewProps) {
   if (!currentLocation) return null;
 
   return (
     <MapView 
+      onMapReady={onMapReady}
       ref={mapRef}
       style={styles.map}
-      provider={PROVIDER_GOOGLE}
+      // provider={PROVIDER_GOOGLE}
       showsUserLocation={true}
       showsMyLocationButton={false}
       initialRegion={{
@@ -41,7 +44,7 @@ export default function CustomMapView({
             longitude: place.wkb_geometry.coordinates[0]
           }}
           title={place.name}
-          description={`거리: ${place.distance.toFixed(1)}km`}
+          description={`거리: ${place.distance?.toFixed(1)}km`}
           pinColor="#ff3b30"
           anchor={{ x: 0.5, y: 1.0 }}
           calloutAnchor={{ x: 0.5, y: 0.0 }}
