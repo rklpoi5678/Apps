@@ -339,6 +339,7 @@ export default function ProfilePage() {
       data={listData}
       keyExtractor={(item) => item.id.toString()}
       ListHeaderComponent={<ListHeaderComponent />}
+      style={styles.debateCard}
       renderItem={renderItem}
       contentContainerStyle={{ paddingBottom: 100 }}
     />
@@ -507,7 +508,7 @@ const styles = StyleSheet.create({
   bio: { color: "#DBEAFE", marginBottom: 6, fontSize: 12 },
   joinedRow: { flexDirection: "row", alignItems: "center" },
   joinedText: { color: "#DBEAFE", fontSize: 12, marginLeft: 4 },
-  contentPadding: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 24 },
+  contentPadding: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 24, backgroundColor: "#FFF" },
 
   // 카드 공통
   card: { backgroundColor: "#FFF", borderRadius: 8, marginBottom: 12, overflow: "hidden", elevation: 2 },
@@ -545,7 +546,7 @@ const styles = StyleSheet.create({
   topicText: { fontSize: 10, color: "#FFF" },
 
   // Tabs
-  tabList: { flexDirection: "row", justifyContent: "space-between", marginBottom: 12 },
+  tabList: { flexDirection: "row", justifyContent: "space-between", marginBottom: 12},
   tabTrigger: { flex: 1, paddingVertical: 8, alignItems: "center", borderBottomWidth: 2, borderColor: "transparent" },
   tabTriggerActive: { borderColor: "#3B82F6" },
   tabTriggerText: { fontSize: 12, color: "#6B7280" },
@@ -553,7 +554,7 @@ const styles = StyleSheet.create({
   tabsContent: { minHeight: 200 },
 
   // Debate Card
-  debateCard: { backgroundColor: "#FFF", borderRadius: 8, padding: 12, marginBottom: 12, elevation: 2 },
+  debateCard: { backgroundColor: "#FFF", borderRadius: 8, padding: 12, marginBottom: 12, elevation: 2},
   debateRow: { flexDirection: "row" },
   debateSideIndicator: { width: 8, height: "100%", borderRadius: 4, marginRight: 8 },
   debateMain: { flex: 1 },
