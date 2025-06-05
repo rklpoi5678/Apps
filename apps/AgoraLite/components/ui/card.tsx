@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { View, StyleSheet, type ViewStyle } from "react-native"
-import { useTheme } from "../../lib/theme-provider"
+import { useTheme } from "@/lib/theme-provider"
 
 interface CardProps {
   children: React.ReactNode

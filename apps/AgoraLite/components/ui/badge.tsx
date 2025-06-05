@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { View, Text, StyleSheet, type ViewStyle, type TextStyle } from "react-native"
-import { useTheme } from "../../lib/theme-provider"
+import { useTheme } from "@/lib/theme-provider"
 
 type BadgeVariant = "default" | "primary" | "secondary" | "outline" | "success" | "warning" | "danger"
 

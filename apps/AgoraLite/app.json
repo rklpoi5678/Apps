@@ -7,33 +7,17 @@
     "icon": "./assets/images/icon.png",
     "scheme": "agoralite",
     "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.agoralite.app",
-      "buildNumber": "1.0.0",
-      "infoPlist": {
-        "NSCameraUsageDescription": "This app uses the camera to capture profile pictures and debate-related images.",
-        "NSMicrophoneUsageDescription": "This app uses the microphone for voice recording in debates.",
-        "NSPhotoLibraryUsageDescription": "This app accesses your photo library to select images for debates and profile pictures."
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#3B82F6"
+        "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.agoralite.app",
-      "versionCode": 1,
-      "permissions": [
-        "android.permission.CAMERA",
-        "android.permission.RECORD_AUDIO",
-        "android.permission.READ_EXTERNAL_STORAGE",
-        "android.permission.WRITE_EXTERNAL_STORAGE",
-        "android.permission.VIBRATE",
-        "android.permission.RECEIVE_BOOT_COMPLETED"
-      ]
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
@@ -42,36 +26,16 @@
     },
     "plugins": [
       "expo-router",
-      "expo-secure-store",
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#3B82F6"
-        }
-      ],
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "The app accesses your photos to let you share them in debates.",
-          "cameraPermission": "The app accesses your camera to let you take photos for debates."
-        }
-      ],
-      [
-        "expo-av",
-        {
-          "microphonePermission": "Allow AgoraLite to access your microphone for voice recordings in debates."
+          "backgroundColor": "#ffffff"
         }
       ]
     ],
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
-    },
     "experiments": {
       "typedRoutes": true
     }

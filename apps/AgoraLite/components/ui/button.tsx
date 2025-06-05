@@ -9,7 +9,7 @@ import {
   type TextStyle,
   type TouchableOpacityProps,
 } from "react-native"
-import { useTheme } from "../../lib/theme-provider"
+import { useTheme } from "@/lib/theme-provider"
 
 type ButtonVariant = "default" | "primary" | "outline" | "ghost" | "link" | "destructive"
 type ButtonSize = "sm" | "md" | "lg"
