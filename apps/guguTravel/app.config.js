@@ -1,7 +1,7 @@
 import type { ExpoConfig, ConfigContext } from 'expo/config';
 
-const VERSION_NAME = '1.0.3';
-const VERSION_CODE = 1000001;
+const VERSION_NAME = '1.0.4';
+const VERSION_CODE = 1000004;
 
 const AND_PACKAGE = "com.youngikim.appsgugutravel"
 const IOS_PACKAGE = "com.youngikim.appsgugutravel"

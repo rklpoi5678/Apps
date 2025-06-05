@@ -13,7 +13,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "",
       "icon": "./assets/images/icon.png",
-      "buildNumber": "1000001"
+      "buildNumber": "1000004"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,7 +31,7 @@
       ],
       "edgeToEdgeEnabled": false,
       "package": "",
-      "versionCode": 1000001
+      "versionCode": 1000004
     },
     "web": {
       "bundler": "metro",

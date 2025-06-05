@@ -26,7 +26,7 @@ export default function CustomMapView({
       onMapReady={onMapReady}
       ref={mapRef}
       style={styles.map}
-      // provider={PROVIDER_GOOGLE}
+      provider={PROVIDER_GOOGLE}
       showsUserLocation={true}
       showsMyLocationButton={false}
       initialRegion={{

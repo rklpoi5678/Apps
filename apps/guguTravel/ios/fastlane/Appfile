@@ -1,0 +1,2 @@
+app_identifier("com.youngikim.appsguguTravel") # The bundle identifier of your app
+team_id("aaaaaaaaaa") # Developer Portal Team ID
