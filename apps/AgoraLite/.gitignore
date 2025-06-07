@@ -37,3 +37,6 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+google-services.json
+agoralite-26bad-firebase-adminsdk-fbsvc-1e57ae3c56.json
+firestore-seed

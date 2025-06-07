@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import {
   View,
   Text,
@@ -6,82 +6,118 @@ import {
   StyleSheet,
   TouchableOpacity,
   FlatList,
+  ActivityIndicator,
 } from "react-native"
 import { MessageSquare, Plus, TrendingUp } from "lucide-react-native"
+import { fetchAllDebates, LastDoc } from "@/lib/firebase-debate"
+import { Debate } from "@/types/home"
+import { auth, db } from "@/firebaseConfig"
+import { useRouter } from "expo-router"
+import AuthorName, { formatDate, isFirestoreTimestamp } from "@/lib/firebase-action"
+import { doc } from "firebase/firestore"
 
-const debateTopics = [
-  {
-    id: 1,
-    title: "Remote work is more productive than office work",
-    category: "Work & Career",
-    arguments: 24,
-    summary: "Debate centers on productivity metrics, collaboration benefits, and work-life balance considerations...",
-    author: "Sarah Chen",
-    date: "2 hours ago",
-    trending: true,
-  },
-  {
-    id: 2,
-    title: "Universal Basic Income should be implemented globally",
-    category: "Economics",
-    arguments: 18,
-    summary:
-      "Discussion covers economic feasibility, social impact, and implementation challenges across different economies...",
-    author: "Marcus Johnson",
-    date: "5 hours ago",
-    trending: false,
-  },
-  {
-    id: 3,
-    title: "AI will replace most creative jobs within 10 years",
-    category: "Technology",
-    arguments: 31,
-    summary: "Arguments explore AI capabilities, human creativity value, and the future of creative industries...",
-    author: "Elena Rodriguez",
-    date: "1 day ago",
-    trending: true,
-  },
-  {
-    id: 4,
-    title: "Social media has a net negative impact on society",
-    category: "Society",
-    arguments: 42,
-    summary:
-      "Debate examines mental health effects, information spread, and social connectivity benefits vs. drawbacks...",
-    author: "David Kim",
-    date: "2 days ago",
-    trending: false,
-  },
+const categories = [
+  '전체',
+  '기술',
+  '경제',
+  '사회',
+  '직장 & 커리어',
+  '정치',
+  "스포츠",
+  "과학",
+  "철학",
+  "대중문화",
+  '환경',
+  '교육',
+  '건강',
+  '기타',
 ]
 
-const categories = ["All", "Technology", "Economics", "Society", "Work & Career", "Politics", "Environment"]
-
 export default function FeedPage() {
-  const [selectedCategory, setSelectedCategory] = useState("All")
+  const [selectedCategory, setSelectedCategory] = useState("전체")
+  const [loading, setLoading] = useState(true)
+  const [debates, setDebates] = useState<Debate[]>([])
+  const [lastDoc, setLastDoc] = useState<LastDoc>(null)
+  const [hasMore, setHasMore] = useState(true)
+  const [loadingMore, setLoadingMore] = useState(false)
 
-  const filteredTopics =
-    selectedCategory === "All"
-      ? debateTopics
-      : debateTopics.filter((topic) => topic.category === selectedCategory)
+  const router = useRouter()
+  const user = auth.currentUser
+
+  // Firestore에서 데이터 가져오기 (초기 로드)
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const { debates: initial, nextLastDoc } = await fetchAllDebates()
+        setDebates(initial)
+        setLastDoc(nextLastDoc)
+        if (!nextLastDoc) setHasMore(false)
+      } catch (err) {
+        console.error("Firestore 데이터 로드 실패:", err)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchData()
+  }, [])
+
+  // 스크롤 끝에 닿으면 추가 로드
+  const loadMore = async () => {
+    if (!hasMore || loadingMore) return
+
+    setLoadingMore(true)
+    try {
+      const { debates: more, nextLastDoc } = await fetchAllDebates(selectedCategory, lastDoc)
+      // 1) 현재 상태(debates)에 이미 포함된 ID를 Set으로 추출
+    const existingIds = new Set(debates.map((d) => d.id))
+
+    // 2) more 배열 중에서 새로 추가할 것만 필터링
+    const filteredMore = more.filter((d) => !existingIds.has(d.id))
+    
+    // 3) 중복 없는 항목만 합치기
+    setDebates((prev) => [...prev, ...filteredMore])
+      setLastDoc(nextLastDoc)
+      if (!nextLastDoc) setHasMore(false)
+    } catch (err) {
+      console.error("추가 로드 실패:", err)
+    } finally {
+      setLoadingMore(false)
+    }
+  }
+
+  const filteredDebates =
+    selectedCategory === "전체"
+      ? debates
+      : debates.filter((debate) => debate.category === selectedCategory)
+
+    if (loading) {
+      return (
+        <View style={styles.loadingContainer}>
+          <ActivityIndicator size="large" color="#3B82F6"/>
+        </View>
+      )
+    }
 
   return (
     <View style={styles.container}>
-      {/* Header */}
-      <View style={styles.header}>
-        <Text style={styles.title}>AgoraLite</Text>
-        <Text style={styles.subtitle}>Structured debates and thoughtful discourse</Text>
-      </View>
-
       {/* Category Filter */}
       <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categoryScroll}>
         {categories.map((category) => (
           <TouchableOpacity
             key={category}
-            onPress={() => setSelectedCategory(category)}
             style={[
               styles.categoryButton,
               selectedCategory === category && styles.categoryButtonActive,
             ]}
+            onPress={() => 
+              {
+                setSelectedCategory(category);
+                setLastDoc(null)
+                setHasMore(true)
+                loadMore()
+              }
+            }
           >
             <Text
               style={[
@@ -95,42 +131,81 @@ export default function FeedPage() {
         ))}
       </ScrollView>
 
+        
       {/* Debate Topics */}
       <FlatList
-        data={filteredTopics}
-        keyExtractor={(item) => item.id.toString()}
-        contentContainerStyle={styles.cardList}
+        data={filteredDebates}
+        keyExtractor={(item) => item.id}
+        contentContainerStyle={[styles.cardList, filteredDebates.length === 0 && styles.emptyContainer]}
         renderItem={({ item }) => (
-          <TouchableOpacity style={styles.card}>
+          <TouchableOpacity style={styles.card} onPress={() => router.push(`/feed/${item.id}`)}>
             <View style={styles.cardHeader}>
               <View style={styles.categoryRow}>
                 <Text style={styles.badge}>{item.category}</Text>
                 {item.trending && (
                   <View style={styles.trendingBadge}>
                     <TrendingUp size={12} color="#FB923C" />
-                    <Text style={styles.trendingText}>Trending</Text>
+                    <Text style={styles.trendingText}>인기</Text>
                   </View>
                 )}
               </View>
-              <Text style={styles.cardTitle}>{item.title}</Text>
+              <Text style={styles.cardTitle}>
+                {item.title.length > 50 ? `${item.title.slice(0, 50)}...` : item.title}
+              </Text>
             </View>
             <View style={styles.cardContent}>
-              <Text style={styles.summary}>{item.summary}</Text>
+              <Text style={styles.summary}>
+                {item.description.length > 100 ? `${item.description.slice(0, 100)}...` : item.description}
+              </Text>
               <View style={styles.footerRow}>
                 <View style={styles.metaRow}>
                   <MessageSquare size={14} color="#6B7280" />
-                  <Text style={styles.metaText}>{item.arguments} arguments</Text>
-                  <Text style={styles.metaText}>by {item.author}</Text>
+                  <Text style={styles.metaText}>의견:{item.participants}</Text>
+                  {item.author && (
+                    <AuthorName style={styles.metaText} authorRef={doc(db, "users", item.author)} />
+                  )}
                 </View>
-                <Text style={styles.metaText}>{item.date}</Text>
+                {/* createdAt */}
+            {item.createdAt && (
+              <Text style={styles.metaText}>
+                · {isFirestoreTimestamp(item.createdAt)
+                  ? formatDate(item.createdAt)
+                  : (item.createdAt instanceof Date
+                    ? item.createdAt.toLocaleString('ko-KR')
+                    : new Date(item.createdAt).toLocaleString('ko-KR'))}
+              </Text>
+            )}
+            {item.timeAgo && (
+              <Text style={styles.metaText}>· {item.timeAgo}</Text>
+            )}
               </View>
             </View>
           </TouchableOpacity>
         )}
+        ListEmptyComponent={() => (
+          <View style={styles.emptyContainer}>
+            <Text style={styles.emptyText}>해당 카테고리에 등록된 토론이 없습니다.</Text>
+          </View>
+        )}
+        onEndReached={loadMore}
+        onEndReachedThreshold={0.5}
+        ListFooterComponent={() =>
+          loadingMore ? <ActivityIndicator size="small" color="#3B82F6" /> : null
+        }
+
       />
 
       {/* Floating Action Button */}
-      <TouchableOpacity style={styles.fab}>
+      <TouchableOpacity 
+        style={styles.fab}
+        onPress={() => {
+          if (user) {
+            router.push('_component/create-debate-modal' as never)
+          } else {
+            router.push('profile' as never)
+          }
+        }}
+      >
         <Plus size={24} color="white" />
       </TouchableOpacity>
     </View>
@@ -141,6 +216,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#F9FAFB",
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
   },
   header: {
     backgroundColor: "#FFFFFF",
@@ -248,14 +328,28 @@ const styles = StyleSheet.create({
     color: "#6B7280",
     marginLeft: 4,
   },
+  emptyContentContainer: {
+    flexGrow: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  emptyContainer: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  emptyText: {
+    fontSize: 14,
+    color: "#6B7280",
+  },
   fab: {
     position: "absolute",
     bottom: 20,
     right: 20,
     backgroundColor: "#111827",
-    width: 56,
-    height: 56,
-    borderRadius: 28,
+    width: 48,
+    height: 48,
+    borderRadius: 24,
     alignItems: "center",
     justifyContent: "center",
     elevation: 4,

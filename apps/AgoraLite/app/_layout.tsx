@@ -22,6 +22,8 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
+        <Stack.Screen name="_component/create-debate-modal" options={{ title: "토론 만들기", headerShown: true }} />
+        <Stack.Screen name="feed/[id]" options={{ title: "토론", headerShown: true }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
