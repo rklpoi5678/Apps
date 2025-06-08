@@ -97,6 +97,7 @@ export default function MapScreen() {
           longitude: loc.coords.longitude,
         });
         setError(null)
+        setIsLoading(false)
       } catch (error) {
         console.error('위치 확인 실패:', error);
         setError('현재 위치를 가져오는 데 실패했습니다.')
