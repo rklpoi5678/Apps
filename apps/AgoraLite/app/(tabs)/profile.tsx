@@ -19,10 +19,7 @@ import {
   createUserWithEmailAndPassword,
   User,
 } from "firebase/auth"
-import ProfilePage from "@/app/_component/profile-page"
-import type { NativeStackNavigationProp } from "@react-navigation/native-stack"
-import { useNavigation } from "@react-navigation/native"
-import type { RootStackParamList } from "@/types/navigation"
+import ProfilePage from "@/app/profile/profile-page"
 import { doc, setDoc, serverTimestamp } from "firebase/firestore"
 
 
@@ -70,7 +67,6 @@ function makeNewUserProfile(uid: string, email: string) {
   }
 
 export default function ProfileTab() {
-  const navigation = useNavigation<NativeStackNavigationProp<RootStackParamList>>()
 
   // 1) 사용자 로그인 상태
   const [initializing, setInitializing] = useState(true)
@@ -89,7 +85,7 @@ export default function ProfileTab() {
       if (initializing) setInitializing(false)
     })
     return unsubscribe
-  }, [])
+  }, [initializing])
 
   if (initializing) {
     // Firebase Auth 초기화 중 로딩 스피너

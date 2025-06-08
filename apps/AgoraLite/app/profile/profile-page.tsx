@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react"
 import {
   View,
   Text,
-  Image,
   StyleSheet,
   ActivityIndicator,
   TouchableOpacity,
@@ -24,6 +23,7 @@ import { auth, db } from "@/firebaseConfig" // 본인의 Firebase 설정
 import { rankColors, categoryColors, badgeColors } from "@/lib/theme-config"
 import { UserProfile } from "@/types/profile"
 import { AuthorAvatar } from "@/lib/firebase-action"
+import ProfileDeleteModal from "../_component/profile-delete-modal"
 
 export default function UserProfileScreen() {
   const [loading, setLoading] = useState(true)
@@ -31,6 +31,7 @@ export default function UserProfileScreen() {
   const [isEditing, setIsEditing] = useState(false)
   const [editedName, setEditedName] = useState("")
   const [editedBio, setEditedBio] = useState("")
+  const [showDeleteModal, setShowDeleteModal] = useState(false)
 
   // 현재 로그인된 Firebase User
   const currentUser: User | null = auth.currentUser
@@ -63,10 +64,14 @@ export default function UserProfileScreen() {
             },
             badges: data.badges,
             favoriteTopics: data.favoriteTopics,
+            updatedAt: data.updatedAt,
+            createdAt: data.createdAt,
+            deletedAt: data.deletedAt,
           }
           setUserProfile(profile)
         } else {
           Alert.alert("프로필 없음", "등록된 사용자 프로필이 없습니다.")
+          handleSignOut()
         }
       } catch (err) {
         console.error("프로필 로드 실패:", err)
@@ -76,7 +81,7 @@ export default function UserProfileScreen() {
       }
     }
     fetchProfile()
-  }, [])
+  }, [currentUser])
 
   // 4) 프로필 정보 저장
   const onSaveProfile = async () => {
@@ -117,6 +122,25 @@ export default function UserProfileScreen() {
       console.error("로그아웃 실패:", err)
       Alert.alert("오류", "로그아웃에 실패했습니다.")
     }
+  }
+
+  // 회원 탈퇴 모달창
+  const handleShowDeleteModal = () => {
+    if (!currentUser) {
+      Alert.alert("로그인 오류", "사용자를 찾을 수 없습니다.")
+      return;
+    }
+    setShowDeleteModal(true)
+  }
+
+  const handleModalClose = () => {
+    setShowDeleteModal(false)
+  }
+
+  const handleAccountDeleteSuccess = () => {
+    setShowDeleteModal(false)
+    Alert.alert("알림", "계정이 삭제되었습니다.")
+    handleSignOut()
   }
 
   if (loading) {
@@ -330,6 +354,17 @@ export default function UserProfileScreen() {
           </View>
         </View>
       </View>
+      <View>
+        <TouchableOpacity style={styles.deleteAccountButton} onPress={handleShowDeleteModal}>
+          <Text style={styles.deleteAccountText}>회원 가입 탈퇴</Text>
+        </TouchableOpacity>
+      </View>
+      <ProfileDeleteModal
+        visible={showDeleteModal}
+        onClose={handleModalClose}
+        userProfile={currentUser}
+        onDeleteSuccess={handleAccountDeleteSuccess}
+      />
     </ScrollView>
   )
 }
@@ -560,5 +595,17 @@ const styles = StyleSheet.create({
   topicText: {
     fontSize: 12,
     color: "#fff",
+  },
+  deleteAccountButton: {
+    backgroundColor: "#EF3333",
+    padding: 8,
+    borderRadius: 6,
+    alignItems: "center",
+    marginTop: 20,
+  },
+  deleteAccountText: {
+    fontSize: 12,
+    color: "#fff",
+    textAlign: "center",
   },
 })

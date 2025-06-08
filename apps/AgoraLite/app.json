@@ -10,14 +10,17 @@
     "jsEngine": "hermes",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "1000001"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "versionCode": 1000001,
+      "edgeToEdgeEnabled": true,
+      "package": "com.youngikim.agoralite"
     },
     "web": {
       "bundler": "metro",

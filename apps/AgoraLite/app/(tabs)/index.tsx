@@ -42,7 +42,6 @@ const categories = [
 
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("전체")
-  const [currentSlide, setCurrentSlide] = useState(0)
 
   const [featuredDebates, setFeaturedDebates] = useState<Debate[]>([])
   const [trendingDebates, setTrendingDebates] = useState<Debate[]>([])

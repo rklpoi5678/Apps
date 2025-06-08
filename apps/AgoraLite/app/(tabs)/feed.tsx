@@ -101,38 +101,6 @@ export default function FeedPage() {
 
   return (
     <View style={styles.container}>
-      {/* Category Filter */}
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categoryScroll}>
-        {categories.map((category) => (
-          <TouchableOpacity
-            key={category}
-            style={[
-              styles.categoryButton,
-              selectedCategory === category && styles.categoryButtonActive,
-            ]}
-            onPress={() => 
-              {
-                setSelectedCategory(category);
-                setLastDoc(null)
-                setHasMore(true)
-                loadMore()
-              }
-            }
-          >
-            <Text
-              style={[
-                styles.categoryText,
-                selectedCategory === category && styles.categoryTextActive,
-              ]}
-            >
-              {category}
-            </Text>
-          </TouchableOpacity>
-        ))}
-      </ScrollView>
-
-        
-      {/* Debate Topics */}
       <FlatList
         data={filteredDebates}
         keyExtractor={(item) => item.id}
@@ -192,10 +160,38 @@ export default function FeedPage() {
         ListFooterComponent={() =>
           loadingMore ? <ActivityIndicator size="small" color="#3B82F6" /> : null
         }
-
+        ListHeaderComponent={() => (
+          <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.categoryScroll}>
+          {categories.map((category) => (
+            <TouchableOpacity
+              key={category}
+              style={[
+                styles.categoryButton,
+                selectedCategory === category && styles.categoryButtonActive,
+              ]}
+              onPress={() => 
+                {
+                  setSelectedCategory(category);
+                  setLastDoc(null)
+                  setHasMore(true)
+                  loadMore()
+                }
+              }
+            >
+              <Text
+                style={[
+                  styles.categoryText,
+                  selectedCategory === category && styles.categoryTextActive,
+                ]}
+              >
+                {category}
+              </Text>
+            </TouchableOpacity>
+          ))}
+        </ScrollView>
+        )}
       />
 
-      {/* Floating Action Button */}
       <TouchableOpacity 
         style={styles.fab}
         onPress={() => {
@@ -243,11 +239,11 @@ const styles = StyleSheet.create({
     paddingVertical: 8,
   },
   categoryButton: {
-    paddingVertical: 6,
-    paddingHorizontal: 12,
-    borderRadius: 16,
-    backgroundColor: "#F3F4F6",
     marginRight: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 16,
+    backgroundColor: "#E5E7EB"
   },
   categoryButtonActive: {
     backgroundColor: "#111827",
@@ -257,6 +253,7 @@ const styles = StyleSheet.create({
     color: "#374151",
   },
   categoryTextActive: {
+    fontSize: 12,
     color: "#FFFFFF",
   },
   cardList: {

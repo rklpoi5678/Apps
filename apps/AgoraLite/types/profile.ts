@@ -7,11 +7,14 @@ export interface UserProfile {
   joinDate: string
   avatar: string
   stats: {
-    debatesCreated: number
     argumentsPosted: number
+    debatesCreated: number
     votesReceived: number
     winRate: number
   }
   badges: string[]
   favoriteTopics: string[]
+  updatedAt: Date
+  createdAt: Date
+  deletedAt: Date | null
 }

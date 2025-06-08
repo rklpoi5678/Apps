@@ -18,7 +18,7 @@ import { db } from "@/firebaseConfig"
 import type { Debate } from "@/types/home"
 import type { UserProfile } from "@/types/profile"
 
-import AuthorName, { AuthorAvatar, dateToFirestoreTimestamp, formatDate, isFirestoreTimestamp, onVote } from "@/lib/firebase-action"
+import AuthorName, { AuthorAvatar, formatDate, isFirestoreTimestamp, onVote } from "@/lib/firebase-action"
 import { Entypo, Ionicons } from "@expo/vector-icons"
 
 
@@ -28,25 +28,12 @@ export default function FeedDetailPage() {
   const id = Array.isArray(params.id) ? params.id[0] : params.id ? String(params.id) : undefined;
   const router = useRouter()
 
-  const myDate = new Date();
-  const firestoreTimestamp = dateToFirestoreTimestamp(myDate);
-  
   // 2) 상태 정의
   const [debate, setDebate] = useState<Debate | null>(null)
   const [authorAvatar, setAuthorAvatar] = useState<string | null>(null)
   const [loading, setLoading] = useState(true)
   const [loadingAvatar, setLoadingAvatar] = useState(true)
 
-  const onLike = () => {
-    if (!debate) return
-    
-    setDebate({ ...debate, likes: (debate.likes || 0) + 1 })
-  }
-  const onDislike = () => {
-    if (!debate) return
-    
-    setDebate({ ...debate, dislikes: (debate.dislikes || 0) + 1 })
-  }
   // 3) Firestore에서 단일 토론 문서 불러오기
   useEffect(() => {
     if (!id) {
@@ -206,7 +193,7 @@ export default function FeedDetailPage() {
               <Text style={styles.voteText}>{debate.dislikes}</Text>
             </TouchableOpacity>
           </View>
-
+            {/* TODO: 댓글 */}
         </View>
       </ScrollView>
     </SafeAreaView>

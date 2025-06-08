@@ -1,5 +1,8 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+android
+ios
+
 # dependencies
 node_modules/
 
@@ -40,3 +43,15 @@ app-example
 google-services.json
 agoralite-26bad-firebase-adminsdk-fbsvc-1e57ae3c56.json
 firestore-seed
+
+# Expo Release It
+
+expo-release-it
+expo-release-it/.temp
+android/vendor/bundle
+ios/vendor/bundle
+# if you excluded android, ios for using CNG
+!expo-release-it/metadata/*
+# if you aren't sure about security issues, feel free to exclude these files from the VCS.
+!expo-release-it/key/*.p8
+!expo-release-it/key/*.keystore

@@ -80,25 +80,29 @@ export default function CreateDebateModal() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.title}>새 토론 만들기</Text>
-        <TouchableOpacity 
-          style={styles.closeButton}
-          onPress={() => navigation.goBack()}
-        >
-          <X size={24} color="#000" />
-        </TouchableOpacity>
-      </View>
-      
       <ScrollView style={styles.content} keyboardShouldPersistTaps="handled">
-        <Text style={styles.label}>토론 주제</Text>
         <TextInput
           style={styles.input}
-          placeholder="토론 주제를 입력하세요"
+          placeholder="토론 주제를 입력하세요 (최대 200자)"
           placeholderTextColor="#999"
           value={title}
-          onChangeText={setTitle}
+          onChangeText={(text) => {
+            if (text.length <= 200) setTitle(text);
+          }}
           returnKeyType="next"
+        />
+
+        <Text style={[styles.label, { marginTop: 20 }]}>상세 설명</Text>
+        <TextInput
+          style={[styles.input, styles.multilineInput]}
+          placeholder="토론에 대한 상세한 설명을 작성해주세요"
+          placeholderTextColor="#999"
+          multiline
+          numberOfLines={4}
+          value={description}
+          onChangeText={setDescription}
+          textAlignVertical="top"
+          returnKeyType="default"
         />
         
         <Text style={[styles.label, { marginTop: 20 }]}>카테고리</Text>
@@ -143,18 +147,7 @@ export default function CreateDebateModal() {
           ))}
         </View>
         
-        <Text style={[styles.label, { marginTop: 20 }]}>상세 설명</Text>
-        <TextInput
-          style={[styles.input, styles.multilineInput]}
-          placeholder="토론에 대한 상세한 설명을 작성해주세요"
-          placeholderTextColor="#999"
-          multiline
-          numberOfLines={4}
-          value={description}
-          onChangeText={setDescription}
-          textAlignVertical="top"
-          returnKeyType="default"
-        />
+
         
         <TouchableOpacity 
           style={[styles.submitButton, (!title.trim() || !description.trim() || submitting ) && styles.disabledButton]}
@@ -176,23 +169,9 @@ const styles = StyleSheet.create({
       backgroundColor: '#fff',
       paddingTop: Platform.OS === 'ios' ? 50 : 0,
     },
-    header: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      padding: 16,
-      borderBottomWidth: 1,
-      borderBottomColor: '#e0e0e0',
-    },
-    title: {
-      fontSize: 18,
-      fontWeight: '600',
-    },
-    closeButton: {
-      padding: 4,
-    },
     content: {
       padding: 16,
+      flexWrap: 'wrap',
     },
     label: {
       fontSize: 16,

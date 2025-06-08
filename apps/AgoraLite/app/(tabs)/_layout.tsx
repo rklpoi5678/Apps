@@ -2,17 +2,15 @@ import { Tabs } from 'expo-router';
 import React from 'react';
 
 import { IconSymbol } from '@/components/ui/IconSymbol';
-import { useColorScheme } from '@/hooks/useColorScheme';
 import { BlurView }from 'expo-blur';
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
 
   return (
     <>
     <Tabs screenOptions={{ tabBarActiveTintColor: "blue" }}>
       <Tabs.Screen
-        name="home"
+        name="index"
         options={{
           title: '홈',
           headerTitle: "토론스",
@@ -41,6 +39,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+      
       <Tabs.Screen
         name="profile"
         options={{
