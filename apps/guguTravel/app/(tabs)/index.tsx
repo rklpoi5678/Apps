@@ -26,6 +26,7 @@ import { useNavigation } from '@react-navigation/native';
 // config
 ////////////////////////////////////////////////////////////////////////////////
 const INTERSTITIAL_COOLDOWN = 2 * 60 * 1000; // 2 분
+const DEFAULT_RADIUS_KM = 5; // 기본 반경 정의 (5KM)
 
 ////////////////////////////////////////////////////////////////////////////////
 export default function MapScreen() {
@@ -35,7 +36,8 @@ export default function MapScreen() {
     useState<LocationCoordinates | null>(null);
   const [nearbyPlaces, setNearbyPlaces] = useState<OsmPlace[]>([]);
   const selectedLocation = useLocationStore((s) => s.selectedLocation);
-  const [isLoaded, setIsLoaded] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
   /* ───────── Interstitial 관리 ───────── */
   const navigation = useNavigation();
   /** 최근 광고가 실제로 화면에 표시된 시각  */
@@ -80,17 +82,26 @@ export default function MapScreen() {
   /* ───────── 위치 허용 & 현재 위치 ───────── */
   useEffect(() => {
     (async () => {
-      const { status } = await Location.requestForegroundPermissionsAsync();
-      if (status !== 'granted') {
-        console.log('위치 권한 거부됨')
-        return;
+      try {
+        const { status } = await Location.requestForegroundPermissionsAsync();
+        if (status !== 'granted') {
+          console.log('위치 권한 거부됨')
+          setError('위치 권한이 필요합니다. 설정에서 허용해주세요.')
+          setIsLoading(false) // 위치 권한 거부됨으로 인한 로딩화면 표시
+          return;
+        }
+        const loc = await Location.getCurrentPositionAsync({});
+        console.log('위치확인됨', loc.coords)
+        setCurrentLocation({
+          latitude: loc.coords.latitude,
+          longitude: loc.coords.longitude,
+        });
+        setError(null)
+      } catch (error) {
+        console.error('위치 확인 실패:', error);
+        setError('현재 위치를 가져오는 데 실패했습니다.')
+        setIsLoading(false) // 위치 권한 거부됨으로 인한 로딩화면 표시
       }
-      const loc = await Location.getCurrentPositionAsync({});
-      console.log('위치확인됨', loc.coords)
-      setCurrentLocation({
-        latitude: loc.coords.latitude,
-        longitude: loc.coords.longitude,
-      });
     })();
   }, []);
 
@@ -98,12 +109,17 @@ export default function MapScreen() {
   useEffect(() => {
     if (!currentLocation) return;
     (async () => {
-      const places = await getNearbyOsmData(
-        currentLocation.latitude,
-        currentLocation.longitude,
-        5,
-      );
-      places && setNearbyPlaces(places);
+      try {
+        const places = await getNearbyOsmData(
+          currentLocation.latitude,
+          currentLocation.longitude,
+          DEFAULT_RADIUS_KM,
+        );
+        places && setNearbyPlaces(places);
+      } catch (error) {
+        console.error('근처 OSM 데이터 가져오기 실패:', error);
+        setError('근처 장소 데이터를 가져오는 데 실패했습니다.')
+      }
     })();
   }, [currentLocation]);
 
@@ -127,32 +143,46 @@ export default function MapScreen() {
       </Centered>
     );
   
-    
-  if (!currentLocation)
-    return <LoadingScreen />; // Show LoadingScreen if currentLocation is not available or isLoaded is false
+  /* ───────── 로딩 화면 ───────── */
+
+  if (!currentLocation || isLoading) {
+    return <LoadingScreen />;
+  } // Show LoadingScreen if currentLocation is not available or isLoaded is false
   
+  if (error) { 
+    return (
+    <Centered>
+      <Text style={styles.errorText}>{error}</Text>
+    </Centered>
+    );
+  }
+
   return (
     <View style={styles.container}>
-      <CustomMapView
-        mapRef={mapRef}
-        currentLocation={currentLocation}
-        nearbyPlaces={nearbyPlaces}
-        selectedLocation={selectedLocation}
-        onMarkerPress={(p) => console.log('Marker pressed:', p.name)}
-        onMapReady={() => {
-          console.log('지도확인됨');
-          setIsLoaded(true);
-        }}
-      />
-      <LocationButton
-        onPress={() =>
-          mapRef.current?.animateToRegion({
-            ...currentLocation,
-            latitudeDelta: 0.1,
-            longitudeDelta: 0.1,
-          })
-        }
-      />
+      {currentLocation && (
+        <CustomMapView
+          mapRef={mapRef}
+          currentLocation={currentLocation}
+          nearbyPlaces={nearbyPlaces}
+          selectedLocation={selectedLocation}
+          onMarkerPress={(p) => console.log('Marker pressed:', p.name)}
+          onMapReady={() => {
+            console.log('지도확인됨');
+            setIsLoading(false);
+          }}
+        />
+      )}
+      {currentLocation && (
+        <LocationButton
+          onPress={() =>
+            mapRef.current?.animateToRegion({
+              ...currentLocation,
+              latitudeDelta: 0.1,
+              longitudeDelta: 0.1,
+            })
+          }
+        />
+      )}
       <View style={styles.attribution}>
         <Text style={styles.caption}>© OpenStreetMap contributors</Text>
       </View>
@@ -180,4 +210,5 @@ const styles = StyleSheet.create({
     borderRadius: 4,
   },
   caption: { fontSize: 12, color: '#666' },
+  errorText: { textAlign: 'center', marginHorizontal: 20, color: 'red' },
 });

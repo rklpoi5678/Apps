@@ -4,12 +4,15 @@ import { LocationCoordinates, OsmPlace } from '@/types/map';
 
 interface CustomMapViewProps {
   mapRef: React.RefObject<MapView | null>;
-  currentLocation: LocationCoordinates | null;
+  currentLocation: LocationCoordinates;
   nearbyPlaces: OsmPlace[];
   selectedLocation: LocationCoordinates | null;
   onMarkerPress?: (place: OsmPlace) => void;
   onMapReady?: () => void;
 }
+
+const NEARBY_PLACE_COLOR = '#ff3b30';
+const SELECTED_LOCATION_COLOR = '#007AFF';
 
 export default function CustomMapView({ 
   mapRef, 
@@ -19,7 +22,6 @@ export default function CustomMapView({
   onMarkerPress,
   onMapReady
 }: CustomMapViewProps) {
-  if (!currentLocation) return null;
 
   return (
     <MapView 
@@ -36,31 +38,36 @@ export default function CustomMapView({
         longitudeDelta: 0.05,
       }}
     >
-      {nearbyPlaces.map((place) => (
-        <Marker
-          key={`${place.name}-${place.distance}`}
-          coordinate={{
-            latitude: place.wkb_geometry.coordinates[1],
-            longitude: place.wkb_geometry.coordinates[0]
-          }}
-          title={place.name}
-          description={`거리: ${place.distance?.toFixed(1)}km`}
-          pinColor="#ff3b30"
-          anchor={{ x: 0.5, y: 1.0 }}
-          calloutAnchor={{ x: 0.5, y: 0.0 }}
-          onPress={() => onMarkerPress?.(place)}
-        />
-      ))}
+      {nearbyPlaces.map((place, index) => {
+        const [longitude, latitude] = place.wkb_geometry.coordinates;
+        if (typeof latitude !== 'number' || typeof longitude !== 'number') {
+          console.warn(`Skipping marker for ${place.name || 'unnamed place'}: Invalid coordinates provided.`);
+          return null;
+        }
+
+        return (
+          <Marker
+            key={`${place.name || 'unnamed'}-${longitude}-${latitude}-${index}`}
+            coordinate={{ latitude: latitude, longitude: longitude }}
+            title={place.name}
+            description={`거리: ${place.distance?.toFixed(1)}km`}
+            pinColor={NEARBY_PLACE_COLOR}
+            anchor={{ x: 0.5, y: 1.0 }}
+            calloutAnchor={{ x: 0.5, y: 0.0 }}
+            onPress={() => onMarkerPress?.(place)}
+          />
+        );
+      })}
 
       {selectedLocation && (
         <Marker
-          key="selected-location"
+          key="selected-location-marker"
           coordinate={{
             latitude: selectedLocation.latitude,
             longitude: selectedLocation.longitude
           }}
           title={selectedLocation.name}
-          pinColor="#007AFF"
+          pinColor={SELECTED_LOCATION_COLOR}
           anchor={{ x: 0.5, y: 1.0 }}
           calloutAnchor={{ x: 0.5, y: 0.0 }}
         />

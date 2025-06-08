@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from '@testing-library/react-native';
-import { MapScreen } from '../MapScreen';
-import { useTourStore } from '../../store/useTourStore';
+import MapScreen from '@/src/screens/MapScreen';
+import { useTourStore } from '@/src/store/useTourStore';
 
-jest.mock('../../store/useTourStore');
+jest.mock('@/src/store/useTourStore');
 
 describe('MapScreen', () => {
   it('renders correctly', () => {
