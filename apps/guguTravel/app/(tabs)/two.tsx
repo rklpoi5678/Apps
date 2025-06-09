@@ -232,7 +232,7 @@ export default function TwoScreen() {
     
     setSelectedLocation({ latitude, longitude, name: item.name });
     router.push('/');
-  }, [router, setSelectedLocation]); //router와 isValidCoordinates가 변경되면 다시 생성
+  }, [router, setSelectedLocation, isValidCoordinates]); //router와 isValidCoordinates가 변경되면 다시 생성
   
   // --- useEffect Hooks ---
   
