@@ -13,7 +13,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "",
       "icon": "./assets/images/icon.png",
-      "buildNumber": "1000004"
+      "buildNumber": "1000006"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,7 +31,7 @@
       ],
       "edgeToEdgeEnabled": false,
       "package": "",
-      "versionCode": 1000004
+      "versionCode": 1000006
     },
     "web": {
       "bundler": "metro",
@@ -54,6 +54,14 @@
           "android": {
             "useCleartextTraffic": true
           }
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "organization": "meta-os",
+          "project": "gugutravel-app"
         }
       ]
     ],

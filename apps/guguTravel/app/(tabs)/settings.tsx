@@ -1,5 +1,6 @@
-import { View, Text, StyleSheet, Linking } from 'react-native';
+import { View, Text, StyleSheet, Linking, Button } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import * as Sentry from '@sentry/react-native';
 
 export default function SettingsScreen() {
   const openOSMWebsite = () => {
@@ -28,6 +29,12 @@ export default function SettingsScreen() {
         >
           OpenStreetMap 방문하기
         </Text>
+        <Button
+          title="Try!"
+          onPress={() => {
+            Sentry.captureException(new Error("First error"));
+          }}
+        />
       </View>
     </View>
   );

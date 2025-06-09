@@ -22,6 +22,79 @@ const styles = StyleSheet.create({
   },
 });
 
+// ────────── 지오메트리 좌표 추출 헬퍼 함수 ──────────
+// 이 함수는 TwoScreen 컴포넌트 외부에 정의되어야 합니다.
+// 예를 들어, 이 파일의 상단, 또는 별도의 유틸리티 파일에 정의할 수 있습니다.
+const extractCoordinates = (geometry: { type: string; coordinates: any } | undefined): [number, number] | null => {
+  if (!geometry || !geometry.coordinates) {
+    return null;
+  }
+
+  let longitude: number | undefined;
+  let latitude: number | undefined;
+
+  switch (geometry.type) {
+    case 'Point':
+      // Point: [longitude, latitude]
+      if (Array.isArray(geometry.coordinates) && geometry.coordinates.length >= 2) {
+        [longitude, latitude] = geometry.coordinates;
+      }
+      break;
+    case 'LineString':
+    case 'MultiPoint':
+      // LineString/MultiPoint: [[lon1, lat1], [lon2, lat2], ...]
+      // 첫 번째 포인트를 사용
+      if (Array.isArray(geometry.coordinates) && geometry.coordinates.length > 0) {
+        const firstPoint = geometry.coordinates[0];
+        if (Array.isArray(firstPoint) && firstPoint.length >= 2) {
+          [longitude, latitude] = firstPoint;
+        }
+      }
+      break;
+    case 'Polygon':
+    case 'MultiLineString':
+      // Polygon/MultiLineString: [[[lon1, lat1], ...], ...]
+      // 첫 번째 링/라인의 첫 번째 포인트를 사용
+      if (Array.isArray(geometry.coordinates) && geometry.coordinates.length > 0) {
+        const firstRingOrLine = geometry.coordinates[0];
+        if (Array.isArray(firstRingOrLine) && firstRingOrLine.length > 0) {
+          const firstPoint = firstRingOrLine[0];
+          if (Array.isArray(firstPoint) && firstPoint.length >= 2) {
+            [longitude, latitude] = firstPoint;
+          }
+        }
+      }
+      break;
+    case 'MultiPolygon':
+      // MultiPolygon: [[[[lon1, lat1], ...]], ...]
+      // 첫 번째 폴리곤의 첫 번째 링의 첫 번째 포인트를 사용
+      if (Array.isArray(geometry.coordinates) && geometry.coordinates.length > 0) {
+        const firstPolygon = geometry.coordinates[0];
+        if (Array.isArray(firstPolygon) && firstPolygon.length > 0) {
+          const firstRing = firstPolygon[0];
+          if (Array.isArray(firstRing) && firstRing.length > 0) {
+            const firstPoint = firstRing[0];
+            if (Array.isArray(firstPoint) && firstPoint.length >= 2) {
+              [longitude, latitude] = firstPoint;
+            }
+          }
+        }
+      }
+      break;
+    default:
+      console.warn('Unhandled geometry type in extractCoordinates:', geometry.type);
+      return null;
+  }
+
+  // 최종 유효성 검사: 추출된 위도와 경도가 유효한 숫자인지 확인
+  if (typeof latitude === 'number' && typeof longitude === 'number' && !isNaN(latitude) && !isNaN(longitude)) {
+    return [longitude, latitude]; // [경도, 위도] 순서로 반환
+  }
+
+  return null;
+};
+// ──────────────────────────────────────────
+
 export default function TwoScreen() {
   const router = useRouter();
   const setSelectedLocation = useLocationStore((state) => state.setSelectedLocation);
@@ -84,60 +157,15 @@ export default function TwoScreen() {
   const isValidPlace = useCallback((place: OsmPlace) => place.distance !== null && place.distance !== undefined, []);
   
   const addDistanceToPlace = useCallback((place: { name: string; wkb_geometry: { type: string; coordinates: any } }) => {
-    let longitude: number | undefined;
-    let latitude: number | undefined;
-  
-    // 지오메트리 타입에 따른 좌표 결정
-    if (place.wkb_geometry && place.wkb_geometry.coordinates) {
-      switch (place.wkb_geometry.type) {
-        case 'Point':
-          // 포인트의 경우, 좌표는 [경도, 위도]
-          [longitude, latitude] = place.wkb_geometry.coordinates;
-          break;
-        case 'LineString':
-        case 'MultiPoint':
-          // LineString/MultiPoint의 경우, 좌표는 포인트 배열: [[lon1, lat1], [lon2, lat2], ...]
-          // 첫 번째 포인트를 취하거나 중심/중간점을 계산할 수 있습니다.
-          // 거리를 위해, 빠른 추정에는 첫 번째 포인트를 취하는 것이 종종 충분합니다.
-          if (Array.isArray(place.wkb_geometry.coordinates) && place.wkb_geometry.coordinates.length > 0) {
-            [longitude, latitude] = place.wkb_geometry.coordinates[0];
-          }
-          break;
-        case 'Polygon':
-        case 'MultiLineString':
-          // Polygon/MultiLineString의 경우, 좌표는 중첩된 배열: [[[lon1, lat1], ...], ...]
-          // 첫 번째 링/라인의 첫 번째 포인트를 추출해야 합니다.
-          if (Array.isArray(place.wkb_geometry.coordinates) && place.wkb_geometry.coordinates.length > 0) {
-            const firstRing = place.wkb_geometry.coordinates[0];
-            if (Array.isArray(firstRing) && firstRing.length > 0) {
-              [longitude, latitude] = firstRing[0];
-            }
-          }
-          break;
-        case 'MultiPolygon':
-          // 더욱 중첩됨: [[[[lon1, lat1], ...]], ...]
-          if (Array.isArray(place.wkb_geometry.coordinates) && place.wkb_geometry.coordinates.length > 0) {
-            const firstPolygon = place.wkb_geometry.coordinates[0];
-            if (Array.isArray(firstPolygon) && firstPolygon.length > 0) {
-              const firstRing = firstPolygon[0];
-              if (Array.isArray(firstRing) && firstRing.length > 0) {
-                [longitude, latitude] = firstRing[0];
-              }
-            }
-          }
-          break;
-        default:
-          console.warn('처리되지 않은 지오메트리 타입:', place.wkb_geometry.type);
-          // 타입이 알 수 없는 경우의 대체 또는 오류 처리
-          return { ...place, distance: null };
-      }
+    const extractedCoords = extractCoordinates(place.wkb_geometry);
+
+    if (!extractedCoords) {
+      console.error('Failed to extract valid coordinates for distance calculation:', { placeName: place.name, geometryType: place.wkb_geometry?.type, rawCoordinates: place.wkb_geometry?.coordinates });
+      return { ...place, distance: null};
     }
-  
-    // 이제 위도와 경도가 성공적으로 추출되었고 유효한지 확인
-    if (latitude === undefined || longitude === undefined || !isValidCoordinates(latitude, longitude)) {
-      console.error('유효하지 않은 좌표 (추출 실패 또는 유효하지 않음):', {latitude, longitude, geometryType: place.wkb_geometry?.type});
-      return { ...place, distance: null };
-    }
+    
+    const [longitude, latitude] = extractedCoords; // extractCoordinates가 [lon, lat] 순서로 반환한다고 가정
+    
     const distance = userLocation
       ? calculateDistance(
           userLocation.latitude,
@@ -147,7 +175,7 @@ export default function TwoScreen() {
         )
       : null;
     return { ...place, distance };
-  }, [userLocation, calculateDistance, isValidCoordinates]);
+  }, [userLocation, calculateDistance]);
   
   // 투어사 데이터 가져오기
   const fetchOsmPlaces = useCallback(async (page = 0, isSearch = false) => {
@@ -187,20 +215,24 @@ export default function TwoScreen() {
   
   const handlePlacePress = useCallback(async (item: OsmPlace) => {
     console.log("handlePlacePress 작동")
-    if (!item.wkb_geometry?.coordinates) {
-      console.error('Invalid geometry data')
+
+    const extractedCoords = extractCoordinates(item.wkb_geometry)
+    if (!extractedCoords) {
+      console.error('Invalid geometry data: coordinates not in expected format for:', item.name, item.wkb_geometry);
       return;
     }
-    const [longitude, latitude] = item.wkb_geometry.coordinates;
+
+    const [longitude, latitude] = extractedCoords;
+
 
     if (!isValidCoordinates(latitude, longitude)) {
-      console.error('Invalid coordinates:', { latitude, longitude });
+      console.error('Invalid coordinates (extracted or validated) for handlePlacePress:', { latitude, longitude, itemGeometry: item.wkb_geometry });
       return;
     }
     
     setSelectedLocation({ latitude, longitude, name: item.name });
     router.push('/');
-  }, [isValidCoordinates, router, setSelectedLocation]); //router와 isValidCoordinates가 변경되면 다시 생성
+  }, [router, setSelectedLocation]); //router와 isValidCoordinates가 변경되면 다시 생성
   
   // --- useEffect Hooks ---
   
@@ -249,7 +281,7 @@ export default function TwoScreen() {
     }, 500);
     
     return () => clearTimeout(delayDebounceFn);
-    }, [searchQuery, userLocation, fetchOsmPlaces]);
+    }, [searchQuery, Places, sortByDistance]);
   
   // 무한 스크롤 핸들러
   const handleLoadMore = useCallback(() => {

@@ -3,11 +3,20 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
+import * as Sentry from '@sentry/react-native';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { AppOpenAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
 import 'react-native-reanimated';
 import { useColorScheme } from 'react-native';
+
+
+Sentry.init({
+  dsn: 'https://836c76c37eae48ccd70e17b9bdfe23c6@o4509365761867776.ingest.us.sentry.io/4509365764751360', //실제 DNS로 교체하십시오
+  debug: true, // `true`로 설정하면, Sentry는 이벤트 전송 중 문제가 발생할 경우 유용한 디버깅 정보를 출력하려고 시도합니다. 프로덕션에서는 `false`로 설정하세요.
+  tracesSampleRate: 1.0, // 추적을 위한 트랜잭션의 100%를 캡처하려면 tracesSampleRate를 1.0으로 설정하세요. 프로덕션에서 이 값을 조정하세요.
+  sendDefaultPii: true
+});
 
 /* ────── 전역 Splash 제어 ────── */
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -27,7 +36,8 @@ export {
 
 export const unstable_settings = { initialRouteName: '(tabs)' };
 
-export default function RootLayout() {
+//rootlayout 컴포넌트 정의
+function RootLayout() {
   const colorScheme = useColorScheme();
   const [fontsLoaded, fontsError] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
@@ -143,3 +153,6 @@ export default function RootLayout() {
     </ThemeProvider>
   );
 }
+
+// 루트 레이아웃 컴포넌트를 센트리.wrap으로 감싸 제스처 정보 및 프로파일링 데이터를 캡쳐한다.
+export default Sentry.wrap(RootLayout);

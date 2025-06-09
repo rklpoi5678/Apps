@@ -1,7 +1,7 @@
 import 'dotenv/config'
 
-const VERSION_NAME = '1.0.4';
-const VERSION_CODE = 1000004;
+const VERSION_NAME = '1.0.6';
+const VERSION_CODE = 1000006;
 
 const AND_PACKAGE = "com.youngikim.appsgugutravel"
 const IOS_PACKAGE = "com.youngikim.appsgugutravel"
